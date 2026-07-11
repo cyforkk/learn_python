@@ -16,7 +16,7 @@
 | 1 语法核心 | [../stage-1-basics/README.md](../stage-1-basics/README.md) | 笔记 + 练习 + 答案 |
 | 2 标准库 | [../stage-2-stdlib/README.md](../stage-2-stdlib/README.md) | 文件 / 异常 / 模块 / OOP |
 | 3 工程习惯 | [../stage-3-engineering/README.md](../stage-3-engineering/README.md) | venv / 测试 / 调试 / Git |
-| 4 方向分支 | [../stage-4-tracks/README.md](../stage-4-tracks/README.md) | starter + 中型 demo |
+| 4 方向分支 | [../stage-4-tracks/README.md](../stage-4-tracks/README.md) | starter + demo + [GitHub 清单](stage4-github-projects.md) |
 | 5 综合项目 | [../stage-5-projects/README.md](../stage-5-projects/README.md) | 项目规格与实战笔记 |
 
 学习节奏：读 `notes/` → 做 `exercises/` → `python xxx.py --check` 自检 → 对照 `solutions/` → 在 [progress.md](../progress.md) 打勾。  
@@ -238,13 +238,14 @@ pip install requests
 
 ### 阶段 4：方向分支（选 1 条主线，约 2～4 周）
 
-→ **入口**：[stage-4-tracks/README.md](../stage-4-tracks/README.md)
+→ **入口**：[stage-4-tracks/README.md](../stage-4-tracks/README.md)  
+→ **GitHub 读码/练手清单（完整）**：[stage4-github-projects.md](stage4-github-projects.md)
 
-先选 **一个** 方向深挖，其他方向以后再扩。每个方向有 **20 行级 starter**，先 `pip install -r requirements.txt` 再跑通。
+先选 **一个** 方向深挖，其他方向以后再扩。每个方向有 **starter + demo**，先 `pip install -r requirements.txt` 再跑通，再去 GitHub 读码练手。
 
 #### 路线 A：自动化 / 脚本（上手最快）
 
-→ [automation/](../stage-4-tracks/automation/README.md) · starter：[automation/starter/](../stage-4-tracks/automation/starter/)
+→ [automation/](../stage-4-tracks/automation/README.md) · starter：[automation/starter/](../stage-4-tracks/automation/starter/) · demo：[automation/demo/](../stage-4-tracks/automation/demo/)
 
 | 主题 | 库 / 技能 |
 |------|-----------|
@@ -256,9 +257,16 @@ pip install requests
 
 **小项目**：自动下载公开数据并整理成 Excel；批量处理图片文件名；监控某目录变化。
 
+**GitHub（摘要）**
+
+| 用途 | 仓库 |
+|------|------|
+| 读码 | [asweigart/automate-the-boring-stuff](https://github.com/asweigart/automate-the-boring-stuff)、[psf/requests](https://github.com/psf/requests) |
+| 练手 | [public-apis/public-apis](https://github.com/public-apis/public-apis)、[TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) |
+
 #### 路线 B：数据分析
 
-→ [data/](../stage-4-tracks/data/README.md) · starter：[data/starter/](../stage-4-tracks/data/starter/)
+→ [data/](../stage-4-tracks/data/README.md) · starter：[data/starter/](../stage-4-tracks/data/starter/) · demo：[data/demo/](../stage-4-tracks/data/demo/)
 
 | 主题 | 库 / 技能 |
 |------|-----------|
@@ -269,9 +277,16 @@ pip install requests
 
 **小项目**：一份 CSV 的清洗 → 统计 → 出 3 张图 → 写结论。
 
+**GitHub（摘要）**
+
+| 用途 | 仓库 |
+|------|------|
+| 课程/读码 | [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners)、[jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook) |
+| 练手 | Kaggle Datasets + 本仓库 CSV；[mwaskom/seaborn](https://github.com/mwaskom/seaborn) examples |
+
 #### 路线 C：Web 后端
 
-→ [web/](../stage-4-tracks/web/README.md) · starter：[web/starter/](../stage-4-tracks/web/starter/)
+→ [web/](../stage-4-tracks/web/README.md) · starter：[web/starter/](../stage-4-tracks/web/starter/) · demo：[web/demo/](../stage-4-tracks/web/demo/)
 
 | 主题 | 库 / 技能 |
 |------|-----------|
@@ -282,9 +297,16 @@ pip install requests
 
 **小项目**：待办 API / 简易博客 API / 记账 API。
 
+**GitHub（摘要）**
+
+| 用途 | 仓库 |
+|------|------|
+| 读码/教程 | [tiangolo/fastapi](https://github.com/tiangolo/fastapi)、[pallets/flask](https://github.com/pallets/flask) |
+| 看结构 | [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) |
+
 #### 路线 D：AI / 机器学习入门
 
-→ [ai/](../stage-4-tracks/ai/README.md) · starter：[ai/starter/](../stage-4-tracks/ai/starter/)
+→ [ai/](../stage-4-tracks/ai/README.md) · starter：[ai/starter/](../stage-4-tracks/ai/starter/) · demo：[ai/demo/](../stage-4-tracks/ai/demo/)
 
 | 主题 | 库 / 技能 |
 |------|-----------|
@@ -295,9 +317,16 @@ pip install requests
 
 **建议顺序**：先会 Python 数据处理（pandas）→ 再进模型；不要零语法直接啃大模型源码。
 
+**GitHub（摘要）**
+
+| 用途 | 仓库 |
+|------|------|
+| 课程 | [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners)、[microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) |
+| examples | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) 的 `examples/`；[openai/openai-python](https://github.com/openai/openai-python) |
+
 #### 路线 E：爬虫 / 数据抓取（注意法律与网站条款）
 
-可先走 **路线 A starter**（`requests`），再按需加解析库。
+可先走 **路线 A starter**（`requests`），再按需加解析库。GitHub 读码可参考路线 A 的 requests / public-apis，以及合规前提下的解析练习。
 
 | 主题 | 技能 |
 |------|------|

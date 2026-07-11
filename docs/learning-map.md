@@ -59,6 +59,15 @@
 | Web | [starter](../stage-4-tracks/web/starter/) | [demo](../stage-4-tracks/web/demo/) | ⭐⭐ |
 | AI | [starter](../stage-4-tracks/ai/starter/) | [demo](../stage-4-tracks/ai/demo/) | ⭐⭐ |
 
+**GitHub 读码 / 练手（完整清单）** → [stage4-github-projects.md](stage4-github-projects.md)
+
+| 方向 | 优先 clone/看 |
+|------|----------------|
+| 自动化 | automate-the-boring-stuff、public-apis |
+| 数据 | Data-Science-For-Beginners、PythonDataScienceHandbook |
+| Web | fastapi / flask 官方教程与 examples |
+| AI | ML-For-Beginners、scikit-learn examples |
+
 ## 阶段 5 · 项目
 
 | 规格 | 实现 | 难度 | 时长 |

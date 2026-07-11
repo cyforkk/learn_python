@@ -73,7 +73,7 @@ learn_python/
 | 1 | [stage-1-basics](stage-1-basics/README.md) | 语法 · 6 题 |
 | 2 | [stage-2-stdlib](stage-2-stdlib/README.md) | 文件/模块/OOP · 6 题 |
 | 3 | [stage-3-engineering](stage-3-engineering/README.md) | venv/测试/Git · 进阶笔记 |
-| 4 | [stage-4-tracks](stage-4-tracks/README.md) | 自动化/数据/Web/AI |
+| 4 | [stage-4-tracks](stage-4-tracks/README.md) | 自动化/数据/Web/AI · [GitHub 练手清单](docs/stage4-github-projects.md) |
 | 5 | [stage-5-projects](stage-5-projects/README.md) | 项目规格 · 实现在 projects/ |
 
 完整路线：[docs/roadmap.md](docs/roadmap.md)
