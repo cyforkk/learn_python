@@ -314,5 +314,10 @@ while True:
 
 ---
 
-## 本仓库学习导航
-- **练习安排：建议做** [ex04 调试日记](../exercises/ex04_debug_journal.md)（写一篇记录即可）
+## 本仓库练习（只列题目 · 步骤在链接里）
+
+### 建议 · 调试日记
+
+**题目：** 故意制造或遇到一次报错，读 Traceback，修好，并写一篇踩坑记录。  
+
+**打开作业：** [ex04_debug_journal.md](../exercises/ex04_debug_journal.md)
