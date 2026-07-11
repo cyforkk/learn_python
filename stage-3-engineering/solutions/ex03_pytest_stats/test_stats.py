@@ -1,4 +1,7 @@
-"""参考答案：pytest 用例。"""
+"""
+【本文件全是测试函数】参考答案。
+test_ 开头 = pytest 测试，用来检查 stats.py，不是业务逻辑。
+"""
 
 import pytest
 

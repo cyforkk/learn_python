@@ -34,16 +34,26 @@ python ex03_score_stats.py
 
 ## 关于「自检 / 测试」（可后学）
 
-文件里可能有 `_selfcheck`、`--check`，那是**可选巩固**，不是入门门槛：
+每个练习文件底部都有醒目注释：
 
-```bash
-# 会了再跑；不会就跳过
-python ex04_multiplication_table.py --check
+```text
+# 【测试 / 自检函数 · 新手请跳过，不必读、不必改】
+def _selfcheck() -> None:
 ```
 
-- 看不懂 `assert` → 忽略文件后半段  
-- 看不懂类型注解 `-> str` → 当普通 `def` 写  
-- 答案里拆了很多函数 → 你第一版写在一个 `main` 里完全可以  
+| 名字 | 是不是测试 | 新手 |
+|------|------------|------|
+| `main` / 题目里的业务函数 | 否，这是作业 | 要写 |
+| `_selfcheck` | **是测试/自检** | 跳过 |
+| `python xxx.py --check` | 才会跑测试 | 不要加这个参数 |
+
+```bash
+# 新手这样运行即可
+python ex04_multiplication_table.py
+
+# 可选（以后再说）
+# python ex04_multiplication_table.py --check
+```
 
 答案目录：`../solutions/`（**做完再看**）  
 错题：[../../docs/faq-common-mistakes.md](../../docs/faq-common-mistakes.md)

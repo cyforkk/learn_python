@@ -1,4 +1,8 @@
-"""被测试模块：mean / clamp。"""
+"""
+业务代码（你要写/改的是这里）
+
+mean / clamp 是「题目功能函数」，不是测试。
+"""
 
 
 def mean(nums: list[float]) -> float:

@@ -22,6 +22,13 @@ def apply_rename(plans: list[tuple[Path, Path]], dry_run: bool = True) -> None:
             src.rename(dest)
 
 
+# ---------------------------------------------------------------------------
+# 【测试 / 自检函数 · 新手请跳过，不必读、不必改】
+# 函数名 _selfcheck：用 assert 自动检查上面业务代码对不对。
+# 这不是题目要求写的功能，也不会在正常运行时执行。
+# 你只需完成上面的 main / 业务函数，运行:  python 本文件.py
+# 以后想自检再运行:  python 本文件.py --check
+# ---------------------------------------------------------------------------
 def _selfcheck() -> None:
     import tempfile
 
@@ -42,5 +49,6 @@ def _selfcheck() -> None:
 if __name__ == "__main__":
     import sys
 
+    # --check 才会调用上面的【测试函数 _selfcheck】；新手不要加这个参数
     if "--check" in sys.argv:
         _selfcheck()
