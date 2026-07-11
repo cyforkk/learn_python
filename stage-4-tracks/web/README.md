@@ -1,5 +1,7 @@
 # 方向：Web 后端
 
+> **从零路线与资源（已有 Python 基础）** → [docs/stage4-paths/path-web.md](../../docs/stage4-paths/path-web.md)
+
 ## 常见技能
 
 - FastAPI 或 Flask  

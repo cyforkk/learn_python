@@ -59,14 +59,16 @@
 | Web | [starter](../stage-4-tracks/web/starter/) | [demo](../stage-4-tracks/web/demo/) | ⭐⭐ |
 | AI | [starter](../stage-4-tracks/ai/starter/) | [demo](../stage-4-tracks/ai/demo/) | ⭐⭐ |
 
-**GitHub 读码 / 练手（完整清单）** → [stage4-github-projects.md](stage4-github-projects.md)
+**各方向从零路线与资源（已有 Python 基础）** → [stage4-paths/README.md](stage4-paths/README.md)
 
-| 方向 | 优先 clone/看 |
-|------|----------------|
-| 自动化 | automate-the-boring-stuff、public-apis |
-| 数据 | Data-Science-For-Beginners、PythonDataScienceHandbook |
-| Web | fastapi / flask 官方教程与 examples |
-| AI | ML-For-Beginners、scikit-learn examples |
+| 方向 | 路线文档 | 优先 clone/看 |
+|------|----------|----------------|
+| 自动化 | [path-automation.md](stage4-paths/path-automation.md) | automate-the-boring-stuff、public-apis |
+| 数据 | [path-data.md](stage4-paths/path-data.md) | Data-Science-For-Beginners、Handbook |
+| Web | [path-web.md](stage4-paths/path-web.md) | FastAPI / Flask Tutorial |
+| AI | [path-ai.md](stage4-paths/path-ai.md) | ML-For-Beginners、sklearn examples |
+
+**GitHub 读码 / 练手（完整清单）** → [stage4-github-projects.md](stage4-github-projects.md)
 
 ## 阶段 5 · 项目
 

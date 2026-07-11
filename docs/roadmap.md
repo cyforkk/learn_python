@@ -16,7 +16,7 @@
 | 1 语法核心 | [../stage-1-basics/README.md](../stage-1-basics/README.md) | 笔记 + 练习 + 答案 |
 | 2 标准库 | [../stage-2-stdlib/README.md](../stage-2-stdlib/README.md) | 文件 / 异常 / 模块 / OOP |
 | 3 工程习惯 | [../stage-3-engineering/README.md](../stage-3-engineering/README.md) | venv / 测试 / 调试 / Git |
-| 4 方向分支 | [../stage-4-tracks/README.md](../stage-4-tracks/README.md) | starter + demo + [GitHub 清单](stage4-github-projects.md) |
+| 4 方向分支 | [../stage-4-tracks/README.md](../stage-4-tracks/README.md) | [各方向路线](stage4-paths/README.md) + starter/demo + [GitHub](stage4-github-projects.md) |
 | 5 综合项目 | [../stage-5-projects/README.md](../stage-5-projects/README.md) | 项目规格与实战笔记 |
 
 学习节奏：读 `notes/` → 做 `exercises/` → `python xxx.py --check` 自检 → 对照 `solutions/` → 在 [progress.md](../progress.md) 打勾。  
@@ -239,9 +239,10 @@ pip install requests
 ### 阶段 4：方向分支（选 1 条主线，约 2～4 周）
 
 → **入口**：[stage-4-tracks/README.md](../stage-4-tracks/README.md)  
-→ **GitHub 读码/练手清单（完整）**：[stage4-github-projects.md](stage4-github-projects.md)
+→ **各方向从零路线与资源（已有 Python 基础）**：[stage4-paths/README.md](stage4-paths/README.md)  
+→ **GitHub 读码/练手清单**：[stage4-github-projects.md](stage4-github-projects.md)
 
-先选 **一个** 方向深挖，其他方向以后再扩。每个方向有 **starter + demo**，先 `pip install -r requirements.txt` 再跑通，再去 GitHub 读码练手。
+先选 **一个** 方向深挖，其他方向以后再扩。阅读对应 `path-*.md` → 跑通 **starter + demo** → 外部资源与 GitHub 练手。
 
 #### 路线 A：自动化 / 脚本（上手最快）
 

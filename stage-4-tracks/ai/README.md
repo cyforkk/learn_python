@@ -1,5 +1,7 @@
 # 方向：AI / LLM 应用
 
+> **从零路线与资源（已有 Python 基础）** → [docs/stage4-paths/path-ai.md](../../docs/stage4-paths/path-ai.md)
+
 ## 建议顺序
 
 1. 先会 Python 与基础数据处理  

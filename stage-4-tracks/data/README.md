@@ -1,5 +1,7 @@
 # 方向：数据分析
 
+> **从零路线与资源（已有 Python 基础）** → [docs/stage4-paths/path-data.md](../../docs/stage4-paths/path-data.md)
+
 ## 常见技能
 
 - `pandas`：表格读写与清洗  

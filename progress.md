@@ -78,10 +78,12 @@
 
 - [x] starter × 4 可跑
 - [x] demo × 4 已提供
-- [x] GitHub 读码/练手清单已写入 [docs/stage4-github-projects.md](docs/stage4-github-projects.md)
-- [ ] 我已选定主方向并自己改过一处代码
-- [ ] 已 clone/阅读至少 1 个清单中的 GitHub 项目
-- [ ] 已基于清单完成 1 个小练手并放进 `projects/`
+- [x] 各方向从零路线文档：[docs/stage4-paths/](docs/stage4-paths/README.md)
+- [x] GitHub 清单：[docs/stage4-github-projects.md](docs/stage4-github-projects.md)
+- [ ] 我已选定主方向并读完对应 `path-*.md`
+- [ ] 已按路线完成该方向「初级自评」
+- [ ] 已 clone/阅读至少 1 个 GitHub 项目
+- [ ] 已在 `projects/` 完成 1 个方向作品
 
 ## 阶段 5 · 综合项目
 

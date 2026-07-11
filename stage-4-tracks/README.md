@@ -1,46 +1,53 @@
 # 阶段 4 · 方向分支
 
-**原则：先选 1 条主线**，`starter` → `demo` → **GitHub 读码/练手** → 再做 stage-5 项目。
+**前提**：已有 Python 基础（约等于本仓库 stage-1～3）。  
+**原则**：一次只选 **1 条主线** —— `starter` → `demo` → **方向路线文档** → GitHub 练手 → stage-5 项目。
 
-## 方向一览
+## 从零路线与资源（主文档）
 
-| 方向 | 说明 | starter | 中型 demo |
-|------|------|---------|-----------|
-| 自动化 | [automation/](automation/README.md) | [starter/](automation/starter/) | [demo/](automation/demo/) |
-| 数据 | [data/](data/README.md) | [starter/](data/starter/) | [demo/](data/demo/) |
-| Web | [web/](web/README.md) | [starter/](web/starter/) | [demo/](web/demo/) |
-| AI | [ai/](ai/README.md) | [starter/](ai/starter/) | [demo/](ai/demo/) |
+→ **[docs/stage4-paths/README.md](../docs/stage4-paths/README.md)**
 
-每个目录：
+| 方向 | 学习路线与资源 | 本仓库代码 |
+|------|----------------|------------|
+| 自动化 / 脚本 | [path-automation.md](../docs/stage4-paths/path-automation.md) | [automation/](automation/) |
+| 数据分析 | [path-data.md](../docs/stage4-paths/path-data.md) | [data/](data/) |
+| Web 后端 | [path-web.md](../docs/stage4-paths/path-web.md) | [web/](web/) |
+| AI / ML / LLM | [path-ai.md](../docs/stage4-paths/path-ai.md) | [ai/](ai/) |
+
+每个方向文档包含：前置检查、分周路线、资源表、能力自评、常见坑。
+
+## 代码入口
+
+| 方向 | starter | 中型 demo | 方向说明 |
+|------|---------|-----------|----------|
+| 自动化 | [starter/](automation/starter/) | [demo/](automation/demo/) | [README](automation/README.md) |
+| 数据 | [starter/](data/starter/) | [demo/](data/demo/) | [README](data/README.md) |
+| Web | [starter/](web/starter/) | [demo/](web/demo/) | [README](web/README.md) |
+| AI | [starter/](ai/starter/) | [demo/](ai/demo/) | [README](ai/README.md) |
 
 ```bash
 pip install -r requirements.txt   # 若有
 python main.py
 ```
 
-## GitHub 练手与读码（重点）
-
-各方向精选仓库、读什么、练什么，见统一文档：
+## GitHub 练手与读码
 
 → **[docs/stage4-github-projects.md](../docs/stage4-github-projects.md)**
 
-简表：
-
 | 方向 | 优先读 | 优先练 |
 |------|--------|--------|
-| 自动化 | [asweigart/automate-the-boring-stuff](https://github.com/asweigart/automate-the-boring-stuff) | [public-apis](https://github.com/public-apis/public-apis) 选题写脚本 |
-| 数据 | [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) | Kaggle CSV + 本仓库 data/demo |
-| Web | [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 官方 Tutorial | 扩展本仓库 web/demo CRUD |
-| AI | [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) | scikit-learn examples 换自己的数据 |
+| 自动化 | automate-the-boring-stuff、requests | public-apis 选题写脚本 |
+| 数据 | Data-Science-For-Beginners、Handbook | Kaggle CSV + 本仓库 demo |
+| Web | FastAPI / Flask 官方 Tutorial | 扩展 web/demo CRUD |
+| AI | ML-For-Beginners | scikit-learn examples |
 
 ## 建议
 
-1. 阶段 1～3 扎实后再开方向  
-2. 本仓库 starter/demo 跑通后，再 clone **一个** GitHub 项目深挖  
-3. 扩展代码放 `projects/方向名-xxx/`，不要把 API Key 推进仓库  
+1. 阶段 1～3 未扎实不要同时开四条线  
+2. 路线文档跟完「初级自评」再冲作品集项目  
+3. 代码放 `projects/方向名-xxx/`，API Key 勿提交  
 
-资源总表：[docs/roadmap.md](../docs/roadmap.md)  
-地图：[docs/learning-map.md](../docs/learning-map.md)
+总路线：[docs/roadmap.md](../docs/roadmap.md) · 地图：[docs/learning-map.md](../docs/learning-map.md)
 
 ## 下一步
 
