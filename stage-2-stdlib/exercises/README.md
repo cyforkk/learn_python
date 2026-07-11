@@ -10,9 +10,11 @@
 | [ex03_mini_package/](ex03_mini_package/) | 模块与包（在该目录运行 `python main.py`） |
 | [ex05_book_class.py](ex05_book_class.py) | 面向对象 |
 
-## 加练（可选）
+## 加练（可选 · 难度往往 ≈ 过关题）
 
 ex01 JSON 待办 · ex04 列目录 · ex06 重命名计划  
+
+加练 = 自愿多练，**不是**更难的进阶必做。见 [exercise-policy.md](../../docs/exercise-policy.md)。
 
 ## 无题
 
