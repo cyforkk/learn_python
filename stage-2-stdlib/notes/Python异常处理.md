@@ -471,27 +471,17 @@ print(result)
 
 ---
 
-## 本篇对应练习（最简示例 · 与仓库题一致）
+## 本仓库练习（只列题目 · 答案在链接里）
 
-请先读完「文件读写」。必做 [ex02](../exercises/ex02_safe_read.py) 就是这种级别：
+请先读完「文件读写」。
 
-```python
-path = input("请输入文件路径: ")
+### 过关 · 安全读文件
 
-try:
-    f = open(path, encoding="utf-8")
-    text = f.read()
-    f.close()
-    print(text)
-except FileNotFoundError:
-    print("文件不存在:", path)
-```
+**题目：**
 
-（以后你会学 `with open`，作业先会 `open` + `try` 即可。）
+1. 让用户输入一个文件路径  
+2. 文件存在：读出内容并打印（注意编码）  
+3. 文件不存在：提示，**不要崩溃**  
 
----
-
-## 本仓库学习导航
-- **练习安排：过关** [ex02 安全读文件](../exercises/ex02_safe_read.py)  
-  （请已读完「文件读写」）
-- 作业是最简单脚本，**不含测试代码**
+**打开作业：** [ex02_safe_read.py](../exercises/ex02_safe_read.py)  
+**参考答案（做完再看）：** [solutions/ex02_safe_read.py](../solutions/ex02_safe_read.py)

@@ -497,29 +497,16 @@ print(s.get_grade())
 
 ---
 
-## 本篇对应练习（最简示例 · 与仓库题一致）
+## 本仓库练习（只列题目 · 答案在链接里）
 
-必做 [ex05](../exercises/ex05_book_class.py)：
+### 过关 · Book 类
 
-```python
-class Book:
-    def __init__(self, title, author, pages):
-        self.title = title
-        self.author = author
-        self.pages = pages
+**题目：**
 
-    def info(self):
-        return f"《{self.title}》- {self.author}, {self.pages}页"
+1. 定义类 `Book`，`__init__` 接收书名、作者、页数  
+2. 方法 `info()`：返回介绍字符串  
+3. 方法 `is_long()`：页数 ≥ 300 返回 True  
+4. 创建至少 2 本书并打印  
 
-    def is_long(self):
-        return self.pages >= 300
-
-b1 = Book("Python 入门", "张三", 200)
-print(b1.info(), "长书?", b1.is_long())
-```
-
----
-
-## 本仓库学习导航
-- **练习安排：过关** [ex05 Book 类](../exercises/ex05_book_class.py)
-- 作业是最简单脚本，**不含测试代码**
+**打开作业：** [ex05_book_class.py](../exercises/ex05_book_class.py)  
+**参考答案（做完再看）：** [solutions/ex05_book_class.py](../solutions/ex05_book_class.py)

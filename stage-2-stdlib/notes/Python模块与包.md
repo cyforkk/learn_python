@@ -416,26 +416,16 @@ import random, math, datetime, json, csv, os
 
 ---
 
-## 本篇对应练习（最简示例 · 与仓库题一致）
+## 本仓库练习（只列题目 · 答案在链接里）
 
-必做 [ex03_mini_package](../exercises/ex03_mini_package/)：
+### 过关 · 小模块
 
-`greeter.py`：
-```python
-def greet(name):
-    return "Hello, " + name + "!"
-```
+**题目：**
 
-`main.py`（在同一目录运行 `python main.py`）：
-```python
-from greeter import greet
+1. 建两个文件：`greeter.py` 和 `main.py`（同目录）  
+2. `greeter.py` 里写函数 `greet(name)`，返回问候字符串  
+3. `main.py` 里 `import` 并调用，打印结果  
+4. 在 `ex03_mini_package` 目录下运行：`python main.py`  
 
-name = input("你的名字: ")
-print(greet(name))
-```
-
----
-
-## 本仓库学习导航
-- **练习安排：过关** [ex03 小模块](../exercises/ex03_mini_package/)
-- 作业是最简单脚本，**不含测试代码**
+**打开作业目录：** [ex03_mini_package/](../exercises/ex03_mini_package/)  
+**参考答案（做完再看）：** [solutions/ex03_mini_package/](../solutions/ex03_mini_package/)

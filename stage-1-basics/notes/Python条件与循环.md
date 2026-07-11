@@ -702,35 +702,29 @@ else:
     print("不及格")
 ```
 
-### 猜数字游戏（与仓库练习相同 · 最简写法）
+### 循环 + 分支（示意，不是作业答案）
 
 ```python
-import random
-
-answer = random.randint(1, 100)
-print("我想了一个 1～100 的数字，你有 7 次机会。")
-
-for n in range(1, 8):
-    guess = int(input(f"第 {n} 次: "))
-    if guess < answer:
-        print("太小了")
-    elif guess > answer:
-        print("太大了")
-    else:
-        print("猜对了！")
-        break
+# 比较大小时常用这种分支
+if guess < answer:
+    print("太小了")
+elif guess > answer:
+    print("太大了")
 else:
-    print("次数用完了，答案是", answer)
+    print("猜对了")
 ```
 
-### 打印九九乘法表（与仓库练习相同 · 最简写法）
+### 嵌套 for（示意，不是作业答案）
 
 ```python
-for i in range(1, 10):
+# 外层控制「行」，内层控制「这一行打印几次」
+for i in range(1, 4):
     for j in range(1, i + 1):
-        print(f"{j}*{i}={j * i}", end="  ")
+        print(j, end=" ")
     print()
 ```
+
+完整猜数字、九九表请自己做仓库练习，不要在这里抄答案。
 
 ### 计算 1-100 中所有偶数的和
 
@@ -764,10 +758,29 @@ print(total)    # 2550
 
 ---
 
-## 本仓库学习导航
+## 本仓库练习（只列题目 · 答案在链接里）
 
-- **练习安排：过关**（代码就是上面「最简写法」，没有测试、没有花活）
-  1. [ex04 九九表](../exercises/ex04_multiplication_table.py)（建议先做）
-  2. [ex01 猜数字](../exercises/ex01_guess_number.py)
-- 作业里**没有** `assert` / `_selfcheck`；可选自检在 `exercises/checks/`（可忽略）
-- 新手说明：[../exercises/新手怎么做.md](../exercises/新手怎么做.md)
+> 下面**不贴答案代码**。点开链接自己写；做完再看 `solutions/`。
+
+### 过关 1 · 九九乘法表（建议先做）
+
+**题目：**
+
+1. 用两层 `for` 打印下三角九九表（1×1、到 9×9）  
+2. 不要手写 81 行 `print`  
+
+**打开作业（自己写）：** [ex04_multiplication_table.py](../exercises/ex04_multiplication_table.py)  
+**参考答案（做完再看）：** [solutions/ex04_multiplication_table.py](../solutions/ex04_multiplication_table.py)
+
+### 过关 2 · 猜数字
+
+**题目：**
+
+1. 随机生成 1～100 的整数  
+2. 最多猜 7 次；每次提示太大 / 太小 / 猜对  
+3. 猜对提前结束；7 次都错则公布答案  
+
+**打开作业（自己写）：** [ex01_guess_number.py](../exercises/ex01_guess_number.py)  
+**参考答案（做完再看）：** [solutions/ex01_guess_number.py](../solutions/ex01_guess_number.py)
+
+新手说明：[../exercises/新手怎么做.md](../exercises/新手怎么做.md)

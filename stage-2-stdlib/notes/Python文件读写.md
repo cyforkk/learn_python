@@ -427,8 +427,20 @@ print(loaded)   # {'张三': 85, '李四': 92, '王五': 78}
 
 ---
 
-## 本仓库学习导航
-- **练习安排：本篇读完先不急着做题**
-- 与「异常处理」一起读完后 **过关**（最简单 open + try）→ [ex02 安全读文件](../exercises/ex02_safe_read.py)
-- JSON 待办 **加练** → [ex01](../exercises/ex01_todo_json.py)
-- 作业里**没有**测试代码；`with open` 很好，作业先用 `open`/`close` 也完全可以
+## 本仓库练习（只列题目 · 答案在链接里）
+
+本篇读完先不急着做题；与「异常处理」一起读完再做。
+
+### 过关 · 安全读文件（在异常篇后做）
+
+**题目：** 输入路径 → 读文件打印；不存在则提示不崩溃。  
+
+**打开作业：** [ex02_safe_read.py](../exercises/ex02_safe_read.py)  
+**参考答案（做完再看）：** [solutions/ex02_safe_read.py](../solutions/ex02_safe_read.py)
+
+### 加练（可选）· JSON 待办
+
+**题目：** 用 JSON 文件保存待办，支持 add / list / quit。  
+
+**打开作业：** [ex01_todo_json.py](../exercises/ex01_todo_json.py)  
+**参考答案（做完再看）：** [solutions/ex01_todo_json.py](../solutions/ex01_todo_json.py)

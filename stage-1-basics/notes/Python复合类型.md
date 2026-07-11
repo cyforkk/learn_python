@@ -298,40 +298,24 @@ unique = list(set(nums))   # [1, 2, 3, 4]
 
 ---
 
-## 本篇对应练习（最简示例 · 与仓库题一致）
+## 本仓库练习（只列题目 · 答案在链接里）
 
-读完本篇再做 [ex03 成绩统计](../exercises/ex03_score_stats.py)。下面就是作业那种写法（普通 for，不用 `max` 高级用法）：
+> 须先读完本篇再做。**不贴答案代码**；不要在「基本数据类型」篇后硬做。
 
-```python
-scores = {
-    "小明": 92,
-    "小红": 78,
-    "小刚": 88,
-    "小丽": 65,
-}
+### 过关 · 成绩统计
 
-total = 0
-for name in scores:
-    total = total + scores[name]
-avg = total / len(scores)
-print("平均分:", avg)
+**题目：**
 
-high_name = ""
-high_score = -1
-for name in scores:
-    if scores[name] > high_score:
-        high_score = scores[name]
-        high_name = name
-print("最高:", high_name, high_score)
-```
+1. 用字典保存至少 4 名学生姓名 → 分数  
+2. 打印平均分、最高分及姓名、最低分及姓名  
+3. 打印所有「不低于平均分」的学生  
 
-通讯录加练题同样简单（难度相近）：字典赋值 + `for name in book` 打印。
+**打开作业：** [ex03_score_stats.py](../exercises/ex03_score_stats.py)  
+**参考答案（做完再看）：** [solutions/ex03_score_stats.py](../solutions/ex03_score_stats.py)
 
----
+### 加练（可选）· 通讯录
 
-## 本仓库学习导航
-- **练习安排**
-  - **过关** [ex03 成绩统计](../exercises/ex03_score_stats.py)
-  - **加练** [ex06 通讯录](../exercises/ex06_contacts.py)
-- 须先读完本篇再做；不要在「基本数据类型」篇后硬做
-- 作业是最简单脚本，**不含测试代码**
+**题目：** 用字典存姓名→电话，能添加、按名查找、列出全部。  
+
+**打开作业：** [ex06_contacts.py](../exercises/ex06_contacts.py)  
+**参考答案（做完再看）：** [solutions/ex06_contacts.py](../solutions/ex06_contacts.py)
