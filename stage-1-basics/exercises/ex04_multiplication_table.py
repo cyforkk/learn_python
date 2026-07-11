@@ -1,13 +1,15 @@
 """
-练习 04：九九乘法表
+练习 04：九九乘法表（新手优先做这题）
+
+【新手】两层 for 循环直接 print 即可，能打出表就算过关。
+  build_table / --check 是进阶写法，可先不管。
 
 要求：
 1. 打印标准九九乘法表（下三角）
 2. 用嵌套 for，不要手写 81 行 print
-3. 实现 build_table() -> list[str]，每行一个字符串（便于自检）
-   print_table() 可以打印 build_table() 的结果
 
-自检：python ex04_multiplication_table.py --check
+运行：python ex04_multiplication_table.py
+可选自检：python ex04_multiplication_table.py --check
 """
 
 

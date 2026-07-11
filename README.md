@@ -49,13 +49,14 @@ cd learn_python
 # 1）先读第一篇笔记（浏览器或编辑器打开）
 #    stage-1-basics/notes/Python基本数据类型.md
 
-# 2）按 stage-1-basics/README.md 的「阅读顺序」读完前几篇
-#    再进入 exercises 做题，例如：
-# cd stage-1-basics/exercises
-# python ex01_guess_number.py --check
+# 2）按 stage-1-basics/README.md 阅读顺序读笔记
+# 3）再做题（先保证能运行，不必 --check）
+#    见 stage-1-basics/exercises/新手怎么做.md
+#    建议第一题：九九表
+#    python stage-1-basics/exercises/ex04_multiplication_table.py
 ```
 
-第一天建议：只读 stage-1 的 **数据类型 → 输入输出 → 条件与循环** 三篇笔记，**再**做 ex01。
+第一天建议：读 **数据类型 → 输入输出 → 条件与循环**，再做 **九九表**；`--check`/测试以后再说。
 
 ## 你将获得
 

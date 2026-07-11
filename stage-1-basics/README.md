@@ -35,22 +35,29 @@
 
 ## ② 练习（notes 读完对应篇后再做）
 
-完整清单：[exercises/README.md](exercises/README.md)
+**新手必读**：[exercises/新手怎么做.md](exercises/新手怎么做.md)
+
+- 清单：[exercises/README.md](exercises/README.md)  
+- **先保证** `python ex0x_xxx.py` 能玩/能打印对  
+- `--check`、文件里的 `_selfcheck` / `assert`：**可选**，入门可整段忽略  
 
 ```bash
 cd stage-1-basics/exercises
-python ex01_guess_number.py --check
+python ex04_multiplication_table.py   # 建议第一题
+python ex01_guess_number.py           # 交互游戏
 ```
 
 ## ③ 答案（做完再看）
 
-[solutions/](solutions/)
+[solutions/](solutions/)  
+答案写得更「工程」一些（多函数、自检），你的第一版可以更简单。
 
-## 验收标准
+## 验收标准（新手版）
 
 - 笔记要点能口述  
-- 能手写：for 遍历列表、字典读写、自定义函数  
-- ex01～ex06 的 `--check` 通过  
+- **必做**：九九表 + 猜数字 + 成绩统计，程序行为正确  
+- **选做**：计算器、函数重构、通讯录  
+- **不要求** 会 pytest、会写 assert 自检  
 
 ## 下一步
 

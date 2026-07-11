@@ -16,9 +16,12 @@
 | 步骤 | 做什么 | 打开哪里 |
 |------|--------|----------|
 | 1 学 | 读笔记，跑文中小例子 | 下表「笔记」列 |
-| 2 练 | 独立做题，可 `--check` | 下表「练习」列 |
+| 2 练 | 独立做题，**先保证能运行、行为对** | 下表「练习」列 |
 | 3 对 | 对照答案，记踩坑 | 同阶段 `solutions/` |
 | 4 项 | 综合项目 / 方向作品 | 阶段 4～5、`projects/` |
+
+新手练习说明：[stage-1 新手怎么做](../stage-1-basics/exercises/新手怎么做.md)  
+`--check` / `assert` / pytest：**选做**，不是入门门槛。
 
 每一行建议：**当天先只读笔记**；同一主题练不完可以第二天再练。
 
@@ -41,18 +44,19 @@
 
 推荐阅读顺序 = 下表从上到下。**读完一篇再做右侧对应练习**（不必一天刷完所有题）。
 
-| 顺序 | ① 先学笔记（文章） | ② 再做练习 | 难度 | 学+练约 |
-|------|-------------------|------------|------|---------|
-| 1 | [Python基本数据类型](../stage-1-basics/notes/Python基本数据类型.md) | 可暂不做题，或稍后 [ex03](../stage-1-basics/exercises/ex03_score_stats.py) | ⭐ | 30 分 |
-| 2 | [Python输入输出](../stage-1-basics/notes/Python输入输出.md) | 与下一篇合练 [ex01](../stage-1-basics/exercises/ex01_guess_number.py) | ⭐ | 20 分 |
-| 3 | [Python运算符与表达式](../stage-1-basics/notes/Python运算符与表达式.md) | [ex02 计算器](../stage-1-basics/exercises/ex02_calculator.py) | ⭐ | 25 分 |
-| 4 | [Python条件与循环](../stage-1-basics/notes/Python条件与循环.md) | [ex01 猜数字](../stage-1-basics/exercises/ex01_guess_number.py)、[ex04 九九表](../stage-1-basics/exercises/ex04_multiplication_table.py) | ⭐⭐ | 50 分 |
-| 5 | [Python复合类型](../stage-1-basics/notes/Python复合类型.md) | [ex03 成绩统计](../stage-1-basics/exercises/ex03_score_stats.py)、[ex06 通讯录](../stage-1-basics/exercises/ex06_contacts.py) | ⭐⭐ | 50 分 |
-| 6 | [Python字符串方法与格式化](../stage-1-basics/notes/Python字符串方法与格式化.md) | 巩固 ex04 / ex05 | ⭐ | 25 分 |
-| 7 | [Python函数](../stage-1-basics/notes/Python函数.md) | [ex05 函数重构](../stage-1-basics/exercises/ex05_refactor_functions.py) 等 | ⭐⭐ | 40 分 |
-| 8 | [Python作用域](../stage-1-basics/notes/Python作用域.md) | 复习 [ex05](../stage-1-basics/exercises/ex05_refactor_functions.py) | ⭐ | 20 分 |
+| 顺序 | ① 先学笔记（文章） | ② 再做练习（能跑就行） | 难度 |
+|------|-------------------|------------------------|------|
+| 1 | [Python基本数据类型](../stage-1-basics/notes/Python基本数据类型.md) | 先只读，稍后成绩题再用 | ⭐ |
+| 2 | [Python输入输出](../stage-1-basics/notes/Python输入输出.md) | 为猜数字做准备 | ⭐ |
+| 3 | [Python运算符与表达式](../stage-1-basics/notes/Python运算符与表达式.md) | 稍后计算器（学完函数再做） | ⭐ |
+| 4 | [Python条件与循环](../stage-1-basics/notes/Python条件与循环.md) | **优先** [ex04 九九表](../stage-1-basics/exercises/ex04_multiplication_table.py)、[ex01 猜数字](../stage-1-basics/exercises/ex01_guess_number.py) | ⭐⭐ |
+| 5 | [Python复合类型](../stage-1-basics/notes/Python复合类型.md) | [ex03 成绩统计](../stage-1-basics/exercises/ex03_score_stats.py) | ⭐⭐ |
+| 6 | [Python字符串方法与格式化](../stage-1-basics/notes/Python字符串方法与格式化.md) | 巩固上面的题 | ⭐ |
+| 7 | [Python函数](../stage-1-basics/notes/Python函数.md) | 再做 [ex02](../stage-1-basics/exercises/ex02_calculator.py)、[ex05](../stage-1-basics/exercises/ex05_refactor_functions.py) | ⭐⭐ |
+| 8 | [Python作用域](../stage-1-basics/notes/Python作用域.md) | 复习函数题 | ⭐ |
 
-- 练习总表（读完笔记再用）：[exercises/README.md](../stage-1-basics/exercises/README.md)  
+- **新手怎么做**：[新手怎么做.md](../stage-1-basics/exercises/新手怎么做.md)  
+- 练习总表：[exercises/README.md](../stage-1-basics/exercises/README.md)  
 - 答案（**做完再看**）：[solutions/](../stage-1-basics/solutions/)
 
 ---

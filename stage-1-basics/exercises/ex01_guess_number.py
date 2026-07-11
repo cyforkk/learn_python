@@ -1,6 +1,10 @@
 """
 练习 01：猜数字（限制次数）
 
+【新手】先做到：运行 python ex01_guess_number.py 能玩起来。
+  全部逻辑写在 main() 里也可以，不必纠结函数怎么拆。
+  文件后半的 _selfcheck / --check 可暂时忽略。
+
 要求：
 1. 随机生成 1～100 的整数（可用 import random）
 2. 用户最多猜 7 次
@@ -8,10 +12,8 @@
 4. 猜对则提前结束，并打印用了几次
 5. 7 次都错则公布正确答案
 
-自检（测纯函数，不测交互）：
-  python ex01_guess_number.py --check
-交互运行：
-  python ex01_guess_number.py
+运行：python ex01_guess_number.py
+可选自检（以后再说）：python ex01_guess_number.py --check
 """
 
 import random
