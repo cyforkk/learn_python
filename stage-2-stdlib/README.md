@@ -3,11 +3,17 @@
 **目标**：会安全读写文件、处理异常、拆模块、用简单 class。  
 **建议时间**：1～2 周。
 
+## 本阶段顺序
+
+```
+① 先读 notes/（学）→ ② 再做 exercises/（练）→ ③ 再看 solutions/（对）
+```
+
 ## 学什么
 
 文件读写、`try/except`、`import` 与包、pathlib/json/datetime 等、推导式、面向对象入门。
 
-## 阅读顺序（notes/）
+## ① 阅读顺序（notes/ · 第一站）
 
 1. [Python文件读写.md](notes/Python文件读写.md)
 2. [Python异常处理.md](notes/Python异常处理.md)
@@ -16,9 +22,9 @@
 5. [Python推导式.md](notes/Python推导式.md)
 6. [Python面向对象入门.md](notes/Python面向对象入门.md)
 
-## 练习
+## ② 练习（对应笔记读完后再做）
 
-完整清单（含难度/时长/ex06 批量重命名）：[exercises/README.md](exercises/README.md)
+完整清单：[exercises/README.md](exercises/README.md)
 
 ```bash
 cd stage-2-stdlib/exercises

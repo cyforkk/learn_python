@@ -1,56 +1,67 @@
 # Python 速成学习仓库
 
-用练习和项目巩固 Python 的 **自学跟练型** 仓库（MIT License）。
+**先学笔记 → 再做练习 → 再做项目** 的自学仓库（MIT License）。
 
-> **默认你已经装好 Python 3.10+**，会在终端运行 `python` / `py`。  
-> 不把「装环境」当主线——卡住时再查可选附录即可。
+> **默认已装好 Python 3.10+**。环境不是主线；卡住再查 [stage-0-setup](stage-0-setup/README.md)。  
+> **不要一上来就刷题。** 正确顺序是：读文章 → 动手题 → 综合项目。
 
-> 笔记里有完整示例；练习在 `exercises/` 完成，做完再看 `solutions/`。  
-> 学习地图：[docs/learning-map.md](docs/learning-map.md)
+学习地图（带文章链接）：[docs/learning-map.md](docs/learning-map.md)
 
-## 你将获得
+## 学习顺序（必读）
 
-- 分阶段路径、主题笔记、练习与参考答案  
-- 四方向学习路线 + starter/demo + GitHub 清单  
-- 综合项目与 FAQ  
+```
+① 学：打开 stage-N/notes/ 按阅读顺序读文章（可运行文中示例）
+② 练：再打开 exercises/ 做题，python xxx.py --check 自检
+③ 对：做完再看 solutions/（禁止先抄答案）
+④ 项：阶段后期或 stage-5 做 projects/
+⑤ 勾：progress.md 打勾，bugs/ 记坑
+```
 
-## 前提（默认已满足）
+| 阶段在干什么 | 先打开哪里 |
+|--------------|------------|
+| 学概念 | `stage-*/notes/*.md`（**第一站**） |
+| 巩固 | `stage-*/exercises/` |
+| 对照 | `stage-*/solutions/` |
+| 作品 | `projects/`、stage-5 规格 |
+
+## 前提
 
 ```bash
 python --version   # 或 py -3 --version  → 3.10+
 ```
 
-装不上、PATH 乱、编码问题 → 再看可选文档 [stage-0-setup](stage-0-setup/README.md) / [docs/windows-setup.md](docs/windows-setup.md)（**可整段跳过**）。
-
-## 怎么学
+## 怎么学（全局）
 
 ```
-1. docs/roadmap.md 或 docs/learning-map.md
-2. stage-1 → stage-3（语法 → 标准库 → 工程习惯）
-3. stage-4 选一条方向（已有基础可直接进）
-4. stage-5 / projects/ 做完整项目
-5. progress.md 打勾
+1. 读 docs/roadmap.md 或 docs/learning-map.md（建立全局感）
+2. stage-1 → stage-3：每个阶段都是「笔记读完 → 再练习」
+3. stage-4：读该方向 path-*.md 路线 → starter/demo → 自选项目
+4. stage-5：读实战笔记/规格 → 在 projects/ 交付
 ```
 
-阶段内：`读 notes/` → `做 exercises/` → `python xxx.py --check` → 对照 `solutions/`
+错题：[docs/faq-common-mistakes.md](docs/faq-common-mistakes.md)
 
-**先别抄 solutions。** 错题：[docs/faq-common-mistakes.md](docs/faq-common-mistakes.md)。
-
-## 快速开始
+## 快速开始（从「学」开始）
 
 ```bash
 cd learn_python
 
-# 直接开练（已有 Python 即可）
-cd stage-1-basics/exercises
-python ex01_guess_number.py --check
+# 1）先读第一篇笔记（浏览器或编辑器打开）
+#    stage-1-basics/notes/Python基本数据类型.md
 
-# 可选：装开发依赖并一键自检
-# pip install -r requirements-dev.txt
-# python scripts/check_all.py
+# 2）按 stage-1-basics/README.md 的「阅读顺序」读完前几篇
+#    再进入 exercises 做题，例如：
+# cd stage-1-basics/exercises
+# python ex01_guess_number.py --check
 ```
 
-`venv` 等在 **stage-3** 系统学；平时本地有 Python 就能做练习。
+第一天建议：只读 stage-1 的 **数据类型 → 输入输出 → 条件与循环** 三篇笔记，**再**做 ex01。
+
+## 你将获得
+
+- 分阶段 **讲解笔记** + 练习与参考答案  
+- 四方向学习路线 + starter/demo + GitHub 清单  
+- 综合项目与 FAQ
 
 ## 仓库结构
 

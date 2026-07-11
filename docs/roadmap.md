@@ -19,7 +19,8 @@
 | 4 方向分支 | [../stage-4-tracks/README.md](../stage-4-tracks/README.md) | [各方向路线](stage4-paths/README.md) + GitHub |
 | 5 综合项目 | [../stage-5-projects/README.md](../stage-5-projects/README.md) | 项目规格与实战笔记 |
 
-学习节奏：读 `notes/` → 做 `exercises/` → `python xxx.py --check` → 对照 `solutions/` → [progress.md](../progress.md) 打勾。
+**学习节奏（勿颠倒）**：① 读 `notes/` 学概念 → ② 做 `exercises/` 巩固 → ③ `--check` / 对照 `solutions/` → ④ 项目 → [progress.md](../progress.md) 打勾。  
+不要一上来只刷题；[learning-map.md](learning-map.md) 已按「先笔记、后练习」排好链接。
 
 ---
 
