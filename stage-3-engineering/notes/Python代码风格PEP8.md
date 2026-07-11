@@ -505,4 +505,5 @@ PEP 8 的核心就三件事：**命名有规律（小写下划线给变量函数
 ---
 
 ## 本仓库学习导航
-对照自己的 exercises 代码；见 [FAQ](../../docs/faq-common-mistakes.md)
+- **练习安排：无仓库题**（对照自己写过的练习改命名/空格即可）
+- 参考：[docs/faq-common-mistakes.md](../../docs/faq-common-mistakes.md)

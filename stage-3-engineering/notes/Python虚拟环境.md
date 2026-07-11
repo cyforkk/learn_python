@@ -115,4 +115,4 @@ pip + venv 是最常见的组合，但需要手动管理两件事。Poetry 和 u
 ---
 
 ## 本仓库学习导航
-对应练习： [ex01_venv_practice](../exercises/ex01_venv_practice.md) [ex05_mini_project](../exercises/ex05_mini_project/)
+- **练习安排：建议做** [ex01 venv 实践](../exercises/ex01_venv_practice.md)（跟着命令勾选即可）

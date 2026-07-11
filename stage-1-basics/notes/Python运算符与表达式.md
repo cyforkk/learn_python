@@ -285,4 +285,6 @@ a + b * c > 10 and d < 5
 ---
 
 ## 本仓库学习导航
-对应练习： [ex02_calculator](../exercises/ex02_calculator.py)
+- **练习安排：无独立练习**
+- 学完「函数」后可选 → [ex02 计算器](../exercises/ex02_calculator.py)（选做）
+- 下一篇：[Python条件与循环.md](Python条件与循环.md)

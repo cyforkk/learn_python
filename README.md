@@ -5,7 +5,7 @@
 > **默认已装好 Python 3.10+**。环境不是主线；卡住再查 [stage-0-setup](stage-0-setup/README.md)。  
 > **不要一上来就刷题。** 正确顺序是：读文章 → 动手题 → 综合项目。
 
-学习地图（带文章链接）：[docs/learning-map.md](docs/learning-map.md)
+学习地图：[docs/learning-map.md](docs/learning-map.md) · 练习原则：[docs/exercise-policy.md](docs/exercise-policy.md)（**不是每篇都有题**）
 
 ## 学习顺序（必读）
 

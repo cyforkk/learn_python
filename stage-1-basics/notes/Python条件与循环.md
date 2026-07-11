@@ -764,4 +764,7 @@ print(total)    # 2550
 ---
 
 ## 本仓库学习导航
-对应练习： [ex01](../exercises/ex01_guess_number.py) [ex04](../exercises/ex04_multiplication_table.py)
+- **练习安排：必做**
+  - [ex04 九九表](../exercises/ex04_multiplication_table.py)（建议先做）
+  - [ex01 猜数字](../exercises/ex01_guess_number.py)
+- 新手说明：[../exercises/新手怎么做.md](../exercises/新手怎么做.md)

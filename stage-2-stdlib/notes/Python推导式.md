@@ -327,4 +327,4 @@ for item in data:
 ---
 
 ## 本仓库学习导航
-对应练习： [ex04_list_files](../exercises/ex04_list_files.py) [ex06](../exercises/ex06_batch_rename.py)
+- **练习安排：无独立练习**（了解写法即可，代码里见到能读懂）

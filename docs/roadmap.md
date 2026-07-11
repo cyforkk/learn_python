@@ -10,7 +10,8 @@
 |------|------|------|
 | 总入口 | [../README.md](../README.md) | 怎么用本仓库 |
 | 进度勾选 | [../progress.md](../progress.md) | 打勾清单 |
-| 学习地图 | [learning-map.md](learning-map.md) | 笔记↔练习↔难度时长 |
+| 学习地图 | [learning-map.md](learning-map.md) | 笔记↔练习（含「无/必做/选做」） |
+| 练习原则 | [exercise-policy.md](exercise-policy.md) | 不是每篇笔记都有题 |
 | FAQ 错题 | [faq-common-mistakes.md](faq-common-mistakes.md) | 常见报错 |
 | ~~0 环境~~ | [../stage-0-setup/README.md](../stage-0-setup/README.md) | **可选附录**（装不上再看） |
 | 1 语法核心 | [../stage-1-basics/README.md](../stage-1-basics/README.md) | **主线起点** · 笔记 + 练习 |
@@ -19,8 +20,8 @@
 | 4 方向分支 | [../stage-4-tracks/README.md](../stage-4-tracks/README.md) | [各方向路线](stage4-paths/README.md) + GitHub |
 | 5 综合项目 | [../stage-5-projects/README.md](../stage-5-projects/README.md) | 项目规格与实战笔记 |
 
-**学习节奏（勿颠倒）**：① 读 `notes/` 学概念 → ② 做 `exercises/` 巩固 → ③ `--check` / 对照 `solutions/` → ④ 项目 → [progress.md](../progress.md) 打勾。  
-不要一上来只刷题；[learning-map.md](learning-map.md) 已按「先笔记、后练习」排好链接。
+**学习节奏（勿颠倒）**：① 读 `notes/` → ② **仅做标注为必做/建议的练习**（不是篇篇有题）→ ③ 对照 `solutions/` → ④ 项目。  
+练习原则：[exercise-policy.md](exercise-policy.md) · 地图：[learning-map.md](learning-map.md)
 
 ---
 

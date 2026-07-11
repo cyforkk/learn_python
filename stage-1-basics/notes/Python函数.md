@@ -501,4 +501,7 @@ log("操作完成", "DEBUG")     # [DEBUG] 操作完成
 ---
 
 ## 本仓库学习导航
-对应练习： [ex02](../exercises/ex02_calculator.py) [ex05](../exercises/ex05_refactor_functions.py) [ex06](../exercises/ex06_contacts.py)
+- **练习安排**
+  - **必做** [ex05 函数重构](../exercises/ex05_refactor_functions.py)
+  - **选做** [ex02 计算器](../exercises/ex02_calculator.py)
+- 作用域无需单独做题，读 [Python作用域.md](Python作用域.md) 即可

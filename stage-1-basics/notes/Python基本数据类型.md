@@ -189,7 +189,6 @@ print(int("25") + 1)
 ---
 
 ## 本仓库学习导航
-
-- **本篇无对应仓库练习题**（仅了解）  
-- 地图：[docs/learning-map.md](../../docs/learning-map.md)  
-- 容器练习见复合类型篇 → [ex03 成绩统计](../exercises/ex03_score_stats.py)（**以后再做**）
+- **练习安排：无仓库练习**（本篇只了解类型名字）
+- 容器以后再练 → [Python复合类型.md](Python复合类型.md)
+- 地图：[docs/learning-map.md](../../docs/learning-map.md) · 原则：[docs/exercise-policy.md](../../docs/exercise-policy.md)

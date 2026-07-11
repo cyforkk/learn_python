@@ -498,4 +498,4 @@ print(s.get_grade())
 ---
 
 ## 本仓库学习导航
-对应练习： [ex05_book_class](../exercises/ex05_book_class.py)
+- **练习安排：必做** [ex05 Book 类](../exercises/ex05_book_class.py)

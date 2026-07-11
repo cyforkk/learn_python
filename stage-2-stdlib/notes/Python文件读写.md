@@ -428,4 +428,6 @@ print(loaded)   # {'张三': 85, '李四': 92, '王五': 78}
 ---
 
 ## 本仓库学习导航
-对应练习： [ex01](../exercises/ex01_todo_json.py) [ex02](../exercises/ex02_safe_read.py)
+- **练习安排：本篇读完先不急着做综合题**
+- 与「异常处理」一起读完后 **必做** → [ex02 安全读文件](../exercises/ex02_safe_read.py)
+- JSON 待办是综合题，**选做** → [ex01](../exercises/ex01_todo_json.py)

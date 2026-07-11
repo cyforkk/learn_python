@@ -1,59 +1,44 @@
 # 阶段 1 练习清单
 
-> **先学后练**：先读 [../notes/](../notes/)，再做题。  
-> **新手请先看** → [新手怎么做.md](新手怎么做.md)（比本表更重要）
+> **先学后练** · **不是每篇笔记都有题**  
+> 原则详见 [docs/exercise-policy.md](../../docs/exercise-policy.md)  
+> 新手必读 → [新手怎么做.md](新手怎么做.md)
 
 ## 过关标准（新手）
 
-- 程序能运行，行为符合题目文字要求  
-- **不要求** 一上来会 `--check`、会写 `assert`、会 pytest  
+只要求下面 **4 道必做** 能跑、行为对。  
+**不要求** `--check`、pytest、做完所有题。
 
-## 新手建议路线（只做这些就够）
+## 必做（4 题）
 
-| 顺序 | 文件 | 主题 | 先读笔记 | 说明 |
-|------|------|------|----------|------|
-| ① | [ex04_multiplication_table.py](ex04_multiplication_table.py) | 九九表 | 条件与循环 | 最简单，优先 |
-| ② | [ex01_guess_number.py](ex01_guess_number.py) | 猜数字 | 输入输出、循环 | 完整小游戏 |
-| ③ | [ex03_score_stats.py](ex03_score_stats.py) | 成绩字典 | **复合类型**（不是「基本数据类型」篇） | 读完复合类型再做 |
-
-运行（交互 / 看结果）：
+| 顺序 | 文件 | 先读笔记 | 说明 |
+|------|------|----------|------|
+| 1 | [ex04 九九表](ex04_multiplication_table.py) | [条件与循环](../notes/Python条件与循环.md) | 最简单 |
+| 2 | [ex01 猜数字](ex01_guess_number.py) | [条件与循环](../notes/Python条件与循环.md)（+ 输入输出概念） | 小游戏 |
+| 3 | [ex03 成绩统计](ex03_score_stats.py) | [复合类型](../notes/Python复合类型.md) | 字典 |
+| 4 | [ex05 函数重构](ex05_refactor_functions.py) | [函数](../notes/Python函数.md) | 拆函数 |
 
 ```bash
 python ex04_multiplication_table.py
 python ex01_guess_number.py
 python ex03_score_stats.py
+python ex05_refactor_functions.py
 ```
 
-## 学完「函数」后再做
+## 选做
 
-| 文件 | 主题 | 先读笔记 |
-|------|------|----------|
-| [ex02_calculator.py](ex02_calculator.py) | 计算器 | 运算符、函数 |
-| [ex05_refactor_functions.py](ex05_refactor_functions.py) | 拆函数 | 函数、作用域 |
-| [ex06_contacts.py](ex06_contacts.py) | 通讯录 | 复合类型、函数 · **选做** |
+| 文件 | 先读笔记 | 说明 |
+|------|----------|------|
+| [ex02 计算器](ex02_calculator.py) | 函数 + 运算符 | 综合 |
+| [ex06 通讯录](ex06_contacts.py) | 复合类型 | 巩固字典 |
 
-## 关于「自检 / 测试」（可后学）
+## 下列笔记 · 无仓库练习
 
-每个练习文件底部都有醒目注释：
+基本数据类型、输入输出、运算符、字符串、作用域 → **读懂即可**，不要硬找题。
 
-```text
-# 【测试 / 自检函数 · 新手请跳过，不必读、不必改】
-def _selfcheck() -> None:
-```
+## 测试函数说明
 
-| 名字 | 是不是测试 | 新手 |
-|------|------------|------|
-| `main` / 题目里的业务函数 | 否，这是作业 | 要写 |
-| `_selfcheck` | **是测试/自检** | 跳过 |
-| `python xxx.py --check` | 才会跑测试 | 不要加这个参数 |
+文件底部 `_selfcheck` 有注释 **【测试 / 自检函数 · 新手请跳过】**。  
+正常运行不要加 `--check`。
 
-```bash
-# 新手这样运行即可
-python ex04_multiplication_table.py
-
-# 可选（以后再说）
-# python ex04_multiplication_table.py --check
-```
-
-答案目录：`../solutions/`（**做完再看**）  
-错题：[../../docs/faq-common-mistakes.md](../../docs/faq-common-mistakes.md)
+答案：`../solutions/`（做完再看）

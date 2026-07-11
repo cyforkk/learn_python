@@ -315,4 +315,4 @@ while True:
 ---
 
 ## 本仓库学习导航
-对应练习： [ex04_debug_journal](../exercises/ex04_debug_journal.md)
+- **练习安排：建议做** [ex04 调试日记](../exercises/ex04_debug_journal.md)（写一篇记录即可）

@@ -340,4 +340,5 @@ def fetch_data(url):
 ---
 
 ## 本仓库学习导航
-对应练习： [ex05_refactor_functions](../exercises/ex05_refactor_functions.py)
+- **练习安排：无独立练习**（理解即可，结合函数篇的 ex05）
+- 阶段 1 必做题汇总：ex04、ex01、ex03、ex05 → [../exercises/README.md](../exercises/README.md)

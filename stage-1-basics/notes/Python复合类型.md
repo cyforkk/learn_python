@@ -299,4 +299,7 @@ unique = list(set(nums))   # [1, 2, 3, 4]
 ---
 
 ## 本仓库学习导航
-对应练习： [ex03](../exercises/ex03_score_stats.py) [ex06 通讯录](../exercises/ex06_contacts.py)
+- **练习安排**
+  - **必做** [ex03 成绩统计](../exercises/ex03_score_stats.py)
+  - **选做** [ex06 通讯录](../exercises/ex06_contacts.py)
+- 须先读完本篇再做；不要在「基本数据类型」篇后硬做

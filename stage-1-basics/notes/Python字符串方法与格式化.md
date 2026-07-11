@@ -269,4 +269,5 @@ print(info)
 ---
 
 ## 本仓库学习导航
-对应练习： [ex04](../exercises/ex04_multiplication_table.py) [ex05](../exercises/ex05_refactor_functions.py)
+- **练习安排：无独立练习**（写九九表、猜数字时自然会用到字符串）
+- 继续：[Python函数.md](Python函数.md)

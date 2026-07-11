@@ -472,4 +472,5 @@ print(result)
 ---
 
 ## 本仓库学习导航
-对应练习： [ex02_safe_read](../exercises/ex02_safe_read.py)
+- **练习安排：必做** [ex02 安全读文件](../exercises/ex02_safe_read.py)  
+  （请已读完「文件读写」）

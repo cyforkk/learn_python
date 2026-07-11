@@ -186,4 +186,6 @@ while True:
 ---
 
 ## 本仓库学习导航
-对应练习： [ex01](../exercises/ex01_guess_number.py) [ex02](../exercises/ex02_calculator.py)
+- **练习安排：无独立练习**（`input`/`print` 会在猜数字里用到）
+- 学完「条件与循环」后做 → [ex01 猜数字](../exercises/ex01_guess_number.py)
+- 下一篇：[Python运算符与表达式.md](Python运算符与表达式.md)

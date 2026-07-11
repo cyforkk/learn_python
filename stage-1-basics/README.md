@@ -22,16 +22,19 @@
 
 每篇文末有「对应练习」链接——**读完该篇再点**。
 
-1. [Python基本数据类型.md](notes/Python基本数据类型.md)  ← **只读了解**，不做容器题  
-2. [Python输入输出.md](notes/Python输入输出.md)
-3. [Python运算符与表达式.md](notes/Python运算符与表达式.md)
-4. [Python条件与循环.md](notes/Python条件与循环.md)  ← 读完可做 ex04、ex01  
-5. [Python复合类型.md](notes/Python复合类型.md)      ← **这里才练容器**；读完可做 ex03、ex06  
-6. [Python字符串方法与格式化.md](notes/Python字符串方法与格式化.md)
-7. [Python函数.md](notes/Python函数.md)              ← 读完可做 ex05  
-8. [Python作用域.md](notes/Python作用域.md)
+| 顺序 | 笔记 | 练习？ |
+|------|------|--------|
+| 1 | [基本数据类型](notes/Python基本数据类型.md) | **无**（只了解） |
+| 2 | [输入输出](notes/Python输入输出.md) | **无** |
+| 3 | [运算符与表达式](notes/Python运算符与表达式.md) | **无** |
+| 4 | [条件与循环](notes/Python条件与循环.md) | **必做** ex04、ex01 |
+| 5 | [复合类型](notes/Python复合类型.md) | **必做** ex03；选做 ex06 |
+| 6 | [字符串方法与格式化](notes/Python字符串方法与格式化.md) | **无** |
+| 7 | [函数](notes/Python函数.md) | **必做** ex05；选做 ex02 |
+| 8 | [作用域](notes/Python作用域.md) | **无** |
 
-第一天建议：读 1～4（基本类型只扫一眼 int/str），再做 **九九表 ex04**，不要做成绩字典。
+原则：[docs/exercise-policy.md](../docs/exercise-policy.md)  
+第一天：读 1～4 → 只做 **ex04 九九表**。
 
 ## ② 练习（notes 读完对应篇后再做）
 
@@ -55,9 +58,9 @@ python ex01_guess_number.py           # 交互游戏
 ## 验收标准（新手版）
 
 - 笔记要点能口述  
-- **必做**：九九表 + 猜数字 + 成绩统计，程序行为正确  
-- **选做**：计算器、函数重构、通讯录  
-- **不要求** 会 pytest、会写 assert 自检  
+- **必做 4 题**：ex04 九九表、ex01 猜数字、ex03 成绩、ex05 函数重构  
+- **选做**：ex02 计算器、ex06 通讯录  
+- **不要求** 每篇笔记都做题；不要求 pytest / `--check`  
 
 ## 下一步
 

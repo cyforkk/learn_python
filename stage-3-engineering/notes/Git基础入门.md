@@ -475,4 +475,4 @@ Git 的核心工作流就三步：**add 暂存改动、commit 拍快照、push �
 ---
 
 ## 本仓库学习导航
-在本仓库练习 add/commit；见根目录 CONTRIBUTING.md
+- **练习安排：无强制仓库题**（在本仓库 `git add` / `commit` 练即可）

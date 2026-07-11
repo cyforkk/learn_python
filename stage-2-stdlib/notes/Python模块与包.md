@@ -417,4 +417,4 @@ import random, math, datetime, json, csv, os
 ---
 
 ## 本仓库学习导航
-对应练习： [ex03_mini_package](../exercises/ex03_mini_package/)
+- **练习安排：必做** [ex03 小模块](../exercises/ex03_mini_package/)

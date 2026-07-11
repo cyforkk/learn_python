@@ -465,4 +465,5 @@ type JSON = dict[str, str | int | float | bool | None]
 ---
 
 ## 本仓库学习导航
-对应练习： [ex02_typed_functions](../exercises/ex02_typed_functions.py)
+- **练习安排：选做** [ex02 类型注解](../exercises/ex02_typed_functions.py)  
+  新手可整题跳过，不影响学 Python 主线

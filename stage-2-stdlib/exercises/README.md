@@ -1,31 +1,41 @@
 # 阶段 2 练习清单
 
-> **先学后练**：先读 [../notes/](../notes/)。  
-> 新手同样：**先让程序跑对**，`--check` / 复杂拆分可后做。
+> **不是每篇笔记都有题** · 见 [exercise-policy.md](../../docs/exercise-policy.md)
 
-## 新手建议路线
+## 过关标准（新手）
 
-| 顺序 | 文件 | 主题 | 先读笔记 | 说明 |
-|------|------|------|----------|------|
-| ① | [ex02_safe_read.py](ex02_safe_read.py) | 安全读文件 | 文件、异常 | 比 JSON 简单 |
-| ② | [ex04_list_files.py](ex04_list_files.py) | 列目录 | 标准库 pathlib | 打印即可 |
-| ③ | [ex05_book_class.py](ex05_book_class.py) | Book 类 | 面向对象 | 三个方法就够 |
-| ④ | [ex01_todo_json.py](ex01_todo_json.py) | JSON 待办 | 文件读写 | 稍综合 |
-| ⑤ | [ex03_mini_package/](ex03_mini_package/) | 模块拆分 | 模块与包 | 两个文件 |
-| ⑥ | [ex06_batch_rename.py](ex06_batch_rename.py) | 批量重命名 | pathlib | **选做** |
+**必做 3 题** 即可，其余选做。
 
-运行示例：
+## 必做
+
+| 顺序 | 文件 | 先读笔记 | 说明 |
+|------|------|----------|------|
+| 1 | [ex02 安全读文件](ex02_safe_read.py) | 文件读写 + 异常处理 | 两篇都读完再做 |
+| 2 | [ex03 小模块](ex03_mini_package/) | 模块与包 | 两个文件 |
+| 3 | [ex05 Book 类](ex05_book_class.py) | 面向对象入门 | 三个方法 |
 
 ```bash
 python ex02_safe_read.py
-python ex04_list_files.py
+cd ex03_mini_package
+python main.py
+cd ..
 python ex05_book_class.py
 ```
 
-## 可后学
+## 选做
 
-- `python xxx.py --check`：可选自检，不是必做  
-- 文件底部 `_selfcheck`：先当不存在即可  
-- 类型注解：可忽略  
+| 文件 | 先读笔记 |
+|------|----------|
+| [ex04 列目录](ex04_list_files.py) | 常用标准库 |
+| [ex01 JSON 待办](ex01_todo_json.py) | 文件读写（综合） |
+| [ex06 批量重命名](ex06_batch_rename.py) | 标准库 / pathlib |
 
-答案：`../solutions/`（做完再看）
+## 无独立练习的笔记
+
+推导式 → 读懂即可。
+
+## 测试
+
+`_selfcheck` 为可选自检，见文件内 **【测试 / 自检函数】** 注释。
+
+答案：`../solutions/`

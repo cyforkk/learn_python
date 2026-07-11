@@ -126,4 +126,5 @@ conda install numpy
 ---
 
 ## 本仓库学习导航
-对应练习： [ex01](../exercises/ex01_venv_practice.md) [ex05](../exercises/ex05_mini_project/)
+- **练习安排：无独立新题**（与虚拟环境篇的 ex01 一起完成即可）
+- 综合工程 **选做** → [ex05 迷你工程](../exercises/ex05_mini_project/)
