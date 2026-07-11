@@ -97,7 +97,7 @@
 - [x] requirements-dev.txt + scripts/check_all.py
 - [x] docs：roadmap / learning-map / FAQ / windows-setup
 - [x] CI workflow
-- [ ] （可选）已推送到 GitHub 远程
+- [x] 已推送到 GitHub 远程：https://github.com/cyforkk/learn_python
 
 ## 复盘
 
