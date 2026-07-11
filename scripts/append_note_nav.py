@@ -5,7 +5,7 @@ from pathlib import Path
 MARKER = "\n\n---\n\n## 本仓库学习导航\n"
 
 FOOTERS = {
-    "stage-1-basics/notes/Python基本数据类型.md": "对应练习： [ex03_score_stats](../exercises/ex03_score_stats.py) · 地图：[docs/learning-map.md](../../docs/learning-map.md)",
+    "stage-1-basics/notes/Python基本数据类型.md": "本篇无仓库练习（只了解）；容器练习见复合类型 · 地图：[docs/learning-map.md](../../docs/learning-map.md)",
     "stage-1-basics/notes/Python输入输出.md": "对应练习： [ex01](../exercises/ex01_guess_number.py) [ex02](../exercises/ex02_calculator.py)",
     "stage-1-basics/notes/Python运算符与表达式.md": "对应练习： [ex02_calculator](../exercises/ex02_calculator.py)",
     "stage-1-basics/notes/Python条件与循环.md": "对应练习： [ex01](../exercises/ex01_guess_number.py) [ex04](../exercises/ex04_multiplication_table.py)",

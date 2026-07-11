@@ -47,16 +47,15 @@ python --version   # 或 py -3 --version  → 3.10+
 cd learn_python
 
 # 1）先读第一篇笔记（浏览器或编辑器打开）
-#    stage-1-basics/notes/Python基本数据类型.md
+#    stage-1-basics/notes/Python基本数据类型.md  （只了解，无容器题）
 
 # 2）按 stage-1-basics/README.md 阅读顺序读笔记
-# 3）再做题（先保证能运行，不必 --check）
+# 3）读完「条件与循环」后再做题（建议第一题九九表，不是成绩字典）
 #    见 stage-1-basics/exercises/新手怎么做.md
-#    建议第一题：九九表
-#    python stage-1-basics/exercises/ex04_multiplication_table.py
 ```
 
-第一天建议：读 **数据类型 → 输入输出 → 条件与循环**，再做 **九九表**；`--check`/测试以后再说。
+第一天建议：基本类型**扫一眼** → 输入输出 → 条件与循环 → **九九表**。  
+成绩字典要等 **复合类型** 笔记后再做。
 
 ## 你将获得
 

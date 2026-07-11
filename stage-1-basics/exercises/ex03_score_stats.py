@@ -1,12 +1,16 @@
 """
-练习 03：学生成绩统计
+练习 03：学生成绩统计（字典）
+
+【请先读】notes/Python复合类型.md
+【不要】在只读完「基本数据类型」后就做本题——基本类型篇不安排容器练习。
 
 要求：
 1. 用字典保存至少 4 名学生姓名 -> 分数
 2. 打印：平均分、最高分及姓名、最低分及姓名
 3. 打印所有「不低于平均分」的学生
 
-自检：python ex03_score_stats.py --check
+运行：python ex03_score_stats.py
+可选自检：python ex03_score_stats.py --check
 """
 
 

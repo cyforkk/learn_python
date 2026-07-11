@@ -46,7 +46,7 @@
 
 | 顺序 | ① 先学笔记（文章） | ② 再做练习（能跑就行） | 难度 |
 |------|-------------------|------------------------|------|
-| 1 | [Python基本数据类型](../stage-1-basics/notes/Python基本数据类型.md) | 先只读，稍后成绩题再用 | ⭐ |
+| 1 | [Python基本数据类型](../stage-1-basics/notes/Python基本数据类型.md) | **无仓库练习**（只了解 int/str/bool；容器以后再练） | ⭐ |
 | 2 | [Python输入输出](../stage-1-basics/notes/Python输入输出.md) | 为猜数字做准备 | ⭐ |
 | 3 | [Python运算符与表达式](../stage-1-basics/notes/Python运算符与表达式.md) | 稍后计算器（学完函数再做） | ⭐ |
 | 4 | [Python条件与循环](../stage-1-basics/notes/Python条件与循环.md) | **优先** [ex04 九九表](../stage-1-basics/exercises/ex04_multiplication_table.py)、[ex01 猜数字](../stage-1-basics/exercises/ex01_guess_number.py) | ⭐⭐ |

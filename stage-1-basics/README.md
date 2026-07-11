@@ -22,16 +22,16 @@
 
 每篇文末有「对应练习」链接——**读完该篇再点**。
 
-1. [Python基本数据类型.md](notes/Python基本数据类型.md)
+1. [Python基本数据类型.md](notes/Python基本数据类型.md)  ← **只读了解**，不做容器题  
 2. [Python输入输出.md](notes/Python输入输出.md)
 3. [Python运算符与表达式.md](notes/Python运算符与表达式.md)
-4. [Python条件与循环.md](notes/Python条件与循环.md)  ← 读完可做 ex01、ex04  
-5. [Python复合类型.md](notes/Python复合类型.md)      ← 读完可做 ex03、ex06  
+4. [Python条件与循环.md](notes/Python条件与循环.md)  ← 读完可做 ex04、ex01  
+5. [Python复合类型.md](notes/Python复合类型.md)      ← **这里才练容器**；读完可做 ex03、ex06  
 6. [Python字符串方法与格式化.md](notes/Python字符串方法与格式化.md)
 7. [Python函数.md](notes/Python函数.md)              ← 读完可做 ex05  
 8. [Python作用域.md](notes/Python作用域.md)
 
-第一天建议：只读 1～4，再开始 ex01。
+第一天建议：读 1～4（基本类型只扫一眼 int/str），再做 **九九表 ex04**，不要做成绩字典。
 
 ## ② 练习（notes 读完对应篇后再做）
 

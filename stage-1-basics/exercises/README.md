@@ -14,7 +14,7 @@
 |------|------|------|----------|------|
 | ① | [ex04_multiplication_table.py](ex04_multiplication_table.py) | 九九表 | 条件与循环 | 最简单，优先 |
 | ② | [ex01_guess_number.py](ex01_guess_number.py) | 猜数字 | 输入输出、循环 | 完整小游戏 |
-| ③ | [ex03_score_stats.py](ex03_score_stats.py) | 成绩字典 | 复合类型 | 练字典 |
+| ③ | [ex03_score_stats.py](ex03_score_stats.py) | 成绩字典 | **复合类型**（不是「基本数据类型」篇） | 读完复合类型再做 |
 
 运行（交互 / 看结果）：
 
