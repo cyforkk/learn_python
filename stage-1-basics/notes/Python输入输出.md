@@ -182,3 +182,8 @@ while True:
 **第一，input 返回的永远是字符串。** 需要数字时记得 `int()` 或 `float()` 转换，否则程序不会报语法错误但运行时出问题。
 
 **第二，f-string 中的表达式可以写得很复杂但不建议。** 保持简单，复杂逻辑先算好变量再放进 f-string，代码更可读。
+
+---
+
+## 本仓库学习导航
+对应练习： [ex01](../exercises/ex01_guess_number.py) [ex02](../exercises/ex02_calculator.py)

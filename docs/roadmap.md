@@ -9,14 +9,18 @@
 |------|------|------|
 | 总入口 | [../README.md](../README.md) | 怎么用本仓库 |
 | 进度勾选 | [../progress.md](../progress.md) | 打勾清单 |
+| 学习地图 | [learning-map.md](learning-map.md) | 笔记↔练习↔难度时长 |
+| FAQ 错题 | [faq-common-mistakes.md](faq-common-mistakes.md) | 常见报错 |
+| Windows | [windows-setup.md](windows-setup.md) | PATH / venv / 编码 |
 | 0 环境 | [../stage-0-setup/README.md](../stage-0-setup/README.md) | 安装与跑通第一行 |
 | 1 语法核心 | [../stage-1-basics/README.md](../stage-1-basics/README.md) | 笔记 + 练习 + 答案 |
 | 2 标准库 | [../stage-2-stdlib/README.md](../stage-2-stdlib/README.md) | 文件 / 异常 / 模块 / OOP |
 | 3 工程习惯 | [../stage-3-engineering/README.md](../stage-3-engineering/README.md) | venv / 测试 / 调试 / Git |
-| 4 方向分支 | [../stage-4-tracks/README.md](../stage-4-tracks/README.md) | 自动化 / 数据 / Web / AI |
+| 4 方向分支 | [../stage-4-tracks/README.md](../stage-4-tracks/README.md) | starter + 中型 demo |
 | 5 综合项目 | [../stage-5-projects/README.md](../stage-5-projects/README.md) | 项目规格与实战笔记 |
 
-学习节奏：读 `notes/` → 做 `exercises/` → `python xxx.py --check` 自检 → 对照 `solutions/` → 在 [progress.md](../progress.md) 打勾。
+学习节奏：读 `notes/` → 做 `exercises/` → `python xxx.py --check` 自检 → 对照 `solutions/` → 在 [progress.md](../progress.md) 打勾。  
+一键检查：`pip install -r requirements-dev.txt` 后 `python scripts/check_all.py`。
 
 ---
 
@@ -632,7 +636,7 @@ KeyError: 'name'
 |----|------|
 | 文档主题 | Python 速成学习路线与资源 |
 | 面向 | 零基础到可独立做小项目 |
-| 建议 Python 版本 | 3.11+（推荐 3.12） |
+| 建议 Python 版本 | 3.10+ 可学；推荐 3.11/3.12 |
 | 仓库形态 | 分阶段 `stage-*` 自学跟练（A1：笔记可有示例，练习独立完成） |
 | 维护建议 | 方向资源随官方文档更新；路线骨架可长期沿用 |
 

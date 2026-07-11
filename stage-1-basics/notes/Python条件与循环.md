@@ -760,3 +760,8 @@ print(total)    # 2550
 ## 要点
 
 条件判断的核心是**根据不同情况走不同分支**，循环的核心是**重复执行某段逻辑**。掌握 `if-elif-else` 的多分支、`for` 遍历各种容器、`while` 做条件循环、`break` 和 `continue` 控制循环流程，日常编程 80% 以上的逻辑都能覆盖。嵌套循环和 for-else 用得少，知道有这些写法，需要时查文档即可。
+
+---
+
+## 本仓库学习导航
+对应练习： [ex01](../exercises/ex01_guess_number.py) [ex04](../exercises/ex04_multiplication_table.py)

@@ -111,3 +111,8 @@ pip + venv 是最常见的组合，但需要手动管理两件事。Poetry 和 u
 ## 一句话总结
 
 **每个项目用独立的虚拟环境，是 Python 开发的最基本的习惯。** 不管你用 venv、Poetry、uv 还是 Conda，核心目的都一样——把项目的依赖隔离开，避免互相打架。
+
+---
+
+## 本仓库学习导航
+对应练习： [ex01_venv_practice](../exercises/ex01_venv_practice.md) [ex05_mini_project](../exercises/ex05_mini_project/)

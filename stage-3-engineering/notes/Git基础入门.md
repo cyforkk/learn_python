@@ -471,3 +471,8 @@ build/
 ## 要点
 
 Git 的核心工作流就三步：**add 暂存改动、commit 拍快照、push 推到远程**。工作区是你在改的文件，暂存区是准备提交的改动，本地仓库是已提交的快照历史。每次改完代码先 `git status` 看状态，`git add` 暂存要提交的部分，`git commit -m` 写清楚改了什么，`git pull` 同步别人的更新，`git push` 推到远程。提交说明要写具体做了什么，不要写"修改"这种废话。`.gitignore` 文件指定忽略哪些文件。记住这个循环：**改代码 → add → commit → pull → push**，日常开发 80% 的 Git 操作都在这里面。
+
+---
+
+## 本仓库学习导航
+在本仓库练习 add/commit；见根目录 CONTRIBUTING.md

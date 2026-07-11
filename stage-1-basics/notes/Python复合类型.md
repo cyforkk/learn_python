@@ -295,3 +295,8 @@ unique = list(set(nums))   # [1, 2, 3, 4]
 **去重或做集合运算 → set**
 
 实际开发中，list 和 dict 用得最多，占日常 80% 以上的场景。tuple 和 set 在特定场景下才用，但用对了能让代码简洁很多。
+
+---
+
+## 本仓库学习导航
+对应练习： [ex03](../exercises/ex03_score_stats.py) [ex06 通讯录](../exercises/ex06_contacts.py)

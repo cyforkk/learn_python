@@ -12,9 +12,10 @@
 - Automate the Boring Stuff：https://automatetheboringstuff.com/  
 - requests 文档：https://requests.readthedocs.io/
 
-## 先跑 starter
+## 先跑 starter → 再跑 demo
 
-见 [starter/](starter/)：`pip install -r requirements.txt` → `python main.py`
+- [starter/](starter/)：`pip install -r requirements.txt` → `python main.py`  
+- [demo/](demo/)：批量请求并保存 JSON
 
 ## 最小 demo 选题
 

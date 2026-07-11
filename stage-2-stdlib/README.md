@@ -16,36 +16,24 @@
 5. [Python推导式.md](notes/Python推导式.md)
 6. [Python面向对象入门.md](notes/Python面向对象入门.md)
 
-## 练习（exercises/）
+## 练习
 
-| 文件 | 内容 |
-|------|------|
-| [ex01_todo_json.py](exercises/ex01_todo_json.py) | JSON 待办增查存 |
-| [ex02_safe_read.py](exercises/ex02_safe_read.py) | 安全读文件 + 异常 |
-| [ex03_mini_package/](exercises/ex03_mini_package/) | 多文件小模块 |
-| [ex04_list_files.py](exercises/ex04_list_files.py) | pathlib 列目录 |
-| [ex05_book_class.py](exercises/ex05_book_class.py) | 简单 Book 类 |
-
-自检：
+完整清单（含难度/时长/ex06 批量重命名）：[exercises/README.md](exercises/README.md)
 
 ```bash
 cd stage-2-stdlib/exercises
 python ex01_todo_json.py --check
-python ex02_safe_read.py --check
-cd ex03_mini_package
-python main.py --check
-cd ..
-python ex04_list_files.py --check
-python ex05_book_class.py --check
+python ex06_batch_rename.py --check
 ```
 
-参考答案：[solutions/](solutions/)，**做完再看**。
+参考答案：[solutions/](solutions/)
 
 ## 验收标准
 
-- 会用 `with open` / `pathlib` 读写，并指定 `encoding="utf-8"`
-- 能处理文件不存在等常见异常
-- 能把逻辑拆到 2～3 个 `.py` 文件并用 import 连接
+- 会用 `pathlib` + UTF-8 读写  
+- 会处理文件不存在等异常  
+- 能拆 2～3 个模块并用 import  
+- ex01～ex06 `--check` 通过  
 
 ## 下一步
 

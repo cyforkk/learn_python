@@ -336,3 +336,8 @@ def fetch_data(url):
 ## 要点
 
 作用域的核心就两条规则：**函数内的变量外部拿不到，函数外的变量内部能读但不能直接改**。需要改时用 `global`，但能用参数和返回值替代就别用。LEGB 是 Python 查找变量的顺序，理解了就不会对"变量怎么找到的"感到困惑。日常开发中，**尽量用参数传入、return 返回，少依赖全局变量**，代码会更清晰、更少 bug。
+
+---
+
+## 本仓库学习导航
+对应练习： [ex05_refactor_functions](../exercises/ex05_refactor_functions.py)

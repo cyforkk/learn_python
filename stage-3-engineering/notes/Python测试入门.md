@@ -492,3 +492,8 @@ pytest -s
 ## 要点
 
 测试的核心就两件事：**用 assert 表达"期望什么结果"，用 pytest 自动运行和管理这些断言**。assert 是 Python 自带的语句，零学习成本；pytest 在 assert 外面包了自动发现、批量执行、清晰报告三层功能，记住三条规则就能用：**文件名 `test_` 开头、函数名 `test_` 开头、用 assert 做断言**。写测试时的重点是覆盖边界值和异常场景——正常流程谁都会写，bug 往往藏在边界和意外输入里。先给每个函数写 3 到 5 条断言覆盖正常值、边界值和异常情况，再逐步扩展，不需要一步到位。
+
+---
+
+## 本仓库学习导航
+对应练习： [ex03_pytest_stats](../exercises/ex03_pytest_stats/) [ex05](../exercises/ex05_mini_project/)

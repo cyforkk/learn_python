@@ -265,3 +265,8 @@ print(info)
 ## 要点
 
 字符串方法中真正高频使用的是：**split 分割、join 拼接、strip 去空白、replace 替换、find 查找、upper/lower 大小写转换**。f-string 格式化掌握**变量插值、数字格式化、对齐填充、日期格式化**这四项就够日常用了。字符串是不可变的，所有方法都返回新字符串，记得接收返回值。
+
+---
+
+## 本仓库学习导航
+对应练习： [ex04](../exercises/ex04_multiplication_table.py) [ex05](../exercises/ex05_refactor_functions.py)

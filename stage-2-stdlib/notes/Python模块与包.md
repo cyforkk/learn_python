@@ -413,3 +413,8 @@ import random, math, datetime, json, csv, os
 ## 要点
 
 模块和包的核心就两件事：**用 import 导入别人的代码，把自己的代码拆成多个文件**。`import 模块名` 导入整个模块，`from 模块名 import 函数名` 只导入需要的部分。同一个目录下的 .py 文件互相 import 就能组成项目。包就是带 `__init__.py` 的文件夹。`if __name__ == "__main__":` 让文件既能被导入又能独立运行。记住不要和标准库重名、不要用 `import *`，日常开发就够用了。
+
+---
+
+## 本仓库学习导航
+对应练习： [ex03_mini_package](../exercises/ex03_mini_package/)

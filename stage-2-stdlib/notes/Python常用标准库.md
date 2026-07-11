@@ -496,3 +496,8 @@ print(groups)
 ## 要点
 
 标准库的核心就一句话：**能标准库解决的不装第三方库**。pathlib 替代 os.path 处理路径、json 处理数据交换、datetime 处理时间、re 处理模式匹配、Counter 和 defaultdict 处理统计和分组。这六个库覆盖了日常 80% 的工具需求。**先记住每个库的核心函数，用到时再查详细用法，不用一次全背。**
+
+---
+
+## 本仓库学习导航
+对应练习： [ex01](../exercises/ex01_todo_json.py) [ex04](../exercises/ex04_list_files.py) [ex06](../exercises/ex06_batch_rename.py)

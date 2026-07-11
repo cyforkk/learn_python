@@ -468,3 +468,8 @@ print(result)
 ## 要点
 
 异常处理的核心结构就是 **try/except/else/finally** 四块：try 里放可能出错的代码，except 捕获并处理异常，else 在没出错时执行，finally 做收尾清理。日常开发中用得最多的是 **try + except**，else 和 finally 在需要更精细控制时才加。记住三个原则：**能精确捕获就别用 bare except、用 with 替代手动 try/finally 关文件、函数参数不合法时用 raise 主动报错。**
+
+---
+
+## 本仓库学习导航
+对应练习： [ex02_safe_read](../exercises/ex02_safe_read.py)

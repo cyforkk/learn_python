@@ -497,3 +497,8 @@ log("操作完成", "DEBUG")     # [DEBUG] 操作完成
 ## 要点
 
 函数的核心就三件事：**定义（def）、传参（位置/关键字/默认值）、返回（return）**。掌握这三项，再了解 `*args` 和 `**kwargs` 处理可变参数，lambda 写匿名函数，日常开发就够用了。最容易踩的两个坑：**默认参数不要用可变对象**（用 None 代替），**return 和 print 不要搞混**（一个给程序用，一个给人看）。
+
+---
+
+## 本仓库学习导航
+对应练习： [ex02](../exercises/ex02_calculator.py) [ex05](../exercises/ex05_refactor_functions.py) [ex06](../exercises/ex06_contacts.py)

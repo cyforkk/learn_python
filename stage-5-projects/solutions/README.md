@@ -1,11 +1,11 @@
 # 综合项目参考实现
 
-本目录刻意不放完整大型项目答案，避免直接复制交付。
+正式可运行代码在仓库：
 
-建议：
+| 规格 | 实现路径 |
+|------|----------|
+| 待办 CLI | [../../projects/todo-cli/](../../projects/todo-cli/) |
+| 文件整理 | [../../projects/file-organizer/](../../projects/file-organizer/) |
+| API CLI | [../../projects/api-cli/](../../projects/api-cli/) |
 
-1. 严格按 `../exercises/project_spec_*.md` 自己实现  
-2. 卡住时回看 `../notes/` 与 stage-1～3 的 `solutions/`  
-3. 你的正式代码只放在仓库根目录的 `projects/` 下  
-
-若你希望仓库内增加「最小可运行参考项目」，可在后续迭代中补充。
+请先按 `../exercises/project_spec_*.md` 自己做；对照时阅读 `projects/` 源码与 README。

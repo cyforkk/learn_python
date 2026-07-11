@@ -17,23 +17,30 @@
 6. [Python测试入门.md](notes/Python测试入门.md)
 7. [Git基础入门.md](notes/Git基础入门.md)
 
-## 练习（exercises/）
+## 练习
 
-| 文件 | 内容 |
-|------|------|
-| [ex01_venv_practice.md](exercises/ex01_venv_practice.md) | 创建 venv 与 requirements 实践 |
-| [ex02_typed_functions.py](exercises/ex02_typed_functions.py) | 补全类型注解 |
-| [ex03_pytest_stats/](exercises/ex03_pytest_stats/) | 为统计函数写 pytest |
-| [ex04_debug_journal.md](exercises/ex04_debug_journal.md) | 调试一次并记入 bugs/ |
+清单：[exercises/README.md](exercises/README.md)（含 ex05 迷你工程样板）
 
-参考答案：[solutions/](solutions/)
+```bash
+cd stage-3-engineering/exercises/ex03_pytest_stats
+pytest -q
+cd ../ex05_mini_project
+pytest -q
+python -m greeter_app
+```
+
+## 进阶笔记（可选）
+
+- [进阶-装饰器.md](notes/进阶-装饰器.md)  
+- [进阶-生成器.md](notes/进阶-生成器.md)  
+- [进阶-异步入门.md](notes/进阶-异步入门.md)  
 
 ## 验收标准
 
-- 新环境能：`venv` → `pip install -r requirements.txt` → 跑通脚本
-- 出 bug 时会读 Traceback、会设断点或 `breakpoint()`
-- 至少写过 3 个 pytest 用例并通过
+- venv + requirements 能复现环境  
+- 会读 Traceback；`bugs/` 有记录  
+- pytest 用例通过（ex03 / ex05）  
 
 ## 下一步
 
-[../stage-4-tracks/README.md](../stage-4-tracks/README.md) 选方向，或直接看 [../stage-5-projects/README.md](../stage-5-projects/README.md)
+[../stage-4-tracks/README.md](../stage-4-tracks/README.md)

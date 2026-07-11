@@ -12,9 +12,10 @@
 - pandas 用户指南：https://pandas.pydata.org/docs/user_guide/index.html  
 - 书籍：《利用 Python 进行数据分析》
 
-## 先跑 starter
+## 先跑 starter → 再跑 demo
 
-见 [starter/](starter/)：`pip install -r requirements.txt` → `python main.py`
+- [starter/](starter/)  
+- [demo/](demo/)：分组汇总导出 CSV
 
 ## 最小 demo 选题
 

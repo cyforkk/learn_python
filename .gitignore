@@ -16,6 +16,7 @@ env/
 
 # Testing / tooling
 .pytest_cache/
+**/.pytest_cache/
 .mypy_cache/
 .ruff_cache/
 .coverage
@@ -42,3 +43,5 @@ Thumbs.db
 projects/file-organizer/demo_src/
 projects/api-cli/out.json
 requirements-lock.txt
+stage-4-tracks/automation/demo/todos_sample.json
+stage-4-tracks/data/demo/summary_by_city.csv

@@ -12,9 +12,10 @@
 - 各家 LLM 官方 API 文档  
 - scikit-learn 教程：https://scikit-learn.org/stable/user_guide.html  
 
-## 先跑 starter
+## 先跑 starter → 再跑 demo
 
-见 [starter/](starter/)：无 Key 的关键词助手骨架 → `python main.py`
+- [starter/](starter/)：关键词助手  
+- [demo/](demo/)：情感倾向统计流水线
 
 ## 最小 demo 选题
 

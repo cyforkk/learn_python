@@ -122,3 +122,8 @@ conda install numpy
 | 数据科学、机器学习、需要 CUDA 等 | **Conda** |
 
 **核心原则很简单：** 初学者用 pip 就够了，正式项目上 Poetry 或 uv，数据科学选 Conda。先从一个工具用起，遇到瓶颈再换，不必纠结。
+
+---
+
+## 本仓库学习导航
+对应练习： [ex01](../exercises/ex01_venv_practice.md) [ex05](../exercises/ex05_mini_project/)

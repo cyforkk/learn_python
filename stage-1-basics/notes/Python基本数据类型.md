@@ -157,3 +157,8 @@ list("abc")    # 字符串转列表 → ['a', 'b', 'c']
 ## 怎么记
 
 **从用途出发记，不要死记语法。** 要存数字用 int 或 float，要存文字用 str，要存一组数据用 list，要存键值映射用 dict，要去重用 set，数据不变用 tuple。实际写代码时，类型的选择往往是由业务场景自然决定的。
+
+---
+
+## 本仓库学习导航
+对应练习： [ex03_score_stats](../exercises/ex03_score_stats.py) · 地图：[docs/learning-map.md](../../docs/learning-map.md)

@@ -424,3 +424,8 @@ print(loaded)   # {'张三': 85, '李四': 92, '王五': 78}
 ## 要点
 
 文件读写的核心就四个动作：**开（open）、读/写（read/write）、关（close）**。用 `with` 语句把"关"这件事自动化，永远不用手动 close。读小文件用 `read()`，读大文件用 `for line in f`。写文件注意 `"w"` 覆盖和 `"a"` 追加的区别。CSV 操作记住 `csv.reader` / `csv.DictReader` / `csv.writer` 三个工具。**中文文件一定加 `encoding="utf-8"`**，否则乱码问题会浪费你很多时间。
+
+---
+
+## 本仓库学习导航
+对应练习： [ex01](../exercises/ex01_todo_json.py) [ex02](../exercises/ex02_safe_read.py)

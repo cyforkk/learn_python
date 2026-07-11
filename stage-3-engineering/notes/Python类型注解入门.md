@@ -461,3 +461,8 @@ type JSON = dict[str, str | int | float | bool | None]
 ## 要点
 
 类型注解的核心就两件事：**给参数标类型、给返回值标类型**。变量加 `: 类型`，函数返回值加 `-> 类型`。容器类型用 `list[str]`、`dict[str, int]` 标注元素类型。可选值用 `str | None`，多类型用 `str | int`。类型注解不强制执行，但配合 mypy 可以静态检查。**不必一开始就给所有代码加注解**，从新函数开始，公开 API 优先，简单函数可以不加。先认识、能看懂别人的注解就行，熟练了再给自己的代码加。
+
+---
+
+## 本仓库学习导航
+对应练习： [ex02_typed_functions](../exercises/ex02_typed_functions.py)
