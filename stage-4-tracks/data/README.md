@@ -15,7 +15,19 @@
 ## 先跑 starter → 再跑 demo
 
 - [starter/](starter/)  
-- [demo/](demo/)：分组汇总导出 CSV
+- [demo/](demo/)：分组汇总导出 CSV  
+
+## GitHub：读码与练手
+
+完整表见 → **[docs/stage4-github-projects.md](../../docs/stage4-github-projects.md)**（路线 B）
+
+| 类型 | 仓库 | 你怎么做 |
+|------|------|----------|
+| 课程跟做 | [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) | 按周完成一课 notebook/作业 |
+| 读码 | [jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook) | 选 Pandas/可视化一章复现 |
+| 读用法 | [pandas 用户指南](https://pandas.pydata.org/docs/user_guide/) | 查 groupby / 读写，比硬啃源码有用 |
+| 可视化 | [mwaskom/seaborn](https://github.com/mwaskom/seaborn) | 对照 examples 改本仓库 sales 数据出图 |
+| 数据源 | [Kaggle Datasets](https://www.kaggle.com/datasets) | 下 1 个 CSV 做完整小分析报告 |
 
 ## 最小 demo 选题
 

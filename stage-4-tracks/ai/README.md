@@ -15,7 +15,20 @@
 ## 先跑 starter → 再跑 demo
 
 - [starter/](starter/)：关键词助手  
-- [demo/](demo/)：情感倾向统计流水线
+- [demo/](demo/)：情感倾向统计流水线  
+
+## GitHub：读码与练手
+
+完整表见 → **[docs/stage4-github-projects.md](../../docs/stage4-github-projects.md)**（路线 D）
+
+| 类型 | 仓库 | 你怎么做 |
+|------|------|----------|
+| 课程 | [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) | 按课完成经典 ML 入门（优先于直接啃大库源码） |
+| 课程 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 神经网络与现代 AI 路径 |
+| examples | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 只跑 `examples/`，换成自己的小 CSV |
+| SDK | [openai/openai-python](https://github.com/openai/openai-python) | 看 examples；Key 放 `.env` |
+| 进阶 | [huggingface/transformers](https://github.com/huggingface/transformers) | 按文档跑最小 pipeline，勿一次读完仓库 |
+| 流水线 | [GokuMohandas/Made-With-ML](https://github.com/GokuMohandas/Made-With-ML) | 了解训练到部署的目录思路 |
 
 ## 最小 demo 选题
 
