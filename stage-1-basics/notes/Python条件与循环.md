@@ -702,17 +702,16 @@ else:
     print("不及格")
 ```
 
-### 猜数字游戏
+### 猜数字游戏（与仓库练习相同 · 最简写法）
 
 ```python
 import random
 
 answer = random.randint(1, 100)
-print("猜一个 1-100 之间的数字")
+print("我想了一个 1～100 的数字，你有 7 次机会。")
 
-while True:
-    guess = int(input("你的猜测: "))
-
+for n in range(1, 8):
+    guess = int(input(f"第 {n} 次: "))
     if guess < answer:
         print("太小了")
     elif guess > answer:
@@ -720,15 +719,17 @@ while True:
     else:
         print("猜对了！")
         break
+else:
+    print("次数用完了，答案是", answer)
 ```
 
-### 打印九九乘法表
+### 打印九九乘法表（与仓库练习相同 · 最简写法）
 
 ```python
 for i in range(1, 10):
     for j in range(1, i + 1):
-        print(f"{j}×{i}={j*i}", end="\t")
-    print()    # 换行
+        print(f"{j}*{i}={j * i}", end="  ")
+    print()
 ```
 
 ### 计算 1-100 中所有偶数的和
@@ -764,7 +765,9 @@ print(total)    # 2550
 ---
 
 ## 本仓库学习导航
-- **练习安排：必做**
-  - [ex04 九九表](../exercises/ex04_multiplication_table.py)（建议先做）
-  - [ex01 猜数字](../exercises/ex01_guess_number.py)
+
+- **练习安排：必做**（代码就是上面「最简写法」，没有测试、没有花活）
+  1. [ex04 九九表](../exercises/ex04_multiplication_table.py)（建议先做）
+  2. [ex01 猜数字](../exercises/ex01_guess_number.py)
+- 作业里**没有** `assert` / `_selfcheck`；可选自检在 `exercises/checks/`（可忽略）
 - 新手说明：[../exercises/新手怎么做.md](../exercises/新手怎么做.md)

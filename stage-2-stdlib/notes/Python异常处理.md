@@ -467,10 +467,31 @@ print(result)
 
 ## 要点
 
-异常处理的核心结构就是 **try/except/else/finally** 四块：try 里放可能出错的代码，except 捕获并处理异常，else 在没出错时执行，finally 做收尾清理。日常开发中用得最多的是 **try + except**，else 和 finally 在需要更精细控制时才加。记住三个原则：**能精确捕获就别用 bare except、用 with 替代手动 try/finally 关文件、函数参数不合法时用 raise 主动报错。**
+异常处理日常最常用的就是 **try + except**。`else` / `finally` / 自定义异常以后用到再学。
+
+---
+
+## 本篇对应练习（最简示例 · 与仓库题一致）
+
+请先读完「文件读写」。必做 [ex02](../exercises/ex02_safe_read.py) 就是这种级别：
+
+```python
+path = input("请输入文件路径: ")
+
+try:
+    f = open(path, encoding="utf-8")
+    text = f.read()
+    f.close()
+    print(text)
+except FileNotFoundError:
+    print("文件不存在:", path)
+```
+
+（以后你会学 `with open`，作业先会 `open` + `try` 即可。）
 
 ---
 
 ## 本仓库学习导航
 - **练习安排：必做** [ex02 安全读文件](../exercises/ex02_safe_read.py)  
   （请已读完「文件读写」）
+- 作业是最简单脚本，**不含测试代码**

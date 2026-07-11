@@ -298,8 +298,40 @@ unique = list(set(nums))   # [1, 2, 3, 4]
 
 ---
 
+## 本篇对应练习（最简示例 · 与仓库题一致）
+
+读完本篇再做 [ex03 成绩统计](../exercises/ex03_score_stats.py)。下面就是作业那种写法（普通 for，不用 `max` 高级用法）：
+
+```python
+scores = {
+    "小明": 92,
+    "小红": 78,
+    "小刚": 88,
+    "小丽": 65,
+}
+
+total = 0
+for name in scores:
+    total = total + scores[name]
+avg = total / len(scores)
+print("平均分:", avg)
+
+high_name = ""
+high_score = -1
+for name in scores:
+    if scores[name] > high_score:
+        high_score = scores[name]
+        high_name = name
+print("最高:", high_name, high_score)
+```
+
+通讯录选做题更简单：字典赋值 + `for name in book` 打印。
+
+---
+
 ## 本仓库学习导航
 - **练习安排**
   - **必做** [ex03 成绩统计](../exercises/ex03_score_stats.py)
   - **选做** [ex06 通讯录](../exercises/ex06_contacts.py)
 - 须先读完本篇再做；不要在「基本数据类型」篇后硬做
+- 作业是最简单脚本，**不含测试代码**

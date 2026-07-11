@@ -493,9 +493,33 @@ print(s.get_grade())
 
 ## 要点
 
-面向对象的核心就三件事：**用 class 定义类、用 `__init__` 初始化数据、用实例方法定义行为**。类是蓝图，实例是具体对象，`self` 就是实例自己。数据和操作数据的方法绑在一起，不散落各处。初学阶段掌握 `class` + `__init__` + 实例方法 + `__str__` 就能写出结构清晰的面向对象代码。继承、多态、元类这些高级概念暂时不用碰，等基础扎实了再深入。
+面向对象初学掌握：**class + `__init__` + 普通方法**。继承、多态、`__str__` 以后再深入。
+
+---
+
+## 本篇对应练习（最简示例 · 与仓库题一致）
+
+必做 [ex05](../exercises/ex05_book_class.py)：
+
+```python
+class Book:
+    def __init__(self, title, author, pages):
+        self.title = title
+        self.author = author
+        self.pages = pages
+
+    def info(self):
+        return f"《{self.title}》- {self.author}, {self.pages}页"
+
+    def is_long(self):
+        return self.pages >= 300
+
+b1 = Book("Python 入门", "张三", 200)
+print(b1.info(), "长书?", b1.is_long())
+```
 
 ---
 
 ## 本仓库学习导航
 - **练习安排：必做** [ex05 Book 类](../exercises/ex05_book_class.py)
+- 作业是最简单脚本，**不含测试代码**
