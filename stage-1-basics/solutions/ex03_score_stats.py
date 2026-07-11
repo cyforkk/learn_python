@@ -1,0 +1,41 @@
+"""参考答案：ex03 学生成绩统计。"""
+
+
+def average(scores: dict[str, float]) -> float:
+    if not scores:
+        return 0.0
+    return sum(scores.values()) / len(scores)
+
+
+def top_student(scores: dict[str, float]) -> tuple[str, float]:
+    name = max(scores, key=scores.get)
+    return name, scores[name]
+
+
+def bottom_student(scores: dict[str, float]) -> tuple[str, float]:
+    name = min(scores, key=scores.get)
+    return name, scores[name]
+
+
+def main() -> None:
+    scores = {
+        "Ada": 92.0,
+        "Bob": 78.5,
+        "Cindy": 88.0,
+        "Dan": 65.0,
+    }
+    avg = average(scores)
+    hi_name, hi_score = top_student(scores)
+    lo_name, lo_score = bottom_student(scores)
+
+    print(f"平均分: {avg:.2f}")
+    print(f"最高: {hi_name} {hi_score}")
+    print(f"最低: {lo_name} {lo_score}")
+    print("不低于平均分:")
+    for name, score in scores.items():
+        if score >= avg:
+            print(f"  {name}: {score}")
+
+
+if __name__ == "__main__":
+    main()
