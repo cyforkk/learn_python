@@ -12,6 +12,10 @@
 - Automate the Boring Stuff：https://automatetheboringstuff.com/  
 - requests 文档：https://requests.readthedocs.io/
 
+## 先跑 starter
+
+见 [starter/](starter/)：`pip install -r requirements.txt` → `python main.py`
+
 ## 最小 demo 选题
 
 1. 调用公开 API，把结果存成 JSON/CSV  

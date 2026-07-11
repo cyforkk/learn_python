@@ -20,8 +20,23 @@ def main() -> None:
         Book("短篇集", "Someone", 120),
     ]
     for b in books:
-        print(b.summary(), "| 长书?" , b.is_long())
+        print(b.summary(), "| 长书?", b.is_long())
+
+
+def _selfcheck() -> None:
+    b = Book("Fluent Python", "Luciano", 1000)
+    assert b.summary() == "《Fluent Python》- Luciano, 1000页"
+    assert b.is_long() is True
+    s = Book("短篇", "A", 120)
+    assert s.is_long() is False
+    assert "短篇" in s.summary()
+    print("selfcheck OK")
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+
+    if "--check" in sys.argv:
+        _selfcheck()
+    else:
+        main()

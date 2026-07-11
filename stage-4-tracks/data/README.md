@@ -12,6 +12,10 @@
 - pandas 用户指南：https://pandas.pydata.org/docs/user_guide/index.html  
 - 书籍：《利用 Python 进行数据分析》
 
+## 先跑 starter
+
+见 [starter/](starter/)：`pip install -r requirements.txt` → `python main.py`
+
 ## 最小 demo 选题
 
 1. 读一份 CSV → 清洗空值 → 分组统计 → 导出结果  

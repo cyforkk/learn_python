@@ -4,18 +4,25 @@
 
 ## 可选方向
 
-| 方向 | 目录 | 适合人群 |
-|------|------|----------|
-| 自动化 / 脚本 | [automation/](automation/README.md) | 想尽快提高日常效率 |
-| 数据分析 | [data/](data/README.md) | 表格、统计、可视化 |
-| Web 后端 | [web/](web/README.md) | API、服务端 |
-| AI / LLM 应用 | [ai/](ai/README.md) | 模型调用、智能工具 |
+| 方向 | 说明 | 最小 starter（先跑通） |
+|------|------|------------------------|
+| 自动化 / 脚本 | [automation/](automation/README.md) | [automation/starter/](automation/starter/) |
+| 数据分析 | [data/](data/README.md) | [data/starter/](data/starter/) |
+| Web 后端 | [web/](web/README.md) | [web/starter/](web/starter/) |
+| AI / LLM 应用 | [ai/](ai/README.md) | [ai/starter/](ai/starter/) |
+
+每个 starter 目录内：
+
+```bash
+pip install -r requirements.txt
+python main.py
+```
 
 ## 建议
 
 1. 阶段 1～3 未扎实前，不要同时开三条线  
-2. 每个方向只跟 **一门官方文档或一本教程** 入门  
-3. demo 代码建议放在 `projects/方向名-demo/`  
+2. 先跑通对应 `starter/`，再跟 **一门** 官方文档深入  
+3. 自己的扩展 demo 放在 `projects/方向名-demo/`  
 
 资源总表仍见 [../docs/roadmap.md](../docs/roadmap.md) 第七节。
 

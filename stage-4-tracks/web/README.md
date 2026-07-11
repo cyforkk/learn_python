@@ -11,6 +11,10 @@
 - FastAPI 官方：https://fastapi.tiangolo.com/zh/  
 - Flask 教程：https://flask.palletsprojects.com/
 
+## 先跑 starter
+
+见 [starter/](starter/)：`pip install -r requirements.txt` → `python main.py`
+
 ## 最小 demo 选题
 
 1. 待办事项 REST API（增删改查）  

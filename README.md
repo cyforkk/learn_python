@@ -68,6 +68,14 @@ learn_python/
 | `exercises/` | 题目与待完成 `.py` 骨架 |
 | `solutions/` | 参考答案（做完再看） |
 
+阶段 1～2 练习支持自检：
+
+```bash
+python ex03_score_stats.py --check   # 通过会打印 selfcheck OK
+```
+
+阶段 4 每个方向有 `starter/`，先 `pip install -r requirements.txt` 再 `python main.py`。
+
 ## 快速开始
 
 ```bash

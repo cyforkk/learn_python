@@ -1,14 +1,10 @@
 """
 练习 05：简单 Book 类
 
-要求：
-1. 定义 class Book:
-   - __init__(self, title: str, author: str, pages: int)
-   - summary(self) -> str  返回 "《title》- author, pages页"
-   - is_long(self) -> bool  pages >= 300 为 True
-2. 创建至少 2 本书，打印 summary 与 is_long
+summary 格式： 《title》- author, pages页
+is_long：pages >= 300
 
-运行：python ex05_book_class.py
+自检：python ex05_book_class.py --check
 """
 
 
@@ -31,5 +27,20 @@ def main() -> None:
     pass
 
 
+def _selfcheck() -> None:
+    b = Book("Fluent Python", "Luciano", 1000)
+    assert b.summary() == "《Fluent Python》- Luciano, 1000页"
+    assert b.is_long() is True
+    s = Book("短篇", "A", 120)
+    assert s.is_long() is False
+    assert "短篇" in s.summary()
+    print("selfcheck OK")
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+
+    if "--check" in sys.argv:
+        _selfcheck()
+    else:
+        main()

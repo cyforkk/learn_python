@@ -12,6 +12,10 @@
 - 各家 LLM 官方 API 文档  
 - scikit-learn 教程：https://scikit-learn.org/stable/user_guide.html  
 
+## 先跑 starter
+
+见 [starter/](starter/)：无 Key 的关键词助手骨架 → `python main.py`
+
 ## 最小 demo 选题
 
 1. 命令行「文本摘要 / 翻译」小工具（需自备 API Key，勿提交密钥）  

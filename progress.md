@@ -72,7 +72,8 @@
 
 - [ ] 已阅读 stage-4-tracks/README.md
 - [ ] 已选定方向：自动化 / 数据 / Web / AI（圈一个）
-- [ ] 完成该方向至少 1 个入门小 demo
+- [ ] 跑通该方向 `starter/`（pip install + python main.py）
+- [ ] 完成该方向至少 1 个入门小 demo（可放 projects/）
 
 ## 阶段 5 · 综合项目
 

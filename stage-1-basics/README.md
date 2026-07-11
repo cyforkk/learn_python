@@ -34,10 +34,11 @@
 
 ```bash
 cd stage-1-basics/exercises
-python ex01_guess_number.py
+python ex01_guess_number.py          # 交互运行
+python ex01_guess_number.py --check  # 自检（assert，通过会打印 selfcheck OK）
 ```
 
-参考答案在 [solutions/](solutions/)，**做完再看**。
+实现完核心函数后务必跑 `--check`。参考答案在 [solutions/](solutions/)，**做完再看**。
 
 ## 验收标准
 

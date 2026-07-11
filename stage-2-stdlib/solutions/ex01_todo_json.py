@@ -8,17 +8,17 @@ from pathlib import Path
 DATA_FILE = Path(__file__).with_name("todos.json")
 
 
-def load_todos() -> list[dict]:
-    if not DATA_FILE.exists():
+def load_todos(path: Path = DATA_FILE) -> list[dict]:
+    if not path.exists():
         return []
-    text = DATA_FILE.read_text(encoding="utf-8").strip()
+    text = path.read_text(encoding="utf-8").strip()
     if not text:
         return []
     return json.loads(text)
 
 
-def save_todos(todos: list[dict]) -> None:
-    DATA_FILE.write_text(
+def save_todos(todos: list[dict], path: Path = DATA_FILE) -> None:
+    path.write_text(
         json.dumps(todos, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
@@ -56,5 +56,27 @@ def main() -> None:
         print("未知命令。")
 
 
+def _selfcheck() -> None:
+    import tempfile
+
+    with tempfile.TemporaryDirectory() as tmp:
+        path = Path(tmp) / "t.json"
+        assert load_todos(path) == []
+        todos: list[dict] = []
+        add_todo(todos, "买牛奶")
+        assert len(todos) == 1
+        assert todos[0]["text"] == "买牛奶"
+        assert todos[0]["done"] is False
+        save_todos(todos, path)
+        loaded = load_todos(path)
+        assert loaded[0]["text"] == "买牛奶"
+    print("selfcheck OK")
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+
+    if "--check" in sys.argv:
+        _selfcheck()
+    else:
+        main()

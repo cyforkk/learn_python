@@ -8,12 +8,12 @@ def average(scores: dict[str, float]) -> float:
 
 
 def top_student(scores: dict[str, float]) -> tuple[str, float]:
-    name = max(scores, key=scores.get)
+    name = max(scores, key=scores.get)  # type: ignore[arg-type]
     return name, scores[name]
 
 
 def bottom_student(scores: dict[str, float]) -> tuple[str, float]:
-    name = min(scores, key=scores.get)
+    name = min(scores, key=scores.get)  # type: ignore[arg-type]
     return name, scores[name]
 
 
@@ -37,5 +37,19 @@ def main() -> None:
             print(f"  {name}: {score}")
 
 
+def _selfcheck() -> None:
+    scores = {"Ada": 92.0, "Bob": 78.5, "Cindy": 88.0, "Dan": 65.0}
+    assert abs(average(scores) - 80.875) < 1e-9
+    assert top_student(scores) == ("Ada", 92.0)
+    assert bottom_student(scores) == ("Dan", 65.0)
+    assert average({}) == 0.0
+    print("selfcheck OK")
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+
+    if "--check" in sys.argv:
+        _selfcheck()
+    else:
+        main()

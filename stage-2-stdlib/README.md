@@ -26,7 +26,20 @@
 | [ex04_list_files.py](exercises/ex04_list_files.py) | pathlib 列目录 |
 | [ex05_book_class.py](exercises/ex05_book_class.py) | 简单 Book 类 |
 
-参考答案：[solutions/](solutions/)
+自检：
+
+```bash
+cd stage-2-stdlib/exercises
+python ex01_todo_json.py --check
+python ex02_safe_read.py --check
+cd ex03_mini_package
+python main.py --check
+cd ..
+python ex04_list_files.py --check
+python ex05_book_class.py --check
+```
+
+参考答案：[solutions/](solutions/)，**做完再看**。
 
 ## 验收标准
 

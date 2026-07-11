@@ -3,6 +3,14 @@
 import random
 
 
+def compare_guess(guess: int, answer: int) -> str:
+    if guess < answer:
+        return "low"
+    if guess > answer:
+        return "high"
+    return "ok"
+
+
 def main() -> None:
     answer = random.randint(1, 100)
     max_tries = 7
@@ -16,9 +24,10 @@ def main() -> None:
             print("请输入整数。")
             continue
 
-        if guess < answer:
+        result = compare_guess(guess, answer)
+        if result == "low":
             print("太小了")
-        elif guess > answer:
+        elif result == "high":
             print("太大了")
         else:
             print(f"猜对了！用了 {attempt} 次。")
@@ -27,5 +36,17 @@ def main() -> None:
     print(f"次数用尽。正确答案是 {answer}。")
 
 
+def _selfcheck() -> None:
+    assert compare_guess(10, 50) == "low"
+    assert compare_guess(90, 50) == "high"
+    assert compare_guess(50, 50) == "ok"
+    print("selfcheck OK")
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+
+    if "--check" in sys.argv:
+        _selfcheck()
+    else:
+        main()

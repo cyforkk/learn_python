@@ -24,5 +24,21 @@ def main() -> None:
         print(content[:200])
 
 
+def _selfcheck() -> None:
+    import tempfile
+
+    with tempfile.TemporaryDirectory() as tmp:
+        p = Path(tmp) / "a.txt"
+        p.write_text("hello中文", encoding="utf-8")
+        assert read_text_safe(p) == "hello中文"
+        assert read_text_safe(Path(tmp) / "missing.txt") is None
+    print("selfcheck OK")
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+
+    if "--check" in sys.argv:
+        _selfcheck()
+    else:
+        main()

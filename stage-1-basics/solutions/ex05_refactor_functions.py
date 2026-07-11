@@ -21,5 +21,23 @@ def main() -> None:
         print(summarize(name, score))
 
 
+def _selfcheck() -> None:
+    assert grade_level(95) == "A"
+    assert grade_level(85) == "B"
+    assert grade_level(70) == "C"
+    assert grade_level(50) == "D"
+    assert grade_level(90) == "A"
+    assert grade_level(80) == "B"
+    assert grade_level(60) == "C"
+    s = summarize("Ada", 92.0)
+    assert "Ada" in s and "A" in s and "92" in s
+    print("selfcheck OK")
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+
+    if "--check" in sys.argv:
+        _selfcheck()
+    else:
+        main()

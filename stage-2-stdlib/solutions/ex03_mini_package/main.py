@@ -8,5 +8,16 @@ def main() -> None:
     print(greet(name))
 
 
+def _selfcheck() -> None:
+    assert greet("Ada") == "Hello, Ada!"
+    assert greet("World") == "Hello, World!"
+    print("selfcheck OK")
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+
+    if "--check" in sys.argv:
+        _selfcheck()
+    else:
+        main()

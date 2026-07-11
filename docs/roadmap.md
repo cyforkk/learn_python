@@ -3,6 +3,21 @@
 > 目标：用最短路径建立可写脚本、能读文档、会查资料的 Python 能力，而不是一次性学完全部标准库。  
 > 适合：零基础 / 其他语言转 Python / 想快速上手自动化、数据处理、Web 或 AI 的初学者。
 
+## 本仓库导航（按阶段学）
+
+| 阶段 | 目录 | 说明 |
+|------|------|------|
+| 总入口 | [../README.md](../README.md) | 怎么用本仓库 |
+| 进度勾选 | [../progress.md](../progress.md) | 打勾清单 |
+| 0 环境 | [../stage-0-setup/README.md](../stage-0-setup/README.md) | 安装与跑通第一行 |
+| 1 语法核心 | [../stage-1-basics/README.md](../stage-1-basics/README.md) | 笔记 + 练习 + 答案 |
+| 2 标准库 | [../stage-2-stdlib/README.md](../stage-2-stdlib/README.md) | 文件 / 异常 / 模块 / OOP |
+| 3 工程习惯 | [../stage-3-engineering/README.md](../stage-3-engineering/README.md) | venv / 测试 / 调试 / Git |
+| 4 方向分支 | [../stage-4-tracks/README.md](../stage-4-tracks/README.md) | 自动化 / 数据 / Web / AI |
+| 5 综合项目 | [../stage-5-projects/README.md](../stage-5-projects/README.md) | 项目规格与实战笔记 |
+
+学习节奏：读 `notes/` → 做 `exercises/` → `python xxx.py --check` 自检 → 对照 `solutions/` → 在 [progress.md](../progress.md) 打勾。
+
 ---
 
 ## 一、你需要先建立的正确预期
@@ -19,6 +34,8 @@
 ---
 
 ## 二、环境准备（第 0 天，约 1～2 小时）
+
+> 仓库内步骤清单：[stage-0-setup](../stage-0-setup/README.md)
 
 ### 2.1 安装
 
@@ -72,17 +89,17 @@ pip install requests
 ## 三、学习路线总览（建议 6～12 周）
 
 ```
-阶段 0  环境 + 会跑代码
+阶段 0  环境 + 会跑代码          → stage-0-setup/
    ↓
-阶段 1  语法核心（能写小脚本）
+阶段 1  语法核心（能写小脚本）    → stage-1-basics/
    ↓
-阶段 2  标准库 + 文件 / 异常 / 模块
+阶段 2  标准库 + 文件/异常/模块   → stage-2-stdlib/
    ↓
-阶段 3  工程习惯（venv、包管理、测试、调试）
+阶段 3  工程习惯                  → stage-3-engineering/
    ↓
-阶段 4  方向分支（自动化 / 数据 / Web / AI）
+阶段 4  方向分支                  → stage-4-tracks/
    ↓
-阶段 5  项目实战 + 持续精进
+阶段 5  项目实战 + 持续精进       → stage-5-projects/ + projects/
 ```
 
 时间可按每天 1～2 小时估算；全职加速可压缩到 3～4 周。
@@ -91,7 +108,20 @@ pip install requests
 
 ## 四、分阶段详细路线
 
+### 阶段 0：环境准备
+
+→ **[stage-0-setup/README.md](../stage-0-setup/README.md)**
+
+安装 Python、编辑器，跑通 `print("Hello, Python!")`。
+
+---
+
 ### 阶段 1：语法核心（约 1～2 周）
+
+→ **入口**：[stage-1-basics/README.md](../stage-1-basics/README.md)  
+→ **笔记**：[stage-1-basics/notes/](../stage-1-basics/notes/)  
+→ **练习**：[stage-1-basics/exercises/](../stage-1-basics/exercises/)（完成后 `python ex0x_xxx.py --check`）  
+→ **答案**：[stage-1-basics/solutions/](../stage-1-basics/solutions/)
 
 **学什么**
 
@@ -109,22 +139,30 @@ pip install requests
 8. 函数：`def`、参数、返回值、默认参数
 9. 作用域基础（局部 / 全局）
 
-**练什么（每天至少一个）**
+**练什么（仓库内对应题）**
 
-- 猜数字游戏
-- 简单计算器
-- 学生成绩字典：增删查、求平均
-- 九九乘法表 / 斐波那契 / 质数判断
-- 把一段重复代码改成函数
+| 练习 | 文件 |
+|------|------|
+| 猜数字（限次） | [ex01_guess_number.py](../stage-1-basics/exercises/ex01_guess_number.py) |
+| 简易计算器 | [ex02_calculator.py](../stage-1-basics/exercises/ex02_calculator.py) |
+| 学生成绩统计 | [ex03_score_stats.py](../stage-1-basics/exercises/ex03_score_stats.py) |
+| 九九乘法表 | [ex04_multiplication_table.py](../stage-1-basics/exercises/ex04_multiplication_table.py) |
+| 函数小重构 | [ex05_refactor_functions.py](../stage-1-basics/exercises/ex05_refactor_functions.py) |
 
 **验收标准**
 
 - 不看笔记能写出：`for` 遍历列表、字典读写、自定义函数
 - 能解释：可变 vs 不可变（list vs tuple/str）
+- 相关练习 `--check` 全部通过
 
 ---
 
 ### 阶段 2：能干活的 Python（约 1～2 周）
+
+→ **入口**：[stage-2-stdlib/README.md](../stage-2-stdlib/README.md)  
+→ **笔记**：[stage-2-stdlib/notes/](../stage-2-stdlib/notes/)  
+→ **练习**：[stage-2-stdlib/exercises/](../stage-2-stdlib/exercises/)  
+→ **答案**：[stage-2-stdlib/solutions/](../stage-2-stdlib/solutions/)
 
 **学什么**
 
@@ -143,22 +181,31 @@ pip install requests
    - `class`、`__init__`、实例方法
    - 不必先深挖继承/元类
 
-**练什么**
+**练什么（仓库内对应题）**
 
-- 批量重命名某个文件夹里的文件
-- 读一个 JSON / CSV，做统计后写回文件
-- 写一个命令行小工具（如待办清单）
-- 用类建模「图书 / 用户 / 订单」中的一种
+| 练习 | 文件 |
+|------|------|
+| JSON 待办 | [ex01_todo_json.py](../stage-2-stdlib/exercises/ex01_todo_json.py) |
+| 安全读文件 | [ex02_safe_read.py](../stage-2-stdlib/exercises/ex02_safe_read.py) |
+| 小模块拆分 | [ex03_mini_package/](../stage-2-stdlib/exercises/ex03_mini_package/) |
+| pathlib 列目录 | [ex04_list_files.py](../stage-2-stdlib/exercises/ex04_list_files.py) |
+| Book 类 | [ex05_book_class.py](../stage-2-stdlib/exercises/ex05_book_class.py) |
 
 **验收标准**
 
 - 会用 `with open(...)` 安全读写文件
 - 会处理「文件不存在」等常见异常
 - 能把一个脚本拆成 2～3 个 `.py` 模块
+- 相关练习 `--check` 全部通过
 
 ---
 
 ### 阶段 3：工程习惯（约 1 周，可与阶段 2 并行）
+
+→ **入口**：[stage-3-engineering/README.md](../stage-3-engineering/README.md)  
+→ **笔记**：[stage-3-engineering/notes/](../stage-3-engineering/notes/)  
+→ **练习**：[stage-3-engineering/exercises/](../stage-3-engineering/exercises/)  
+→ **答案**：[stage-3-engineering/solutions/](../stage-3-engineering/solutions/)
 
 **学什么**
 
@@ -173,8 +220,10 @@ pip install requests
 
 **练什么**
 
-- 给「待办清单」加上：依赖文件 + README + 简单测试
-- 刻意制造 bug，用调试器定位
+- [ex01 venv 实践](../stage-3-engineering/exercises/ex01_venv_practice.md)
+- [ex02 类型注解](../stage-3-engineering/exercises/ex02_typed_functions.py)
+- [ex03 pytest](../stage-3-engineering/exercises/ex03_pytest_stats/)
+- [ex04 调试日记](../stage-3-engineering/exercises/ex04_debug_journal.md)
 
 **验收标准**
 
@@ -185,9 +234,13 @@ pip install requests
 
 ### 阶段 4：方向分支（选 1 条主线，约 2～4 周）
 
-先选 **一个** 方向深挖，其他方向以后再扩。
+→ **入口**：[stage-4-tracks/README.md](../stage-4-tracks/README.md)
+
+先选 **一个** 方向深挖，其他方向以后再扩。每个方向有 **20 行级 starter**，先 `pip install -r requirements.txt` 再跑通。
 
 #### 路线 A：自动化 / 脚本（上手最快）
+
+→ [automation/](../stage-4-tracks/automation/README.md) · starter：[automation/starter/](../stage-4-tracks/automation/starter/)
 
 | 主题 | 库 / 技能 |
 |------|-----------|
@@ -201,6 +254,8 @@ pip install requests
 
 #### 路线 B：数据分析
 
+→ [data/](../stage-4-tracks/data/README.md) · starter：[data/starter/](../stage-4-tracks/data/starter/)
+
 | 主题 | 库 / 技能 |
 |------|-----------|
 | 表格数据 | `pandas` |
@@ -211,6 +266,8 @@ pip install requests
 **小项目**：一份 CSV 的清洗 → 统计 → 出 3 张图 → 写结论。
 
 #### 路线 C：Web 后端
+
+→ [web/](../stage-4-tracks/web/README.md) · starter：[web/starter/](../stage-4-tracks/web/starter/)
 
 | 主题 | 库 / 技能 |
 |------|-----------|
@@ -223,6 +280,8 @@ pip install requests
 
 #### 路线 D：AI / 机器学习入门
 
+→ [ai/](../stage-4-tracks/ai/README.md) · starter：[ai/starter/](../stage-4-tracks/ai/starter/)
+
 | 主题 | 库 / 技能 |
 |------|-----------|
 | 基础数学直觉 | 向量、梯度（够用即可） |
@@ -234,6 +293,8 @@ pip install requests
 
 #### 路线 E：爬虫 / 数据抓取（注意法律与网站条款）
 
+可先走 **路线 A starter**（`requests`），再按需加解析库。
+
 | 主题 | 技能 |
 |------|------|
 | 请求与解析 | `requests` + `BeautifulSoup` / `lxml` |
@@ -243,6 +304,11 @@ pip install requests
 ---
 
 ### 阶段 5：项目实战与持续精进（长期）
+
+→ **入口**：[stage-5-projects/README.md](../stage-5-projects/README.md)  
+→ **笔记**：[stage-5-projects/notes/](../stage-5-projects/notes/)  
+→ **项目规格**：[stage-5-projects/exercises/](../stage-5-projects/exercises/)  
+→ **你的代码**：[projects/](../projects/README.md)
 
 **如何选题（优先级从高到低）**
 
@@ -493,16 +559,32 @@ print(r.status_code)
 
 ## 十二、文档使用建议（本仓库）
 
-如果你在本仓库 `learn_python` 中自学，可以按下面方式落地：
+本仓库实际结构（请按这个走，不要再用旧的根目录平铺笔记）：
 
 ```
 learn_python/
-├── Python速成-学习路线与资源.md   # 本文件
-├── notes/                         # 每天学习笔记
-├── exercises/                     # 阶段练习
-├── projects/                      # 阶段项目
-└── bugs/                          # 踩坑记录（推荐）
+├── README.md                 # 总入口
+├── progress.md               # 进度勾选
+├── docs/roadmap.md           # 本文件
+├── stage-0-setup/            # 环境
+├── stage-1-basics/           # notes + exercises + solutions
+├── stage-2-stdlib/
+├── stage-3-engineering/
+├── stage-4-tracks/           # 各方向 README + starter/
+├── stage-5-projects/         # 实战笔记 + 项目规格
+├── notes/                    # 你的学习日记（模板 _template.md）
+├── bugs/                     # 踩坑记录
+└── projects/                 # 你自己的项目代码
 ```
+
+| 你想… | 去这里 |
+|--------|--------|
+| 从头学 | [../stage-0-setup/README.md](../stage-0-setup/README.md) |
+| 做语法练习 | [../stage-1-basics/exercises/](../stage-1-basics/exercises/) |
+| 自检对不对 | `python 某练习.py --check` |
+| 选方向试跑 | [../stage-4-tracks/](../stage-4-tracks/README.md) 下各 `starter/` |
+| 做完整项目 | [../stage-5-projects/exercises/](../stage-5-projects/exercises/) → 代码放 [../projects/](../projects/) |
+| 记笔记/踩坑 | [../notes/_template.md](../notes/_template.md)、[../bugs/_template.md](../bugs/_template.md) |
 
 每完成一个阶段，在 `notes/` 写一篇：
 
@@ -510,7 +592,7 @@ learn_python/
 2. 写了什么代码  
 3. 卡在哪里、怎么解决  
 
-**记住**：资源再多，也不如「一个能跑的小项目」。从今天起，先跑通 `print("Hello, Python!")`，再按阶段 1 写第一个小练习。
+**记住**：资源再多，也不如「一个能跑的小项目」。从今天起，先跑通 [stage-0](../stage-0-setup/README.md)，再做 [stage-1 ex01](../stage-1-basics/exercises/ex01_guess_number.py)。
 
 ---
 
@@ -551,6 +633,7 @@ KeyError: 'name'
 | 文档主题 | Python 速成学习路线与资源 |
 | 面向 | 零基础到可独立做小项目 |
 | 建议 Python 版本 | 3.11+（推荐 3.12） |
+| 仓库形态 | 分阶段 `stage-*` 自学跟练（A1：笔记可有示例，练习独立完成） |
 | 维护建议 | 方向资源随官方文档更新；路线骨架可长期沿用 |
 
 ---

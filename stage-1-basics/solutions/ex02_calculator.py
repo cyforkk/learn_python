@@ -42,5 +42,24 @@ def main() -> None:
             print("结果:", result)
 
 
+def _selfcheck() -> None:
+    assert calculate(3, "+", 4) == 7
+    assert calculate(10, "-", 3) == 7
+    assert calculate(2, "*", 5) == 10
+    assert calculate(8, "/", 2) == 4
+    assert calculate(1, "/", 0) is None
+    try:
+        calculate(1, "^", 2)
+        raise AssertionError("应抛出 ValueError")
+    except ValueError:
+        pass
+    print("selfcheck OK")
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+
+    if "--check" in sys.argv:
+        _selfcheck()
+    else:
+        main()
