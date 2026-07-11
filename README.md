@@ -1,80 +1,76 @@
 # Python 速成学习仓库
 
-从零基础到能独立完成小项目的 **自学跟练型** 仓库（MIT License）。
+用练习和项目巩固 Python 的 **自学跟练型** 仓库（MIT License）。
+
+> **默认你已经装好 Python 3.10+**，会在终端运行 `python` / `py`。  
+> 不把「装环境」当主线——卡住时再查可选附录即可。
 
 > 笔记里有完整示例；练习在 `exercises/` 完成，做完再看 `solutions/`。  
-> 学习地图（笔记↔练习）：[docs/learning-map.md](docs/learning-map.md)
+> 学习地图：[docs/learning-map.md](docs/learning-map.md)
 
 ## 你将获得
 
-- 分阶段路径、主题笔记、难度与时长标注  
-- 可自检练习（`--check` / pytest）+ 参考答案  
-- 四方向 starter + 中型 demo  
-- 三个综合项目（`projects/`）  
-- FAQ、Windows 专文、一键自检脚本  
+- 分阶段路径、主题笔记、练习与参考答案  
+- 四方向学习路线 + starter/demo + GitHub 清单  
+- 综合项目与 FAQ  
 
-## 环境要求
-
-- Python **3.10+** 可学（推荐 3.11 / 3.12）  
-- 编辑器：VS Code + Python 扩展，或 PyCharm Community  
-- Git  
+## 前提（默认已满足）
 
 ```bash
-py -3 --version
-# 或 python --version
+python --version   # 或 py -3 --version  → 3.10+
 ```
 
-Windows 细节：[docs/windows-setup.md](docs/windows-setup.md)
+装不上、PATH 乱、编码问题 → 再看可选文档 [stage-0-setup](stage-0-setup/README.md) / [docs/windows-setup.md](docs/windows-setup.md)（**可整段跳过**）。
 
 ## 怎么学
 
 ```
-1. docs/roadmap.md 与 docs/learning-map.md
-2. stage-0 → stage-3（语法 + 标准库 + 工程）
-3. stage-4 选一条方向：starter → demo
+1. docs/roadmap.md 或 docs/learning-map.md
+2. stage-1 → stage-3（语法 → 标准库 → 工程习惯）
+3. stage-4 选一条方向（已有基础可直接进）
 4. stage-5 / projects/ 做完整项目
-5. progress.md 打勾 · bugs/ 记坑 · notes/ 写日记
+5. progress.md 打勾
 ```
 
-阶段内：`读 notes/` → `做 exercises/` → `python xxx.py --check` → `对照 solutions/`
+阶段内：`读 notes/` → `做 exercises/` → `python xxx.py --check` → 对照 `solutions/`
 
-**先别抄 solutions。** 错题见 [docs/faq-common-mistakes.md](docs/faq-common-mistakes.md)。
+**先别抄 solutions。** 错题：[docs/faq-common-mistakes.md](docs/faq-common-mistakes.md)。
 
 ## 快速开始
 
 ```bash
 cd learn_python
-py -3 -m venv .venv
-# Windows PowerShell
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements-dev.txt
 
-py -3 stage-0-setup/hello.py
-py -3 scripts/check_all.py
+# 直接开练（已有 Python 即可）
+cd stage-1-basics/exercises
+python ex01_guess_number.py --check
+
+# 可选：装开发依赖并一键自检
+# pip install -r requirements-dev.txt
+# python scripts/check_all.py
 ```
+
+`venv` 等在 **stage-3** 系统学；平时本地有 Python 就能做练习。
 
 ## 仓库结构
 
 ```
 learn_python/
-├── README.md / LICENSE / CONTRIBUTING.md
-├── progress.md
-├── requirements-dev.txt
-├── scripts/check_all.py
-├── docs/          # roadmap · learning-map · FAQ · windows-setup
-├── stage-0-setup/ … stage-5-projects/
+├── README.md · progress.md · docs/
+├── stage-1-basics/ … stage-5-projects/   # 主线
+├── stage-0-setup/                        # 可选：环境附录
 ├── notes/ · bugs/ · projects/
-└── .github/workflows/ci.yml
+└── scripts/check_all.py
 ```
 
 | 阶段 | 目录 | 内容 |
 |------|------|------|
-| 0 | [stage-0-setup](stage-0-setup/README.md) | 安装、编码、hello |
-| 1 | [stage-1-basics](stage-1-basics/README.md) | 语法 · 6 题 |
-| 2 | [stage-2-stdlib](stage-2-stdlib/README.md) | 文件/模块/OOP · 6 题 |
-| 3 | [stage-3-engineering](stage-3-engineering/README.md) | venv/测试/Git · 进阶笔记 |
-| 4 | [stage-4-tracks](stage-4-tracks/README.md) | [四方向学习路线](docs/stage4-paths/README.md) · [GitHub 清单](docs/stage4-github-projects.md) |
-| 5 | [stage-5-projects](stage-5-projects/README.md) | 项目规格 · 实现在 projects/ |
+| ~~0~~ | [stage-0-setup](stage-0-setup/README.md) | **可选**环境附录（默认可跳过） |
+| 1 | [stage-1-basics](stage-1-basics/README.md) | 语法 · 练习 |
+| 2 | [stage-2-stdlib](stage-2-stdlib/README.md) | 文件/模块/OOP |
+| 3 | [stage-3-engineering](stage-3-engineering/README.md) | venv/测试/Git（需要时再学） |
+| 4 | [stage-4-tracks](stage-4-tracks/README.md) | [方向路线](docs/stage4-paths/README.md) · [GitHub](docs/stage4-github-projects.md) |
+| 5 | [stage-5-projects](stage-5-projects/README.md) | 项目规格 · `projects/` |
 
 完整路线：[docs/roadmap.md](docs/roadmap.md)
 

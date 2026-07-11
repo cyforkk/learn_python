@@ -1,7 +1,7 @@
-# Windows 环境专文
+# Windows 环境专文（可选附录）
 
-> 对应阶段：[stage-0-setup](../stage-0-setup/README.md)  
-> Python **3.10+** 可学，文档推荐 3.11/3.12。
+> **默认可不读。** 本仓库假定你已能运行 Python。  
+> 仅当安装/PATH/乱码出问题再看。索引：[stage-0-setup](../stage-0-setup/README.md)
 
 ## 1. 安装 Python
 

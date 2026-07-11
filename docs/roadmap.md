@@ -1,7 +1,8 @@
-# Python 速成：从零开始的学习路线与资源
+# Python 速成：学习路线与资源
 
-> 目标：用最短路径建立可写脚本、能读文档、会查资料的 Python 能力，而不是一次性学完全部标准库。  
-> 适合：零基础 / 其他语言转 Python / 想快速上手自动化、数据处理、Web 或 AI 的初学者。
+> 目标：用最短路径建立可写脚本、能读文档、会查资料的 Python 能力。  
+> **默认已会运行 Python**；环境安装不是主线。  
+> 适合：有一点基础或装好 Python 后想系统练；方向阶段见 stage-4。
 
 ## 本仓库导航（按阶段学）
 
@@ -11,16 +12,14 @@
 | 进度勾选 | [../progress.md](../progress.md) | 打勾清单 |
 | 学习地图 | [learning-map.md](learning-map.md) | 笔记↔练习↔难度时长 |
 | FAQ 错题 | [faq-common-mistakes.md](faq-common-mistakes.md) | 常见报错 |
-| Windows | [windows-setup.md](windows-setup.md) | PATH / venv / 编码 |
-| 0 环境 | [../stage-0-setup/README.md](../stage-0-setup/README.md) | 安装与跑通第一行 |
-| 1 语法核心 | [../stage-1-basics/README.md](../stage-1-basics/README.md) | 笔记 + 练习 + 答案 |
+| ~~0 环境~~ | [../stage-0-setup/README.md](../stage-0-setup/README.md) | **可选附录**（装不上再看） |
+| 1 语法核心 | [../stage-1-basics/README.md](../stage-1-basics/README.md) | **主线起点** · 笔记 + 练习 |
 | 2 标准库 | [../stage-2-stdlib/README.md](../stage-2-stdlib/README.md) | 文件 / 异常 / 模块 / OOP |
 | 3 工程习惯 | [../stage-3-engineering/README.md](../stage-3-engineering/README.md) | venv / 测试 / 调试 / Git |
-| 4 方向分支 | [../stage-4-tracks/README.md](../stage-4-tracks/README.md) | [各方向路线](stage4-paths/README.md) + starter/demo + [GitHub](stage4-github-projects.md) |
+| 4 方向分支 | [../stage-4-tracks/README.md](../stage-4-tracks/README.md) | [各方向路线](stage4-paths/README.md) + GitHub |
 | 5 综合项目 | [../stage-5-projects/README.md](../stage-5-projects/README.md) | 项目规格与实战笔记 |
 
-学习节奏：读 `notes/` → 做 `exercises/` → `python xxx.py --check` 自检 → 对照 `solutions/` → 在 [progress.md](../progress.md) 打勾。  
-一键检查：`pip install -r requirements-dev.txt` 后 `python scripts/check_all.py`。
+学习节奏：读 `notes/` → 做 `exercises/` → `python xxx.py --check` → 对照 `solutions/` → [progress.md](../progress.md) 打勾。
 
 ---
 
@@ -37,88 +36,36 @@
 
 ---
 
-## 二、环境准备（第 0 天，约 1～2 小时）
+## 二、环境（可选 · 默认跳过）
 
-> 仓库内步骤清单：[stage-0-setup](../stage-0-setup/README.md)
+本仓库**默认已有 Python 3.10+**。  
+仅当 `python`/`py` 不可用时，再看：[stage-0-setup](../stage-0-setup/README.md)、[windows-setup.md](windows-setup.md)。
 
-### 2.1 安装
-
-1. 安装 **Python 3.11+**（推荐 3.12）  
-   - 官网：https://www.python.org/downloads/  
-   - Windows：安装时勾选 **Add python.exe to PATH**
-2. 验证：
-   ```bash
-   python --version
-   # 或
-   py --version
-   ```
-3. 安装编辑器（二选一即可）：
-   - **VS Code** + 扩展 *Python*（微软官方）
-   - **PyCharm Community**（免费）
-
-### 2.2 第一次运行
-
-创建 `hello.py`：
-
-```python
-print("Hello, Python!")
-```
-
-运行：
-
-```bash
-python hello.py
-```
-
-### 2.3 建议马上学会的工具
-
-| 工具 | 用途 | 何时学 |
-|------|------|--------|
-| `pip` | 安装第三方库 | 第 1 周 |
-| 虚拟环境 `venv` | 隔离项目依赖 | 第 1～2 周 |
-| `python -m venv .venv` | 创建虚拟环境 | 第 1～2 周 |
-| 调试器 / `print` / 断点 | 查 bug | 从第一周起持续用 |
-
-虚拟环境最小示例：
-
-```bash
-python -m venv .venv
-# Windows PowerShell
-.\.venv\Scripts\Activate.ps1
-pip install requests
-```
+`pip` / `venv` 在 **阶段 3** 系统练习；做 stage-1 练习通常本机 Python 足够。
 
 ---
 
 ## 三、学习路线总览（建议 6～12 周）
 
 ```
-阶段 0  环境 + 会跑代码          → stage-0-setup/
-   ↓
-阶段 1  语法核心（能写小脚本）    → stage-1-basics/
+阶段 1  语法核心（主线起点）      → stage-1-basics/
    ↓
 阶段 2  标准库 + 文件/异常/模块   → stage-2-stdlib/
    ↓
-阶段 3  工程习惯                  → stage-3-engineering/
+阶段 3  工程习惯（venv/测试/Git） → stage-3-engineering/
    ↓
 阶段 4  方向分支                  → stage-4-tracks/
    ↓
-阶段 5  项目实战 + 持续精进       → stage-5-projects/ + projects/
+阶段 5  项目实战                  → stage-5-projects/ + projects/
+
+（可选附录）stage-0-setup — 仅环境故障时查阅
 ```
 
-时间可按每天 1～2 小时估算；全职加速可压缩到 3～4 周。
+时间可按每天 1～2 小时估算。
 
 ---
 
 ## 四、分阶段详细路线
-
-### 阶段 0：环境准备
-
-→ **[stage-0-setup/README.md](../stage-0-setup/README.md)**
-
-安装 Python、编辑器，跑通 `print("Hello, Python!")`。
-
----
 
 ### 阶段 1：语法核心（约 1～2 周）
 
