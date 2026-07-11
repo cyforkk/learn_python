@@ -2,7 +2,7 @@
 
 测试在 [checks/](checks/)，**不是作业**。
 
-## 必做
+## 过关（必做）
 
 | 文件 | 先读 |
 |------|------|
@@ -10,7 +10,7 @@
 | [ex03_mini_package/](ex03_mini_package/) | 模块与包（在该目录运行 `python main.py`） |
 | [ex05_book_class.py](ex05_book_class.py) | 面向对象 |
 
-## 选做
+## 加练（可选）
 
 ex01 JSON 待办 · ex04 列目录 · ex06 重命名计划  
 

@@ -502,7 +502,7 @@ log("操作完成", "DEBUG")     # [DEBUG] 操作完成
 
 ## 本篇对应练习（最简示例 · 与仓库题一致）
 
-**必做** [ex05](../exercises/ex05_refactor_functions.py) 就是这样（整题就这些）：
+**过关** [ex05](../exercises/ex05_refactor_functions.py) 就是这样（整题就这些）：
 
 ```python
 def level(score):
@@ -519,13 +519,13 @@ print("小红", 78, "->", level(78))
 print("小刚", 55, "->", level(55))
 ```
 
-**选做** 计算器：一个 `while True` + `if op == "+"` 等，见 [ex02](../exercises/ex02_calculator.py)。
+**加练** 计算器：一个 `while True` + `if op == "+"` 等，见 [ex02](../exercises/ex02_calculator.py)。
 
 ---
 
 ## 本仓库学习导航
 - **练习安排**
-  - **必做** [ex05 函数等级](../exercises/ex05_refactor_functions.py)
-  - **选做** [ex02 计算器](../exercises/ex02_calculator.py)
+  - **过关** [ex05 函数等级](../exercises/ex05_refactor_functions.py)
+  - **加练** [ex02 计算器](../exercises/ex02_calculator.py)
 - 作用域无需单独做题，读 [Python作用域.md](Python作用域.md) 即可
 - 作业是最简单脚本，**不含测试代码**

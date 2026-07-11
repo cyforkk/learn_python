@@ -10,7 +10,7 @@
 |------|------|------|
 | 总入口 | [../README.md](../README.md) | 怎么用本仓库 |
 | 进度勾选 | [../progress.md](../progress.md) | 打勾清单 |
-| 学习地图 | [learning-map.md](learning-map.md) | 笔记↔练习（含「无/必做/选做」） |
+| 学习地图 | [learning-map.md](learning-map.md) | 笔记↔练习（含「无/过关/加练」） |
 | 练习原则 | [exercise-policy.md](exercise-policy.md) | 不是每篇笔记都有题 |
 | FAQ 错题 | [faq-common-mistakes.md](faq-common-mistakes.md) | 常见报错 |
 | ~~0 环境~~ | [../stage-0-setup/README.md](../stage-0-setup/README.md) | **可选附录**（装不上再看） |

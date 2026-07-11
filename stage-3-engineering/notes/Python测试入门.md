@@ -496,5 +496,5 @@ pytest -s
 ---
 
 ## 本仓库学习导航
-- **练习安排：选做** [ex03 pytest](../exercises/ex03_pytest_stats/)  
+- **练习安排：加练** [ex03 pytest](../exercises/ex03_pytest_stats/)  
   **可以整段不做**；测试不是语法入门必选项

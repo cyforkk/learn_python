@@ -437,5 +437,5 @@ print(greet(name))
 ---
 
 ## 本仓库学习导航
-- **练习安排：必做** [ex03 小模块](../exercises/ex03_mini_package/)
+- **练习安排：过关** [ex03 小模块](../exercises/ex03_mini_package/)
 - 作业是最简单脚本，**不含测试代码**

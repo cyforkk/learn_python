@@ -3,7 +3,7 @@
 > 作业文件 = 普通 Python 脚本。  
 > **测试在 [checks/](checks/)，与作业分离，新手请忽略。**
 
-## 必做
+## 过关（必做）
 
 | 文件 | 先读 | 说明 |
 |------|------|------|
@@ -12,9 +12,11 @@
 | [ex03_score_stats.py](ex03_score_stats.py) | 复合类型 | 字典 + for |
 | [ex05_refactor_functions.py](ex05_refactor_functions.py) | 函数 | 一个小函数 |
 
-## 选做
+## 加练（可选 · 难度往往 ≈ 过关题）
 
-[ex02_calculator.py](ex02_calculator.py) · [ex06_contacts.py](ex06_contacts.py)
+[ex02_calculator.py](ex02_calculator.py) · [ex06_contacts.py](ex06_contacts.py)  
+
+加练 = 多练一会，**不是**更难的进阶题。详见 [exercise-policy.md](../../docs/exercise-policy.md)。
 
 ## 无题笔记
 

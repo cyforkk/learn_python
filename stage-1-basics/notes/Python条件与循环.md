@@ -766,7 +766,7 @@ print(total)    # 2550
 
 ## 本仓库学习导航
 
-- **练习安排：必做**（代码就是上面「最简写法」，没有测试、没有花活）
+- **练习安排：过关**（代码就是上面「最简写法」，没有测试、没有花活）
   1. [ex04 九九表](../exercises/ex04_multiplication_table.py)（建议先做）
   2. [ex01 猜数字](../exercises/ex01_guess_number.py)
 - 作业里**没有** `assert` / `_selfcheck`；可选自检在 `exercises/checks/`（可忽略）

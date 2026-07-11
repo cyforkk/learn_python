@@ -521,5 +521,5 @@ print(b1.info(), "长书?", b1.is_long())
 ---
 
 ## 本仓库学习导航
-- **练习安排：必做** [ex05 Book 类](../exercises/ex05_book_class.py)
+- **练习安排：过关** [ex05 Book 类](../exercises/ex05_book_class.py)
 - 作业是最简单脚本，**不含测试代码**

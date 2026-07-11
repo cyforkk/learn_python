@@ -492,6 +492,6 @@ except FileNotFoundError:
 ---
 
 ## 本仓库学习导航
-- **练习安排：必做** [ex02 安全读文件](../exercises/ex02_safe_read.py)  
+- **练习安排：过关** [ex02 安全读文件](../exercises/ex02_safe_read.py)  
   （请已读完「文件读写」）
 - 作业是最简单脚本，**不含测试代码**

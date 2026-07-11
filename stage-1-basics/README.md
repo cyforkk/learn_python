@@ -27,10 +27,10 @@
 | 1 | [基本数据类型](notes/Python基本数据类型.md) | **无**（只了解） |
 | 2 | [输入输出](notes/Python输入输出.md) | **无** |
 | 3 | [运算符与表达式](notes/Python运算符与表达式.md) | **无** |
-| 4 | [条件与循环](notes/Python条件与循环.md) | **必做** ex04、ex01 |
-| 5 | [复合类型](notes/Python复合类型.md) | **必做** ex03；选做 ex06 |
+| 4 | [条件与循环](notes/Python条件与循环.md) | **过关** ex04、ex01 |
+| 5 | [复合类型](notes/Python复合类型.md) | **过关** ex03；加练 ex06 |
 | 6 | [字符串方法与格式化](notes/Python字符串方法与格式化.md) | **无** |
-| 7 | [函数](notes/Python函数.md) | **必做** ex05；选做 ex02 |
+| 7 | [函数](notes/Python函数.md) | **过关** ex05；加练 ex02 |
 | 8 | [作用域](notes/Python作用域.md) | **无** |
 
 原则：[docs/exercise-policy.md](../docs/exercise-policy.md)  
@@ -56,7 +56,7 @@ python ex01_guess_number.py
 ## 验收标准（新手版）
 
 - 笔记能口述要点  
-- **必做 4 题**跑通即可  
+- **过关 4 题**跑通即可  
 - **不要求** pytest、assert、类型注解  
 
 ## 下一步

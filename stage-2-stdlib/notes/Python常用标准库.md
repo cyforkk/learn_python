@@ -500,6 +500,6 @@ print(groups)
 ---
 
 ## 本仓库学习导航
-- **练习安排：选做** [ex04 列目录](../exercises/ex04_list_files.py)  
-  批量重命名 **选做** → [ex06](../exercises/ex06_batch_rename.py)
+- **练习安排：加练** [ex04 列目录](../exercises/ex04_list_files.py)  
+  批量重命名 **加练** → [ex06](../exercises/ex06_batch_rename.py)
 - 不是每章标准库都要交作业，会查文档更重要

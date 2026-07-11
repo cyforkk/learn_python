@@ -54,7 +54,7 @@ def main() -> int:
         if p.exists() and run([py, str(p)]) != 0:
             failed.append(str(p.relative_to(ROOT)))
 
-    print("\n=== pytest（选做模块，失败不挡主线时可忽略）===")
+    print("\n=== pytest（加练模块，失败不挡主线时可忽略）===")
     for t in [
         ROOT / "stage-3-engineering" / "exercises" / "ex03_pytest_stats",
         ROOT / "projects" / "todo-cli",

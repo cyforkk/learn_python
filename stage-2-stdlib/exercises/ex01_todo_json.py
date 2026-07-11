@@ -1,4 +1,4 @@
-# 练习：JSON 待办（选做 · 尽量简单）
+# 练习：JSON 待办（加练 · 尽量简单）
 # 先读笔记：文件读写
 # 运行：python ex01_todo_json.py
 # 命令：add 内容 | list | quit

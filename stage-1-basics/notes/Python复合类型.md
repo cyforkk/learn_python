@@ -325,13 +325,13 @@ for name in scores:
 print("最高:", high_name, high_score)
 ```
 
-通讯录选做题更简单：字典赋值 + `for name in book` 打印。
+通讯录加练题同样简单（难度相近）：字典赋值 + `for name in book` 打印。
 
 ---
 
 ## 本仓库学习导航
 - **练习安排**
-  - **必做** [ex03 成绩统计](../exercises/ex03_score_stats.py)
-  - **选做** [ex06 通讯录](../exercises/ex06_contacts.py)
+  - **过关** [ex03 成绩统计](../exercises/ex03_score_stats.py)
+  - **加练** [ex06 通讯录](../exercises/ex06_contacts.py)
 - 须先读完本篇再做；不要在「基本数据类型」篇后硬做
 - 作业是最简单脚本，**不含测试代码**

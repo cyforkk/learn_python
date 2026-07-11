@@ -1,4 +1,4 @@
-# 练习：批量重命名计划（选做 · 最简单版 · 只打印不真改）
+# 练习：批量重命名计划（加练 · 最简单版 · 只打印不真改）
 # 运行：python ex06_batch_rename.py
 
 from pathlib import Path

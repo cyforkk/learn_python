@@ -1,4 +1,4 @@
-# 练习：列出当前目录（选做 · 最简单版）
+# 练习：列出当前目录（加练 · 最简单版）
 # 运行：python ex04_list_files.py
 
 from pathlib import Path

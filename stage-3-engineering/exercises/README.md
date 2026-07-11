@@ -10,13 +10,13 @@
 | [ex01 venv](ex01_venv_practice.md) | 虚拟环境（+包管理） | 跟着命令勾选 |
 | [ex04 调试日记](ex04_debug_journal.md) | 调试技巧 | 写一篇记录 |
 
-## 选做 / 可整段跳过
+## 加练（可选）/ 可整段跳过
 
 | 文件 | 说明 |
 |------|------|
 | [ex02 类型注解](ex02_typed_functions.py) | 可跳过 |
 | [ex03 pytest](ex03_pytest_stats/) | **测试题**；`test_*.py` 全是测试函数，业务在 `stats.py` |
-| [ex05 迷你工程](ex05_mini_project/) | 综合选做 |
+| [ex05 迷你工程](ex05_mini_project/) | 综合加练 |
 
 ## 无仓库练习的笔记
 
