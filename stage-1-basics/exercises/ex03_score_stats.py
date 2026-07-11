@@ -11,20 +11,21 @@
 
 
 def average(scores: dict[str, float]) -> float:
-    # TODO
-    raise NotImplementedError
+    if not scores:
+        return 0.0
+    return sum(scores.values()) / len(scores)
 
 
 def top_student(scores: dict[str, float]) -> tuple[str, float]:
     """返回 (姓名, 分数) 最高分者；可假设字典非空。"""
-    # TODO
-    raise NotImplementedError
+    name = max(scores, key=scores.get)  # type: ignore[arg-type]
+    return name, scores[name]
 
 
 def bottom_student(scores: dict[str, float]) -> tuple[str, float]:
     """返回 (姓名, 分数) 最低分者；可假设字典非空。"""
-    # TODO
-    raise NotImplementedError
+    name = min(scores, key=scores.get)  # type: ignore[arg-type]
+    return name, scores[name]
 
 
 def main() -> None:
@@ -34,8 +35,17 @@ def main() -> None:
         "Cindy": 88.0,
         "Dan": 65.0,
     }
-    # TODO: 调用函数并打印结果
-    pass
+    avg = average(scores)
+    hi_name, hi_score = top_student(scores)
+    lo_name, lo_score = bottom_student(scores)
+
+    print(f"平均分: {avg:.2f}")
+    print(f"最高: {hi_name} {hi_score}")
+    print(f"最低: {lo_name} {lo_score}")
+    print("不低于平均分:")
+    for name, score in scores.items():
+        if score >= avg:
+            print(f"  {name}: {score}")
 
 
 def _selfcheck() -> None:
@@ -43,7 +53,6 @@ def _selfcheck() -> None:
     assert abs(average(scores) - 80.875) < 1e-9
     assert top_student(scores) == ("Ada", 92.0)
     assert bottom_student(scores) == ("Dan", 65.0)
-    # 空字典：推荐返回 0.0
     assert average({}) == 0.0
     print("selfcheck OK")
 

@@ -10,19 +10,23 @@
 
 
 def grade_level(score: float) -> str:
-    # TODO
-    raise NotImplementedError
+    if score >= 90:
+        return "A"
+    if score >= 80:
+        return "B"
+    if score >= 60:
+        return "C"
+    return "D"
 
 
 def summarize(name: str, score: float) -> str:
-    # TODO
-    raise NotImplementedError
+    return f"{name}: {score} -> {grade_level(score)}"
 
 
 def main() -> None:
     students = [("Ada", 92.0), ("Bob", 78.0), ("Cindy", 55.0)]
-    # TODO
-    pass
+    for name, score in students:
+        print(summarize(name, score))
 
 
 def _selfcheck() -> None:

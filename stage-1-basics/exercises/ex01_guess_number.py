@@ -14,16 +14,41 @@
   python ex01_guess_number.py
 """
 
+import random
+
 
 def compare_guess(guess: int, answer: int) -> str:
     """返回 'low' | 'high' | 'ok'。"""
-    # TODO
-    raise NotImplementedError
+    if guess < answer:
+        return "low"
+    if guess > answer:
+        return "high"
+    return "ok"
 
 
 def main() -> None:
-    # TODO: 在这里实现完整游戏（可调用 compare_guess）
-    pass
+    answer = random.randint(1, 100)
+    max_tries = 7
+    print(f"我想了一个 1-100 的数字，你有 {max_tries} 次机会。")
+
+    for attempt in range(1, max_tries + 1):
+        raw = input(f"第 {attempt} 次猜测: ").strip()
+        try:
+            guess = int(raw)
+        except ValueError:
+            print("请输入整数。")
+            continue
+
+        result = compare_guess(guess, answer)
+        if result == "low":
+            print("太小了")
+        elif result == "high":
+            print("太大了")
+        else:
+            print(f"猜对了！用了 {attempt} 次。")
+            return
+
+    print(f"次数用尽。正确答案是 {answer}。")
 
 
 def _selfcheck() -> None:

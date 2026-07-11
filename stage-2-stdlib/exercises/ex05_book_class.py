@@ -1,30 +1,30 @@
 """
 练习 05：简单 Book 类
 
-summary 格式： 《title》- author, pages页
-is_long：pages >= 300
-
 自检：python ex05_book_class.py --check
 """
 
 
 class Book:
     def __init__(self, title: str, author: str, pages: int) -> None:
-        # TODO
-        raise NotImplementedError
+        self.title = title
+        self.author = author
+        self.pages = pages
 
     def summary(self) -> str:
-        # TODO
-        raise NotImplementedError
+        return f"《{self.title}》- {self.author}, {self.pages}页"
 
     def is_long(self) -> bool:
-        # TODO
-        raise NotImplementedError
+        return self.pages >= 300
 
 
 def main() -> None:
-    # TODO
-    pass
+    books = [
+        Book("Fluent Python", "Luciano", 1000),
+        Book("短篇集", "Someone", 120),
+    ]
+    for b in books:
+        print(b.summary(), "| 长书?", b.is_long())
 
 
 def _selfcheck() -> None:

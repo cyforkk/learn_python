@@ -1,12 +1,6 @@
 """
 练习 01：JSON 待办读写
 
-要求：
-1. 使用 pathlib + json
-2. load_todos / save_todos / add_todo
-3. 文件不存在时 load 返回 []
-4. 命令行简单交互：add / list / quit（main）
-
 自检：python ex01_todo_json.py --check
 """
 
@@ -19,24 +13,53 @@ DATA_FILE = Path(__file__).with_name("todos.json")
 
 
 def load_todos(path: Path = DATA_FILE) -> list[dict]:
-    # TODO
-    raise NotImplementedError
+    if not path.exists():
+        return []
+    text = path.read_text(encoding="utf-8").strip()
+    if not text:
+        return []
+    return json.loads(text)
 
 
 def save_todos(todos: list[dict], path: Path = DATA_FILE) -> None:
-    # TODO
-    raise NotImplementedError
+    path.write_text(
+        json.dumps(todos, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
 
 def add_todo(todos: list[dict], text: str) -> None:
-    # TODO
-    raise NotImplementedError
+    todos.append({"text": text, "done": False})
 
 
 def main() -> None:
     todos = load_todos()
-    # TODO: 交互循环
-    pass
+    print("命令: add <内容> | list | quit")
+    while True:
+        raw = input("> ").strip()
+        if not raw:
+            continue
+        if raw == "quit":
+            save_todos(todos)
+            print("已保存，再见。")
+            break
+        if raw == "list":
+            if not todos:
+                print("(空)")
+            for i, item in enumerate(todos, 1):
+                flag = "x" if item.get("done") else " "
+                print(f"{i}. [{flag}] {item.get('text')}")
+            continue
+        if raw.startswith("add "):
+            text = raw[4:].strip()
+            if text:
+                add_todo(todos, text)
+                save_todos(todos)
+                print("已添加。")
+            else:
+                print("内容不能为空。")
+            continue
+        print("未知命令。")
 
 
 def _selfcheck() -> None:

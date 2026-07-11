@@ -13,8 +13,11 @@
 
 def build_table() -> list[str]:
     """返回 9 行字符串，第 i 行（1-based）含 1*i ... i*i。"""
-    # TODO
-    raise NotImplementedError
+    rows: list[str] = []
+    for i in range(1, 10):
+        cells = [f"{j}*{i}={j * i}" for j in range(1, i + 1)]
+        rows.append("\t".join(cells))
+    return rows
 
 
 def print_table() -> None:
@@ -26,7 +29,6 @@ def _selfcheck() -> None:
     rows = build_table()
     assert len(rows) == 9
     assert "1*1=1" in rows[0].replace(" ", "").replace("\t", "")
-    # 第 3 行应包含 2*3=6 与 3*3=9
     row3 = rows[2].replace(" ", "").replace("\t", "")
     assert "2*3=6" in row3
     assert "3*3=9" in row3

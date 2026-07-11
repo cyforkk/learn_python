@@ -1,6 +1,5 @@
-"""请实现 greet 函数。"""
+"""问候模块。"""
 
 
 def greet(name: str) -> str:
-    # TODO
-    raise NotImplementedError
+    return f"Hello, {name}!"

@@ -36,3 +36,9 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Local exercise / project data
+**/todos.json
+projects/file-organizer/demo_src/
+projects/api-cli/out.json
+requirements-lock.txt
