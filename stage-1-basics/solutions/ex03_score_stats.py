@@ -1,63 +1,36 @@
-"""参考答案：ex03 学生成绩统计。"""
+# 参考答案：成绩统计（最简单版）
 
+scores = {
+    "小明": 92,
+    "小红": 78,
+    "小刚": 88,
+    "小丽": 65,
+}
 
-def average(scores: dict[str, float]) -> float:
-    if not scores:
-        return 0.0
-    return sum(scores.values()) / len(scores)
+total = 0
+for name in scores:
+    total = total + scores[name]
+avg = total / len(scores)
+print("平均分:", avg)
 
+high_name = ""
+high_score = -1
+low_name = ""
+low_score = 9999
 
-def top_student(scores: dict[str, float]) -> tuple[str, float]:
-    name = max(scores, key=scores.get)  # type: ignore[arg-type]
-    return name, scores[name]
+for name in scores:
+    s = scores[name]
+    if s > high_score:
+        high_score = s
+        high_name = name
+    if s < low_score:
+        low_score = s
+        low_name = name
 
+print("最高:", high_name, high_score)
+print("最低:", low_name, low_score)
 
-def bottom_student(scores: dict[str, float]) -> tuple[str, float]:
-    name = min(scores, key=scores.get)  # type: ignore[arg-type]
-    return name, scores[name]
-
-
-def main() -> None:
-    scores = {
-        "Ada": 92.0,
-        "Bob": 78.5,
-        "Cindy": 88.0,
-        "Dan": 65.0,
-    }
-    avg = average(scores)
-    hi_name, hi_score = top_student(scores)
-    lo_name, lo_score = bottom_student(scores)
-
-    print(f"平均分: {avg:.2f}")
-    print(f"最高: {hi_name} {hi_score}")
-    print(f"最低: {lo_name} {lo_score}")
-    print("不低于平均分:")
-    for name, score in scores.items():
-        if score >= avg:
-            print(f"  {name}: {score}")
-
-
-# ---------------------------------------------------------------------------
-# 【测试 / 自检函数 · 新手请跳过，不必读、不必改】
-# 函数名 _selfcheck：用 assert 自动检查上面业务代码对不对。
-# 这不是题目要求写的功能，也不会在正常运行时执行。
-# 你只需完成上面的 main / 业务函数，运行:  python 本文件.py
-# 以后想自检再运行:  python 本文件.py --check
-# ---------------------------------------------------------------------------
-def _selfcheck() -> None:
-    scores = {"Ada": 92.0, "Bob": 78.5, "Cindy": 88.0, "Dan": 65.0}
-    assert abs(average(scores) - 80.875) < 1e-9
-    assert top_student(scores) == ("Ada", 92.0)
-    assert bottom_student(scores) == ("Dan", 65.0)
-    assert average({}) == 0.0
-    print("selfcheck OK")
-
-
-if __name__ == "__main__":
-    import sys
-
-    # --check 才会调用上面的【测试函数 _selfcheck】；新手不要加这个参数
-    if "--check" in sys.argv:
-        _selfcheck()
-    else:
-        main()
+print("不低于平均分的同学:")
+for name in scores:
+    if scores[name] >= avg:
+        print(" ", name, scores[name])

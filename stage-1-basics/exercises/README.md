@@ -1,44 +1,30 @@
-# 阶段 1 练习清单
+# 阶段 1 练习（极简脚本）
 
-> **先学后练** · **不是每篇笔记都有题**  
-> 原则详见 [docs/exercise-policy.md](../../docs/exercise-policy.md)  
-> 新手必读 → [新手怎么做.md](新手怎么做.md)
+> 作业文件 = 普通 Python 脚本。  
+> **测试在 [checks/](checks/)，与作业分离，新手请忽略。**
 
-## 过关标准（新手）
+## 必做
 
-只要求下面 **4 道必做** 能跑、行为对。  
-**不要求** `--check`、pytest、做完所有题。
-
-## 必做（4 题）
-
-| 顺序 | 文件 | 先读笔记 | 说明 |
-|------|------|----------|------|
-| 1 | [ex04 九九表](ex04_multiplication_table.py) | [条件与循环](../notes/Python条件与循环.md) | 最简单 |
-| 2 | [ex01 猜数字](ex01_guess_number.py) | [条件与循环](../notes/Python条件与循环.md)（+ 输入输出概念） | 小游戏 |
-| 3 | [ex03 成绩统计](ex03_score_stats.py) | [复合类型](../notes/Python复合类型.md) | 字典 |
-| 4 | [ex05 函数重构](ex05_refactor_functions.py) | [函数](../notes/Python函数.md) | 拆函数 |
-
-```bash
-python ex04_multiplication_table.py
-python ex01_guess_number.py
-python ex03_score_stats.py
-python ex05_refactor_functions.py
-```
+| 文件 | 先读 | 说明 |
+|------|------|------|
+| [ex04_multiplication_table.py](ex04_multiplication_table.py) | 条件与循环 | 两层 for，约 5 行 |
+| [ex01_guess_number.py](ex01_guess_number.py) | 条件与循环 | 一个 for + if |
+| [ex03_score_stats.py](ex03_score_stats.py) | 复合类型 | 字典 + for |
+| [ex05_refactor_functions.py](ex05_refactor_functions.py) | 函数 | 一个小函数 |
 
 ## 选做
 
-| 文件 | 先读笔记 | 说明 |
-|------|----------|------|
-| [ex02 计算器](ex02_calculator.py) | 函数 + 运算符 | 综合 |
-| [ex06 通讯录](ex06_contacts.py) | 复合类型 | 巩固字典 |
+[ex02_calculator.py](ex02_calculator.py) · [ex06_contacts.py](ex06_contacts.py)
 
-## 下列笔记 · 无仓库练习
+## 无题笔记
 
-基本数据类型、输入输出、运算符、字符串、作用域 → **读懂即可**，不要硬找题。
+基本数据类型、输入输出、运算符、字符串、作用域。
 
-## 测试函数说明
+## 怎么运行
 
-文件底部 `_selfcheck` 有注释 **【测试 / 自检函数 · 新手请跳过】**。  
-正常运行不要加 `--check`。
+```bash
+python ex04_multiplication_table.py
+```
 
-答案：`../solutions/`（做完再看）
+不要找 `--check`，作业里已经没有了。  
+原则：[docs/exercise-policy.md](../../docs/exercise-policy.md)

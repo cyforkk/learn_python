@@ -36,31 +36,28 @@
 原则：[docs/exercise-policy.md](../docs/exercise-policy.md)  
 第一天：读 1～4 → 只做 **ex04 九九表**。
 
-## ② 练习（notes 读完对应篇后再做）
+## ② 练习（读完对应笔记后 · 全是最简单脚本）
 
 **新手必读**：[exercises/新手怎么做.md](exercises/新手怎么做.md)
 
-- 清单：[exercises/README.md](exercises/README.md)  
-- **先保证** `python ex0x_xxx.py` 能玩/能打印对  
-- `--check`、文件里的 `_selfcheck` / `assert`：**可选**，入门可整段忽略  
+- 作业里**没有**测试代码；自检若有，在 `exercises/checks/`（可忽略）  
+- 九九表就是两层 `for` + `print`，没有花活  
 
 ```bash
 cd stage-1-basics/exercises
-python ex04_multiplication_table.py   # 建议第一题
-python ex01_guess_number.py           # 交互游戏
+python ex04_multiplication_table.py
+python ex01_guess_number.py
 ```
 
 ## ③ 答案（做完再看）
 
-[solutions/](solutions/)  
-答案写得更「工程」一些（多函数、自检），你的第一版可以更简单。
+[solutions/](solutions/) — 与练习同样是简单写法。
 
 ## 验收标准（新手版）
 
-- 笔记要点能口述  
-- **必做 4 题**：ex04 九九表、ex01 猜数字、ex03 成绩、ex05 函数重构  
-- **选做**：ex02 计算器、ex06 通讯录  
-- **不要求** 每篇笔记都做题；不要求 pytest / `--check`  
+- 笔记能口述要点  
+- **必做 4 题**跑通即可  
+- **不要求** pytest、assert、类型注解  
 
 ## 下一步
 

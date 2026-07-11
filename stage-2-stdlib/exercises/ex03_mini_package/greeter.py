@@ -1,5 +1,5 @@
-"""问候模块。"""
+# 问候函数（给 main.py 调用）
 
 
-def greet(name: str) -> str:
-    return f"Hello, {name}!"
+def greet(name):
+    return "Hello, " + name + "!"
