@@ -22,7 +22,7 @@
 | **建议** | 动手成本低，推荐做但不强求工程难度 |
 
 新手练习说明：[stage-1 新手怎么做](../stage-1-basics/exercises/新手怎么做.md)  
-`--check` / pytest：**始终可选**。
+练习 = **最简单脚本**（作业里无 assert）；自检若有只在 `exercises/checks/`。
 
 ---
 
