@@ -310,12 +310,12 @@ unique = list(set(nums))   # [1, 2, 3, 4]
 2. 打印平均分、最高分及姓名、最低分及姓名  
 3. 打印所有「不低于平均分」的学生  
 
-**打开作业：** [ex03_score_stats.py](../exercises/ex03_score_stats.py)  
+**作业（空白，自己写）：** [ex03_score_stats.py](../exercises/ex03_score_stats.py)  
 **参考答案（做完再看）：** [solutions/ex03_score_stats.py](../solutions/ex03_score_stats.py)
 
 ### 加练（可选）· 通讯录
 
 **题目：** 用字典存姓名→电话，能添加、按名查找、列出全部。  
 
-**打开作业：** [ex06_contacts.py](../exercises/ex06_contacts.py)  
+**作业（空白，自己写）：** [ex06_contacts.py](../exercises/ex06_contacts.py)  
 **参考答案（做完再看）：** [solutions/ex06_contacts.py](../solutions/ex06_contacts.py)

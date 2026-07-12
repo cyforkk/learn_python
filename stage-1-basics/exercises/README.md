@@ -1,32 +1,29 @@
-# 阶段 1 练习（极简脚本）
+# 阶段 1 练习
 
-> 作业文件 = 普通 Python 脚本。  
-> **测试在 [checks/](checks/)，与作业分离，新手请忽略。**
+> **`exercises/` = 题目骨架（只有题目注释，没有答案）**  
+> **`solutions/` = 参考答案（做完再看）**  
+> 可选自检在 [checks/](checks/)，新手可忽略。
 
 ## 过关（必做）
 
-| 文件 | 先读 | 说明 |
-|------|------|------|
-| [ex04_multiplication_table.py](ex04_multiplication_table.py) | 条件与循环 | 两层 for，约 5 行 |
-| [ex01_guess_number.py](ex01_guess_number.py) | 条件与循环 | 一个 for + if |
-| [ex03_score_stats.py](ex03_score_stats.py) | 复合类型 | 字典 + for |
-| [ex05_refactor_functions.py](ex05_refactor_functions.py) | 函数 | 一个小函数 |
+| 作业（自己写） | 参考答案（做完再看） | 先读笔记 |
+|----------------|----------------------|----------|
+| [ex04…](ex04_multiplication_table.py) | [solutions/ex04…](../solutions/ex04_multiplication_table.py) | 条件与循环 |
+| [ex01…](ex01_guess_number.py) | [solutions/ex01…](../solutions/ex01_guess_number.py) | 条件与循环 |
+| [ex03…](ex03_score_stats.py) | [solutions/ex03…](../solutions/ex03_score_stats.py) | 复合类型 |
+| [ex05…](ex05_refactor_functions.py) | [solutions/ex05…](../solutions/ex05_refactor_functions.py) | 函数 |
 
-## 加练（可选 · 难度往往 ≈ 过关题）
+## 加练（可选 · 往往不难）
 
-[ex02_calculator.py](ex02_calculator.py) · [ex06_contacts.py](ex06_contacts.py)  
+| 作业 | 答案 |
+|------|------|
+| [ex02 计算器](ex02_calculator.py) | [solutions](../solutions/ex02_calculator.py) |
+| [ex06 通讯录](ex06_contacts.py) | [solutions](../solutions/ex06_contacts.py) |
 
-加练 = 多练一会，**不是**更难的进阶题。详见 [exercise-policy.md](../../docs/exercise-policy.md)。
+## 怎么写
 
-## 无题笔记
+1. 打开 `ex0x_….py`，按文件头 **题目** 写在 `# TODO` 下面  
+2. `python ex0x_….py` 自己跑  
+3. 做完再打开 `../solutions/` 对照  
 
-基本数据类型、输入输出、运算符、字符串、作用域。
-
-## 怎么运行
-
-```bash
-python ex04_multiplication_table.py
-```
-
-不要找 `--check`，作业里已经没有了。  
-原则：[docs/exercise-policy.md](../../docs/exercise-policy.md)
+原则：[docs/exercise-policy.md](../../docs/exercise-policy.md) · [新手怎么做.md](新手怎么做.md)

@@ -471,5 +471,5 @@ type JSON = dict[str, str | int | float | bool | None]
 
 **题目：** 给若干函数补上参数与返回值类型注解，行为不变。  
 
-**打开作业：** [ex02_typed_functions.py](../exercises/ex02_typed_functions.py)  
+**作业（空白，自己写）：** [ex02_typed_functions.py](../exercises/ex02_typed_functions.py)  
 新手可整题跳过。

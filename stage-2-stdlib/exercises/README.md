@@ -1,20 +1,18 @@
-# 阶段 2 练习（极简脚本）
+# 阶段 2 练习
 
-测试在 [checks/](checks/)，**不是作业**。
+> **`exercises/` = 题目骨架（无答案）** · **`solutions/` = 参考答案**
 
 ## 过关（必做）
 
-| 文件 | 先读 |
-|------|------|
-| [ex02_safe_read.py](ex02_safe_read.py) | 文件 + 异常 |
-| [ex03_mini_package/](ex03_mini_package/) | 模块与包（在该目录运行 `python main.py`） |
-| [ex05_book_class.py](ex05_book_class.py) | 面向对象 |
+| 作业（自己写） | 答案（做完再看） | 先读 |
+|----------------|------------------|------|
+| [ex02…](ex02_safe_read.py) | [solutions](../solutions/ex02_safe_read.py) | 文件 + 异常 |
+| [ex03…](ex03_mini_package/) | [solutions](../solutions/ex03_mini_package/) | 模块与包 |
+| [ex05…](ex05_book_class.py) | [solutions](../solutions/ex05_book_class.py) | 面向对象 |
 
-## 加练（可选 · 难度往往 ≈ 过关题）
+## 加练（可选 · 往往不难）
 
-ex01 JSON 待办 · ex04 列目录 · ex06 重命名计划  
-
-加练 = 自愿多练，**不是**更难的进阶必做。见 [exercise-policy.md](../../docs/exercise-policy.md)。
+ex01 / ex04 / ex06 → 同样：作业在 exercises，答案在 solutions。
 
 ## 无题
 

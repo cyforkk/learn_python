@@ -435,12 +435,12 @@ print(loaded)   # {'张三': 85, '李四': 92, '王五': 78}
 
 **题目：** 输入路径 → 读文件打印；不存在则提示不崩溃。  
 
-**打开作业：** [ex02_safe_read.py](../exercises/ex02_safe_read.py)  
+**作业（空白，自己写）：** [ex02_safe_read.py](../exercises/ex02_safe_read.py)  
 **参考答案（做完再看）：** [solutions/ex02_safe_read.py](../solutions/ex02_safe_read.py)
 
 ### 加练（可选）· JSON 待办
 
 **题目：** 用 JSON 文件保存待办，支持 add / list / quit。  
 
-**打开作业：** [ex01_todo_json.py](../exercises/ex01_todo_json.py)  
+**作业（空白，自己写）：** [ex01_todo_json.py](../exercises/ex01_todo_json.py)  
 **参考答案（做完再看）：** [solutions/ex01_todo_json.py](../solutions/ex01_todo_json.py)

@@ -1,11 +1,9 @@
-# 练习：列出当前目录（加练 · 最简单版）
+# 练习：列出当前目录（加练 · 可选）
 # 运行：python ex04_list_files.py
+#
+# 题目：
+# 列出当前目录下的文件和文件夹（可区分文件/目录）
+#
+# 在下方自己写代码（做完再看 solutions）
 
-from pathlib import Path
-
-folder = Path(".")
-for item in folder.iterdir():
-    if item.is_file():
-        print("[文件]", item.name)
-    elif item.is_dir():
-        print("[目录]", item.name)
+# TODO: 在这里写你的代码

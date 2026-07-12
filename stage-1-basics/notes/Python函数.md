@@ -509,14 +509,14 @@ log("操作完成", "DEBUG")     # [DEBUG] 操作完成
 1. 写函数 `level(score)`：≥90 返回 A，≥80 返回 B，≥60 返回 C，否则 D  
 2. 对几个分数调用并打印结果  
 
-**打开作业：** [ex05_refactor_functions.py](../exercises/ex05_refactor_functions.py)  
+**作业（空白，自己写）：** [ex05_refactor_functions.py](../exercises/ex05_refactor_functions.py)  
 **参考答案（做完再看）：** [solutions/ex05_refactor_functions.py](../solutions/ex05_refactor_functions.py)
 
 ### 加练（可选）· 简易计算器
 
 **题目：** 循环读入 `数字 运算符 数字`（如 `3 + 4`），支持 `+ - * /`，除零要提示，输入 `q` 退出。  
 
-**打开作业：** [ex02_calculator.py](../exercises/ex02_calculator.py)  
+**作业（空白，自己写）：** [ex02_calculator.py](../exercises/ex02_calculator.py)  
 **参考答案（做完再看）：** [solutions/ex02_calculator.py](../solutions/ex02_calculator.py)
 
 作用域无需单独做题，读 [Python作用域.md](Python作用域.md) 即可。

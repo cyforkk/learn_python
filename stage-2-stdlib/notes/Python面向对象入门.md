@@ -508,5 +508,5 @@ print(s.get_grade())
 3. 方法 `is_long()`：页数 ≥ 300 返回 True  
 4. 创建至少 2 本书并打印  
 
-**打开作业：** [ex05_book_class.py](../exercises/ex05_book_class.py)  
+**作业（空白，自己写）：** [ex05_book_class.py](../exercises/ex05_book_class.py)  
 **参考答案（做完再看）：** [solutions/ex05_book_class.py](../solutions/ex05_book_class.py)

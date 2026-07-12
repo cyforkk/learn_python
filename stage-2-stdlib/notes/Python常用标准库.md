@@ -506,14 +506,14 @@ print(groups)
 
 **题目：** 列出当前目录下的文件和文件夹。  
 
-**打开作业：** [ex04_list_files.py](../exercises/ex04_list_files.py)  
+**作业（空白，自己写）：** [ex04_list_files.py](../exercises/ex04_list_files.py)  
 **参考答案（做完再看）：** [solutions/ex04_list_files.py](../solutions/ex04_list_files.py)
 
 ### 加练（可选）· 批量重命名计划
 
 **题目：** 给定一组文件名，按规则打印「旧名 → 新名」（可只打印不真改）。  
 
-**打开作业：** [ex06_batch_rename.py](../exercises/ex06_batch_rename.py)  
+**作业（空白，自己写）：** [ex06_batch_rename.py](../exercises/ex06_batch_rename.py)  
 **参考答案（做完再看）：** [solutions/ex06_batch_rename.py](../solutions/ex06_batch_rename.py)
 
 不是每章标准库都要交作业，会查文档更重要。

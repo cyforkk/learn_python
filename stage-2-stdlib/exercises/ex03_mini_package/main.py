@@ -1,10 +1,11 @@
-# 练习：小模块（最简单版）
+# 练习：小模块 - main.py
 # 先读笔记：模块与包
-# 运行（请在本目录下）：python main.py
+# 运行（在本目录下）：python main.py
 #
-# 目标：main 里 import greeter，并打印问候。
+# 题目（本文件）：
+# 1. 从 greeter 导入 greet
+# 2. 输入名字，打印问候
+#
+# 在下方自己写代码（做完再看 solutions/ex03_mini_package/）
 
-from greeter import greet
-
-name = input("你的名字: ")
-print(greet(name))
+# TODO: 在这里写你的代码

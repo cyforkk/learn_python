@@ -120,4 +120,4 @@ pip + venv 是最常见的组合，但需要手动管理两件事。Poetry 和 u
 
 **题目：** 创建 venv、激活、安装一个小包、知道 `.venv` 不要提交 Git。  
 
-**打开作业（按步骤勾选）：** [ex01_venv_practice.md](../exercises/ex01_venv_practice.md)
+**作业（按步骤做）：** [ex01_venv_practice.md](../exercises/ex01_venv_practice.md)

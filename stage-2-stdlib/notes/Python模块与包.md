@@ -427,5 +427,5 @@ import random, math, datetime, json, csv, os
 3. `main.py` 里 `import` 并调用，打印结果  
 4. 在 `ex03_mini_package` 目录下运行：`python main.py`  
 
-**打开作业目录：** [ex03_mini_package/](../exercises/ex03_mini_package/)  
+**作业目录（空白，自己写）：** [ex03_mini_package/](../exercises/ex03_mini_package/)  
 **参考答案（做完再看）：** [solutions/ex03_mini_package/](../solutions/ex03_mini_package/)

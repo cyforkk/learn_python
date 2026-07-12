@@ -1,20 +1,15 @@
-# 练习：用函数判断成绩等级（最简单版）
+# 练习：成绩等级函数
 # 先读笔记：函数
 # 运行：python ex05_refactor_functions.py
 #
-# 目标：写一个函数，根据分数返回 A/B/C/D，再打印几个学生。
+# 题目：
+# 1. 写函数 level(score)：
+#      score >= 90 -> "A"
+#      score >= 80 -> "B"
+#      score >= 60 -> "C"
+#      否则 -> "D"
+# 2. 对几个分数调用 level 并打印
+#
+# 在下方自己写代码（做完再看 solutions）
 
-
-def level(score):
-    if score >= 90:
-        return "A"
-    if score >= 80:
-        return "B"
-    if score >= 60:
-        return "C"
-    return "D"
-
-
-print("小明", 92, "->", level(92))
-print("小红", 78, "->", level(78))
-print("小刚", 55, "->", level(55))
+# TODO: 在这里写你的代码

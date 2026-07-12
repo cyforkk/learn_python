@@ -36,22 +36,23 @@
 原则：[docs/exercise-policy.md](../docs/exercise-policy.md)  
 第一天：读 1～4 → 只做 **ex04 九九表**。
 
-## ② 练习（读完对应笔记后 · 全是最简单脚本）
+## ② 练习（读完对应笔记后）
 
 **新手必读**：[exercises/新手怎么做.md](exercises/新手怎么做.md)
 
-- 作业里**没有**测试代码；自检若有，在 `exercises/checks/`（可忽略）  
-- 九九表就是两层 `for` + `print`，没有花活  
+- **`exercises/`**：只有题目注释 + `# TODO`，**没有答案**  
+- **`solutions/`**：参考答案，**做完再看**  
+- 自检可选：`exercises/checks/`  
 
 ```bash
 cd stage-1-basics/exercises
+# 在 TODO 下写完后：
 python ex04_multiplication_table.py
-python ex01_guess_number.py
 ```
 
 ## ③ 答案（做完再看）
 
-[solutions/](solutions/) — 与练习同样是简单写法。
+[solutions/](solutions/)
 
 ## 验收标准（新手版）
 

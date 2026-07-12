@@ -320,4 +320,4 @@ while True:
 
 **题目：** 故意制造或遇到一次报错，读 Traceback，修好，并写一篇踩坑记录。  
 
-**打开作业：** [ex04_debug_journal.md](../exercises/ex04_debug_journal.md)
+**作业（空白，自己写）：** [ex04_debug_journal.md](../exercises/ex04_debug_journal.md)

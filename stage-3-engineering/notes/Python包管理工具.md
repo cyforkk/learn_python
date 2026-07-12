@@ -134,4 +134,4 @@ conda install numpy
 
 **题目：** 一个可安装依赖的小包 + 简单测试 + README，能跑通。  
 
-**打开作业：** [ex05_mini_project/](../exercises/ex05_mini_project/)
+**作业（空白，自己写）：** [ex05_mini_project/](../exercises/ex05_mini_project/)

@@ -1,5 +1,5 @@
-# 【自检 · 不是作业】检查九九表是否打印了 9 行
-# 新手可忽略本文件
+# 【自检 · 不是作业】检查你是否写完了九九表
+# 请先自己完成 ../ex04_multiplication_table.py
 
 import io
 import runpy
@@ -7,6 +7,11 @@ import sys
 from pathlib import Path
 
 ex = Path(__file__).resolve().parents[1] / "ex04_multiplication_table.py"
+text = ex.read_text(encoding="utf-8")
+if "TODO" in text and text.strip().endswith("# TODO: 在这里写你的代码"):
+    print("请先在 ex04_multiplication_table.py 里写代码，再运行自检")
+    sys.exit(1)
+
 buf = io.StringIO()
 old = sys.stdout
 sys.stdout = buf
@@ -17,5 +22,5 @@ finally:
 
 lines = [ln for ln in buf.getvalue().splitlines() if ln.strip()]
 assert len(lines) == 9, f"应打印 9 行，实际 {len(lines)} 行"
-assert "1*1=1" in lines[0].replace(" ", "")
+assert "1*1=1" in lines[0].replace(" ", "").replace("×", "*")
 print("ex04 自检通过")

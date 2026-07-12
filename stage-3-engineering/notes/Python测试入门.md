@@ -502,6 +502,6 @@ pytest -s
 
 **题目：** 实现 `stats.py` 中的函数，并在 `test_*.py` 里写测试（或先只实现函数用 print 验）。  
 
-**打开作业目录：** [ex03_pytest_stats/](../exercises/ex03_pytest_stats/)  
+**作业目录（空白，自己写）：** [ex03_pytest_stats/](../exercises/ex03_pytest_stats/)  
 **可以整段不做**；测试不是语法入门必选项。  
 说明：`test_*.py` 是测试文件，业务在 `stats.py`。

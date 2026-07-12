@@ -483,5 +483,5 @@ print(result)
 2. 文件存在：读出内容并打印（注意编码）  
 3. 文件不存在：提示，**不要崩溃**  
 
-**打开作业：** [ex02_safe_read.py](../exercises/ex02_safe_read.py)  
+**作业（空白，自己写）：** [ex02_safe_read.py](../exercises/ex02_safe_read.py)  
 **参考答案（做完再看）：** [solutions/ex02_safe_read.py](../solutions/ex02_safe_read.py)
