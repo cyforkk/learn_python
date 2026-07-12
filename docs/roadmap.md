@@ -12,6 +12,7 @@
 | 进度勾选 | [../progress.md](../progress.md) | 打勾清单 |
 | 学习地图 | [learning-map.md](learning-map.md) | 笔记↔练习（含「无/过关/加练」） |
 | 练习原则 | [exercise-policy.md](exercise-policy.md) | 不是每篇笔记都有题 |
+| 搭建工作流 | [repo-build-workflow.md](repo-build-workflow.md) | 从零搭学习仓库的可复用流程 |
 | FAQ 错题 | [faq-common-mistakes.md](faq-common-mistakes.md) | 常见报错 |
 | ~~0 环境~~ | [../stage-0-setup/README.md](../stage-0-setup/README.md) | **可选附录**（装不上再看） |
 | 1 语法核心 | [../stage-1-basics/README.md](../stage-1-basics/README.md) | **主线起点** · 笔记 + 练习 |
