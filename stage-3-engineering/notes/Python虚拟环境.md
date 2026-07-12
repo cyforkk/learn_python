@@ -114,10 +114,16 @@ pip + venv 是最常见的组合，但需要手动管理两件事。Poetry 和 u
 
 ---
 
-## 本仓库练习（只列题目 · 步骤在链接里）
+## 本课衔接
+
+| | |
+|--|--|
+| **上一篇** | （阶段 3 起点）← [阶段 2](../../stage-2-stdlib/README.md) |
+| **下一篇** | [Python包管理工具.md](Python包管理工具.md) |
+| **本篇练习** | **建议** 做一遍 ex01（跟命令勾选，不是编程大题） |
 
 ### 建议 · 虚拟环境实践
 
-**题目：** 创建 venv、激活、安装一个小包、知道 `.venv` 不要提交 Git。  
+**题目：** 创建 venv、激活、装包；知道 `.venv` 不要提交 Git。
 
-**作业（按步骤做）：** [ex01_venv_practice.md](../exercises/ex01_venv_practice.md)
+- 作业步骤：[exercises/ex01_venv_practice.md](../exercises/ex01_venv_practice.md)

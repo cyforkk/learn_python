@@ -758,29 +758,26 @@ print(total)    # 2550
 
 ---
 
-## 本仓库练习（只列题目 · 答案在链接里）
+## 本课衔接
 
-> 下面**不贴答案代码**。点开链接自己写；做完再看 `solutions/`。
+| | |
+|--|--|
+| **上一篇** | [Python运算符与表达式.md](Python运算符与表达式.md) |
+| **下一篇** | [Python复合类型.md](Python复合类型.md) |
+| **本篇练习** | **过关 2 题**（先做九九表，再做猜数字） |
 
-### 过关 1 · 九九乘法表（建议先做）
+### 过关 1 · 九九乘法表
 
-**题目：**
+**题目：** 两层 `for` 打印下三角九九表；不要手写 81 行 `print`。
 
-1. 用两层 `for` 打印下三角九九表（1×1、到 9×9）  
-2. 不要手写 81 行 `print`  
-
-**作业（空白，自己写）：** [exercises/ex04_multiplication_table.py](../exercises/ex04_multiplication_table.py)  
-**参考答案（做完再看）：** [solutions/ex04_multiplication_table.py](../solutions/ex04_multiplication_table.py)
+- 作业（空白）：[exercises/ex04_multiplication_table.py](../exercises/ex04_multiplication_table.py)
+- 答案（做完再看）：[solutions/ex04_multiplication_table.py](../solutions/ex04_multiplication_table.py)
 
 ### 过关 2 · 猜数字
 
-**题目：**
+**题目：** 随机 1～100，最多 7 次；提示太大/太小/猜对；用尽次数公布答案。
 
-1. 随机生成 1～100 的整数  
-2. 最多猜 7 次；每次提示太大 / 太小 / 猜对  
-3. 猜对提前结束；7 次都错则公布答案  
+- 作业（空白）：[exercises/ex01_guess_number.py](../exercises/ex01_guess_number.py)
+- 答案（做完再看）：[solutions/ex01_guess_number.py](../solutions/ex01_guess_number.py)
 
-**作业（空白，自己写）：** [exercises/ex01_guess_number.py](../exercises/ex01_guess_number.py)  
-**参考答案（做完再看）：** [solutions/ex01_guess_number.py](../solutions/ex01_guess_number.py)
-
-新手说明：[../exercises/新手怎么做.md](../exercises/新手怎么做.md)
+做完再读下一篇「复合类型」。

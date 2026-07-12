@@ -298,24 +298,24 @@ unique = list(set(nums))   # [1, 2, 3, 4]
 
 ---
 
-## 本仓库练习（只列题目 · 答案在链接里）
+## 本课衔接
 
-> 须先读完本篇再做。**不贴答案代码**；不要在「基本数据类型」篇后硬做。
+| | |
+|--|--|
+| **上一篇** | [Python条件与循环.md](Python条件与循环.md)（应已做过九九表、猜数字） |
+| **下一篇** | [Python字符串方法与格式化.md](Python字符串方法与格式化.md) |
+| **本篇练习** | **过关 1 题** + **加练 1 题（可选）** |
 
 ### 过关 · 成绩统计
 
-**题目：**
+**题目：** 字典存至少 4 名学生成绩；打印平均分、最高/最低及姓名、不低于平均分的学生。
 
-1. 用字典保存至少 4 名学生姓名 → 分数  
-2. 打印平均分、最高分及姓名、最低分及姓名  
-3. 打印所有「不低于平均分」的学生  
-
-**作业（空白，自己写）：** [ex03_score_stats.py](../exercises/ex03_score_stats.py)  
-**参考答案（做完再看）：** [solutions/ex03_score_stats.py](../solutions/ex03_score_stats.py)
+- 作业（空白）：[exercises/ex03_score_stats.py](../exercises/ex03_score_stats.py)
+- 答案（做完再看）：[solutions/ex03_score_stats.py](../solutions/ex03_score_stats.py)
 
 ### 加练（可选）· 通讯录
 
-**题目：** 用字典存姓名→电话，能添加、按名查找、列出全部。  
+**题目：** 字典存姓名→电话；能添加、查找、列出。难度与成绩题接近，多练一遍字典。
 
-**作业（空白，自己写）：** [ex06_contacts.py](../exercises/ex06_contacts.py)  
-**参考答案（做完再看）：** [solutions/ex06_contacts.py](../solutions/ex06_contacts.py)
+- 作业（空白）：[exercises/ex06_contacts.py](../exercises/ex06_contacts.py)
+- 答案（做完再看）：[solutions/ex06_contacts.py](../solutions/ex06_contacts.py)

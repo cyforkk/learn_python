@@ -474,5 +474,13 @@ Git 的核心工作流就三步：**add 暂存改动、commit 拍快照、push �
 
 ---
 
-## 本仓库学习导航
-- **练习安排：无强制仓库题**（在本仓库 `git add` / `commit` 练即可）
+## 本课衔接
+
+| | |
+|--|--|
+| **上一篇** | [Python测试入门.md](Python测试入门.md) |
+| **下一篇** | 阶段 3 结束 → [阶段 4 入口](../../stage-4-tracks/README.md) |
+| **本篇练习** | **无强制新题** |
+
+**和前后的关系：** 在本仓库对你改过的作业 `git add` / `commit` 练即可。  
+然后进入方向学习 → [stage-4-tracks/README.md](../../stage-4-tracks/README.md)

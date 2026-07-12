@@ -166,29 +166,12 @@ list("abc")    # 字符串转列表 → ['a', 'b', 'c']
 
 ---
 
-## 读完本篇做什么（新手）
+## 本课衔接
 
-**不要**去做 `ex03` 成绩字典、`ex06` 通讯录——那些是 **复合类型** 篇的练习。
+| | |
+|--|--|
+| **上一篇** | （阶段 1 起点） |
+| **下一篇** | [Python输入输出.md](Python输入输出.md) |
+| **本篇练习** | **无**。本篇只认识类型；容器真正练在后面 [复合类型](Python复合类型.md)。 |
 
-1. 在终端或新建临时文件里敲几行，**只练基本类型**（可选，不算正式作业）：
-
-```python
-age = 18
-price = 9.9
-name = "Ada"
-ok = True
-print(type(age), type(price), type(name), type(ok))
-print(f"{name} 今年 {age} 岁")
-print(int("25") + 1)
-```
-
-2. 继续读下一篇笔记（仍先学再练）：  
-   - [Python输入输出.md](Python输入输出.md)  
-   - 容器要做题时再读 [Python复合类型.md](Python复合类型.md)
-
----
-
-## 本仓库学习导航
-- **练习安排：无仓库练习**（本篇只了解类型名字）
-- 容器以后再练 → [Python复合类型.md](Python复合类型.md)
-- 地图：[docs/learning-map.md](../../docs/learning-map.md) · 原则：[docs/exercise-policy.md](../../docs/exercise-policy.md)
+可选：在交互里敲几行 `type(1)`、`type("a")` 感受一下即可，**不算仓库作业**。

@@ -427,20 +427,12 @@ print(loaded)   # {'张三': 85, '李四': 92, '王五': 78}
 
 ---
 
-## 本仓库练习（只列题目 · 答案在链接里）
+## 本课衔接
 
-本篇读完先不急着做题；与「异常处理」一起读完再做。
+| | |
+|--|--|
+| **上一篇** | （阶段 2 起点）← [阶段 1](../../stage-1-basics/README.md) |
+| **下一篇** | [Python异常处理.md](Python异常处理.md) |
+| **本篇练习** | **本篇读完先不做题**；与下一篇异常一起做「安全读文件」。 |
 
-### 过关 · 安全读文件（在异常篇后做）
-
-**题目：** 输入路径 → 读文件打印；不存在则提示不崩溃。  
-
-**作业（空白，自己写）：** [ex02_safe_read.py](../exercises/ex02_safe_read.py)  
-**参考答案（做完再看）：** [solutions/ex02_safe_read.py](../solutions/ex02_safe_read.py)
-
-### 加练（可选）· JSON 待办
-
-**题目：** 用 JSON 文件保存待办，支持 add / list / quit。  
-
-**作业（空白，自己写）：** [ex01_todo_json.py](../exercises/ex01_todo_json.py)  
-**参考答案（做完再看）：** [solutions/ex01_todo_json.py](../solutions/ex01_todo_json.py)
+先继续读异常处理，两篇都读完再写作业。

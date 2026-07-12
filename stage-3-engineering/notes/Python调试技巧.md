@@ -314,10 +314,16 @@ while True:
 
 ---
 
-## 本仓库练习（只列题目 · 步骤在链接里）
+## 本课衔接
+
+| | |
+|--|--|
+| **上一篇** | [Python类型注解入门.md](Python类型注解入门.md) |
+| **下一篇** | [Python测试入门.md](Python测试入门.md) |
+| **本篇练习** | **建议** 写一篇调试日记 |
 
 ### 建议 · 调试日记
 
-**题目：** 故意制造或遇到一次报错，读 Traceback，修好，并写一篇踩坑记录。  
+**题目：** 遇到或制造一次报错 → 读 Traceback → 修好 → 写记录。
 
-**作业（空白，自己写）：** [ex04_debug_journal.md](../exercises/ex04_debug_journal.md)
+- 作业：[exercises/ex04_debug_journal.md](../exercises/ex04_debug_journal.md)

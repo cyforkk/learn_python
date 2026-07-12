@@ -500,23 +500,26 @@ log("操作完成", "DEBUG")     # [DEBUG] 操作完成
 
 ---
 
-## 本仓库练习（只列题目 · 答案在链接里）
+## 本课衔接
+
+| | |
+|--|--|
+| **上一篇** | [Python字符串方法与格式化.md](Python字符串方法与格式化.md) |
+| **下一篇** | [Python作用域.md](Python作用域.md) |
+| **本篇练习** | **过关 1 题** + **加练 1 题（可选）** |
 
 ### 过关 · 成绩等级函数
 
-**题目：**
+**题目：** 写 `level(score)` 返回 A/B/C/D；对几个分数调用并打印。
 
-1. 写函数 `level(score)`：≥90 返回 A，≥80 返回 B，≥60 返回 C，否则 D  
-2. 对几个分数调用并打印结果  
+- 作业（空白）：[exercises/ex05_refactor_functions.py](../exercises/ex05_refactor_functions.py)
+- 答案（做完再看）：[solutions/ex05_refactor_functions.py](../solutions/ex05_refactor_functions.py)
 
-**作业（空白，自己写）：** [ex05_refactor_functions.py](../exercises/ex05_refactor_functions.py)  
-**参考答案（做完再看）：** [solutions/ex05_refactor_functions.py](../solutions/ex05_refactor_functions.py)
+### 加练（可选）· 计算器
 
-### 加练（可选）· 简易计算器
+**题目：** 循环读 `数字 运算符 数字`，支持 + - * /，除零提示，`q` 退出。
 
-**题目：** 循环读入 `数字 运算符 数字`（如 `3 + 4`），支持 `+ - * /`，除零要提示，输入 `q` 退出。  
+- 作业（空白）：[exercises/ex02_calculator.py](../exercises/ex02_calculator.py)
+- 答案（做完再看）：[solutions/ex02_calculator.py](../solutions/ex02_calculator.py)
 
-**作业（空白，自己写）：** [ex02_calculator.py](../exercises/ex02_calculator.py)  
-**参考答案（做完再看）：** [solutions/ex02_calculator.py](../solutions/ex02_calculator.py)
-
-作用域无需单独做题，读 [Python作用域.md](Python作用域.md) 即可。
+建议：做完过关题后，立刻读 [作用域](Python作用域.md)，对照 `level` 里的 `score` 想「局部变量」。

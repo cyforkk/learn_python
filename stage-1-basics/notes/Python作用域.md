@@ -339,6 +339,20 @@ def fetch_data(url):
 
 ---
 
-## 本仓库学习导航
-- **练习安排：无独立练习**（理解即可，结合函数篇的 ex05）
-- 阶段 1 必做题汇总：ex04、ex01、ex03、ex05 → [../exercises/README.md](../exercises/README.md)
+## 本课衔接
+
+| | |
+|--|--|
+| **上一篇** | [Python函数.md](Python函数.md)（应已做过等级函数 ex05） |
+| **下一篇** | 阶段 1 结束 → [阶段 2 入口](../../stage-2-stdlib/README.md) |
+| **本篇练习** | **无独立新作业**（不链练习总表） |
+
+**和前后的关系（重要）：**
+
+1. 打开你写的 [ex05 等级函数作业](../exercises/ex05_refactor_functions.py)（或 [答案](../solutions/ex05_refactor_functions.py)）  
+2. 想一想：`score` 是局部变量还是全局？在函数外能不能直接用？  
+3. 若做过加练 [计算器](../exercises/ex02_calculator.py)，循环里的 `a`/`b` 也只在那次循环逻辑里有意义  
+
+本篇是对「函数」的加深理解，**不另出题**；阶段 1 过关仍是：ex04、ex01、ex03、ex05。
+
+阶段 1 做完后进入 → [stage-2-stdlib/README.md](../../stage-2-stdlib/README.md)

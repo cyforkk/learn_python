@@ -495,13 +495,16 @@ pytest -s
 
 ---
 
-## 本仓库学习导航
-## 本仓库练习（只列题目 · 答案在链接里）
+## 本课衔接
 
-### 加练（可选）· pytest
+| | |
+|--|--|
+| **上一篇** | [Python调试技巧.md](Python调试技巧.md) |
+| **下一篇** | [Git基础入门.md](Git基础入门.md) |
+| **本篇练习** | **加练（可选）**，语法主线可整段不做 |
 
-**题目：** 实现 `stats.py` 中的函数，并在 `test_*.py` 里写测试（或先只实现函数用 print 验）。  
+### 加练 · pytest
 
-**作业目录（空白，自己写）：** [ex03_pytest_stats/](../exercises/ex03_pytest_stats/)  
-**可以整段不做**；测试不是语法入门必选项。  
-说明：`test_*.py` 是测试文件，业务在 `stats.py`。
+**题目：** 实现 `stats.py`；可用 `test_*.py` 测试（`test_` 文件是测试不是业务）。
+
+- 作业目录：[exercises/ex03_pytest_stats/](../exercises/ex03_pytest_stats/)

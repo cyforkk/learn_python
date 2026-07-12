@@ -416,16 +416,17 @@ import random, math, datetime, json, csv, os
 
 ---
 
-## 本仓库练习（只列题目 · 答案在链接里）
+## 本课衔接
+
+| | |
+|--|--|
+| **上一篇** | [Python异常处理.md](Python异常处理.md) |
+| **下一篇** | [Python常用标准库.md](Python常用标准库.md) |
+| **本篇练习** | **过关 1 题** |
 
 ### 过关 · 小模块
 
-**题目：**
+**题目：** 同目录 `greeter.py` + `main.py`；`greet(name)`；main 里 import 调用。
 
-1. 建两个文件：`greeter.py` 和 `main.py`（同目录）  
-2. `greeter.py` 里写函数 `greet(name)`，返回问候字符串  
-3. `main.py` 里 `import` 并调用，打印结果  
-4. 在 `ex03_mini_package` 目录下运行：`python main.py`  
-
-**作业目录（空白，自己写）：** [ex03_mini_package/](../exercises/ex03_mini_package/)  
-**参考答案（做完再看）：** [solutions/ex03_mini_package/](../solutions/ex03_mini_package/)
+- 作业（空白）：[exercises/ex03_mini_package/](../exercises/ex03_mini_package/)
+- 答案（做完再看）：[solutions/ex03_mini_package/](../solutions/ex03_mini_package/)

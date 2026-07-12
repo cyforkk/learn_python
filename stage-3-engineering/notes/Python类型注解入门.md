@@ -464,12 +464,16 @@ type JSON = dict[str, str | int | float | bool | None]
 
 ---
 
-## 本仓库学习导航
-## 本仓库练习（只列题目 · 答案在链接里）
+## 本课衔接
 
-### 加练（可选）· 类型注解
+| | |
+|--|--|
+| **上一篇** | [Python代码风格PEP8.md](Python代码风格PEP8.md) |
+| **下一篇** | [Python调试技巧.md](Python调试技巧.md) |
+| **本篇练习** | **加练（可选）**，可整题跳过 |
 
-**题目：** 给若干函数补上参数与返回值类型注解，行为不变。  
+### 加练 · 类型注解
 
-**作业（空白，自己写）：** [ex02_typed_functions.py](../exercises/ex02_typed_functions.py)  
-新手可整题跳过。
+**题目：** 给若干函数补参数/返回值注解，行为不变。
+
+- 作业（空白）：[exercises/ex02_typed_functions.py](../exercises/ex02_typed_functions.py)

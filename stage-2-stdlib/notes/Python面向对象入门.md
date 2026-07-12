@@ -497,16 +497,19 @@ print(s.get_grade())
 
 ---
 
-## 本仓库练习（只列题目 · 答案在链接里）
+## 本课衔接
+
+| | |
+|--|--|
+| **上一篇** | [Python推导式.md](Python推导式.md) |
+| **下一篇** | 阶段 2 结束 → [阶段 3 入口](../../stage-3-engineering/README.md) |
+| **本篇练习** | **过关 1 题** |
 
 ### 过关 · Book 类
 
-**题目：**
+**题目：** 类 `Book`（书名、作者、页数）；`info()`；`is_long()`（页数≥300）；创建至少 2 本并打印。
 
-1. 定义类 `Book`，`__init__` 接收书名、作者、页数  
-2. 方法 `info()`：返回介绍字符串  
-3. 方法 `is_long()`：页数 ≥ 300 返回 True  
-4. 创建至少 2 本书并打印  
+- 作业（空白）：[exercises/ex05_book_class.py](../exercises/ex05_book_class.py)
+- 答案（做完再看）：[solutions/ex05_book_class.py](../solutions/ex05_book_class.py)
 
-**作业（空白，自己写）：** [ex05_book_class.py](../exercises/ex05_book_class.py)  
-**参考答案（做完再看）：** [solutions/ex05_book_class.py](../solutions/ex05_book_class.py)
+阶段 2 过关题：ex02、ex03、ex05。然后进入 → [stage-3-engineering/README.md](../../stage-3-engineering/README.md)

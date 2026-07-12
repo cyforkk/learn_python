@@ -499,21 +499,24 @@ print(groups)
 
 ---
 
-## 本仓库学习导航
-## 本仓库练习（只列题目 · 答案在链接里）
+## 本课衔接
+
+| | |
+|--|--|
+| **上一篇** | [Python模块与包.md](Python模块与包.md) |
+| **下一篇** | [Python推导式.md](Python推导式.md) |
+| **本篇练习** | **无过关题**；以下为加练（可选，难度接近过关题） |
 
 ### 加练（可选）· 列目录
 
-**题目：** 列出当前目录下的文件和文件夹。  
+**题目：** 列出当前目录的文件/文件夹。
 
-**作业（空白，自己写）：** [ex04_list_files.py](../exercises/ex04_list_files.py)  
-**参考答案（做完再看）：** [solutions/ex04_list_files.py](../solutions/ex04_list_files.py)
+- 作业（空白）：[exercises/ex04_list_files.py](../exercises/ex04_list_files.py)
+- 答案（做完再看）：[solutions/ex04_list_files.py](../solutions/ex04_list_files.py)
 
-### 加练（可选）· 批量重命名计划
+### 加练（可选）· 重命名计划
 
-**题目：** 给定一组文件名，按规则打印「旧名 → 新名」（可只打印不真改）。  
+**题目：** 打印「旧名 → 新名」计划（可不真改文件）。
 
-**作业（空白，自己写）：** [ex06_batch_rename.py](../exercises/ex06_batch_rename.py)  
-**参考答案（做完再看）：** [solutions/ex06_batch_rename.py](../solutions/ex06_batch_rename.py)
-
-不是每章标准库都要交作业，会查文档更重要。
+- 作业（空白）：[exercises/ex06_batch_rename.py](../exercises/ex06_batch_rename.py)
+- 答案（做完再看）：[solutions/ex06_batch_rename.py](../solutions/ex06_batch_rename.py)

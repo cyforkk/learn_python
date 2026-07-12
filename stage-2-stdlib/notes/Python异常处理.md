@@ -471,17 +471,24 @@ print(result)
 
 ---
 
-## 本仓库练习（只列题目 · 答案在链接里）
+## 本课衔接
 
-请先读完「文件读写」。
+| | |
+|--|--|
+| **上一篇** | [Python文件读写.md](Python文件读写.md) |
+| **下一篇** | [Python模块与包.md](Python模块与包.md) |
+| **本篇练习** | **过关 1 题**（文件 + 异常合练） |
 
 ### 过关 · 安全读文件
 
-**题目：**
+**题目：** 输入路径 → 读文件打印；不存在则提示且不崩溃。
 
-1. 让用户输入一个文件路径  
-2. 文件存在：读出内容并打印（注意编码）  
-3. 文件不存在：提示，**不要崩溃**  
+- 作业（空白）：[exercises/ex02_safe_read.py](../exercises/ex02_safe_read.py)
+- 答案（做完再看）：[solutions/ex02_safe_read.py](../solutions/ex02_safe_read.py)
 
-**作业（空白，自己写）：** [ex02_safe_read.py](../exercises/ex02_safe_read.py)  
-**参考答案（做完再看）：** [solutions/ex02_safe_read.py](../solutions/ex02_safe_read.py)
+### 加练（可选）· JSON 待办
+
+**题目：** JSON 存待办；命令 add / list / quit。
+
+- 作业（空白）：[exercises/ex01_todo_json.py](../exercises/ex01_todo_json.py)
+- 答案（做完再看）：[solutions/ex01_todo_json.py](../solutions/ex01_todo_json.py)
