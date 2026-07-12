@@ -51,6 +51,37 @@ def f(a=None):
     ...
 ```
 
+### 7b. `list`/`dict` 与 `List`/`Dict`；`keys()` 必须 `list()` 实体化
+
+**内部建数据用小写内置类型：**
+
+```python
+names = []       # 或 list()
+scores = {}      # 或 dict()
+# 不要: List() / Dict()  —— 那不是内置构造器
+```
+
+**注释/函数签名说明类型时可用大写（文档习惯）：**
+
+```python
+# 入参 scores: Dict[str, int]
+# 返回: List[str]
+```
+
+**题目要求返回 list，且数据来自字典 keys/values 时，最外层必须 `list()`：**
+
+```python
+# 错：返回的是 dict_keys / dict_values 视图，不是 list
+return scores.keys()
+return scores.values()
+
+# 对
+return list(scores.keys())
+return list(scores.values())
+```
+
+踩坑全文：[bugs/2026-07-12-list-dict大小写与list实体化.md](../bugs/2026-07-12-list-dict大小写与list实体化.md)
+
 ## 文件与编码
 
 ### 8. `FileNotFoundError`

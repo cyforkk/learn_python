@@ -296,6 +296,25 @@ unique = list(set(nums))   # [1, 2, 3, 4]
 
 实际开发中，list 和 dict 用得最多，占日常 80% 以上的场景。tuple 和 set 在特定场景下才用，但用对了能让代码简洁很多。
 
+## 写题约定：小写构造 · 大写注释 · keys 要 list()
+
+本仓库写作业时统一：
+
+| 场景 | 写法 |
+|------|------|
+| 代码里新建容器 | 小写：`[]` / `{}` / `list()` / `dict()` |
+| 注释里写「参数/返回类型」 | 可用大写说明：`List[str]`、`Dict[str, int]`（仅注释；新手不必 `from typing`） |
+| 题目要求**返回列表**，数据来自 `d.keys()` / `d.values()` | **最外层** `list(d.keys())` / `list(d.values())` 实体化 |
+
+```python
+scores = {"小明": 90, "小红": 80}   # 内部：小写 dict 字面量
+
+# 若函数约定「返回姓名列表 List[str]」：
+return list(scores.keys())         # 必须 list()，不能直接 return scores.keys()
+```
+
+详见踩坑：[bugs/2026-07-12-list-dict大小写与list实体化.md](../../bugs/2026-07-12-list-dict大小写与list实体化.md)
+
 ---
 
 ## 本课衔接

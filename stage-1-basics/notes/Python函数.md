@@ -498,6 +498,14 @@ log("操作完成", "DEBUG")     # [DEBUG] 操作完成
 
 函数的核心就三件事：**定义（def）、传参（位置/关键字/默认值）、返回（return）**。初学先会 `def` + 参数 + `return` 即可；`*args` / `**kwargs` / `lambda` 以后用到再查。
 
+### 返回列表时的小约定
+
+- 函数**里面**建数据：用小写 `list` / `dict` / `[]` / `{}`  
+- 注释里写签名类型：可用大写 `List` / `Dict` 做说明  
+- 若 `return` 的是字典的键或值，且题目要的是列表：写 `return list(d.keys())`，不要 `return d.keys()`  
+
+踩坑：[bugs/2026-07-12-list-dict大小写与list实体化.md](../../bugs/2026-07-12-list-dict大小写与list实体化.md)
+
 ---
 
 ## 本课衔接
